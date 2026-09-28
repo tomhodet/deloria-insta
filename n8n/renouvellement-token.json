@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 0 4 1 * *"
+            }
+          ]
+        }
+      },
+      "name": "Le 1er du mois 4h",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {},
+      "name": "Lancement manuel",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 200]
+    },
+    {
+      "parameters": {
+        "url": "https://graph.instagram.com/refresh_access_token",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "grant_type", "value": "ig_refresh_token" }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Renouveler token Meta",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 100]
+    },
+    {
+      "parameters": {
+        "method": "PATCH",
+        "url": "https://tomhodet.app.n8n.cloud/api/v1/credentials/REMPLACER_PAR_ID_CREDENTIAL_META",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ data: { name: 'Authorization', value: 'Bearer ' + $json.access_token } }) }}",
+        "options": {}
+      },
+      "name": "Mettre a jour credential",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [480, 100]
+    },
+    {
+      "parameters": {
+        "url": "https://graph.instagram.com/me",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "fields", "value": "username" }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Verifier nouveau token",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [720, 100]
+    }
+  ],
+  "connections": {
+    "Le 1er du mois 4h": { "main": [[{ "node": "Renouveler token Meta", "type": "main", "index": 0 }]] },
+    "Lancement manuel": { "main": [[{ "node": "Renouveler token Meta", "type": "main", "index": 0 }]] },
+    "Renouveler token Meta": { "main": [[{ "node": "Mettre a jour credential", "type": "main", "index": 0 }]] },
+    "Mettre a jour credential": { "main": [[{ "node": "Verifier nouveau token", "type": "main", "index": 0 }]] }
+  }
+}
