@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Google Business",
+  "titre": "Votre fiche Google *est votre première vitrine.*",
+  "texte": "C'est souvent là qu'on vous découvre, avant votre site. Horaires, photos, avis : tout doit être juste et à jour.",
+  "pictos": [
+    {
+      "icone": "horloge",
+      "texte": "Horaires\nà jour"
+    },
+    {
+      "icone": "photo",
+      "texte": "Photos\nsoignées"
+    },
+    {
+      "icone": "etoile",
+      "texte": "Avis\nsuivis"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/details-telephone/17800265_beyzaa-yurtkuran.jpg",
+  "legende": "Je m'occupe aussi des fiches Google Business.\n\nUne fiche incomplète ou mal tenue fait fuir avant même le premier contact. Des horaires justes, de belles photos et des avis auxquels on répond : c'est simple, et ça change la première impression.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Beyzaa Yurtkuran / Pexels\n\n#googlebusiness #referencementlocal #pme #automatisation #entrepreneur #normandie"
+}

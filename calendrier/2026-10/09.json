@@ -1,0 +1,11 @@
+{
+  "template": "terrain_photo",
+  "cadrage": "center 85%",
+  "label": "Note de terrain",
+  "titre": "Airbnb refuse tout message qui contient *un lien.*",
+  "texte": "Un nom de site, une adresse e-mail, un numéro de téléphone : le message entier est bloqué. Le voyageur ne reçoit rien.",
+  "chute": "Ce qui répond à vos voyageurs doit le savoir.",
+  "photo": "photos/pexels/details-telephone/14988552_merve.jpg",
+  "numero": "01",
+  "legende": "Airbnb bloque les messages qui contiennent une coordonnée, pour éviter qu'on sorte de la plateforme. Ce n'est pas seulement le lien qui saute : c'est tout le message.\n\nQuand vous écrivez vous-même, l'application vous prévient. Un outil automatique, lui, peut ne jamais le savoir.\n\nC'est pour ça que l'assistant que je configure n'écrit aucune coordonnée. Pour une adresse précise, il vous passe la main.\n\nPhoto : Merve / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+}

@@ -1,0 +1,9 @@
+{
+  "template": "terrain",
+  "label": "Note de terrain",
+  "titre": "Deux logements, *deux fiches.*",
+  "texte": "Même conciergerie, même ville, mais pas le même parking ni le même wifi. L'assistant répond avec la fiche du bon logement.",
+  "chute": "Le détail qui évite la pire des erreurs.",
+  "numero": "18",
+  "legende": "Quand une conciergerie gère plusieurs logements, tous les messages arrivent souvent au même endroit.\n\nAvant de répondre, l'assistant vérifie de quel logement il s'agit et ne répond qu'avec ses informations. Répondre avec le code wifi du voisin, c'est exactement ce qu'on doit rendre impossible.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+}

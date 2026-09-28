@@ -48,6 +48,8 @@ body {{ font-family: 'Montserrat', sans-serif; font-weight: 300; -webkit-font-sm
 def esc(s: str) -> str:
     """Échappe le HTML puis convertit *texte* en italique d'accent."""
     s = html.escape(s, quote=False).replace("'", "\u2019")
+    for signe in ("?", "!", ":", ";"):
+        s = s.replace(" " + signe, "\u00a0" + signe)
     out, italic = [], False
     for part in s.split("*"):
         out.append(("<em>" if italic else "") + part + ("</em>" if italic else ""))
@@ -166,6 +168,15 @@ ICONES = {
     "calendrier": '<rect x="4" y="5" width="16" height="15" rx="1"/><path d="M4 10h16M9 3v4M15 3v4"/>',
     "message": '<path d="M4 5h16v11H9l-5 4z"/>',
     "etoile": '<path d="M12 3l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L12 16.8 6.4 20l1.4-6.3L3 9.4l6.4-.6z"/>',
+    "mobile": '<rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/>',
+    "loupe": '<circle cx="11" cy="11" r="6"/><path d="M15.5 15.5L20 20"/>',
+    "pinceau": '<path d="M14 4l6 6-8 8H6v-6z"/><path d="M11 7l6 6"/>',
+    "video": '<rect x="3" y="6" width="13" height="12" rx="1"/><path d="M16 10l5-3v10l-5-3z"/>',
+    "document": '<path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/>',
+    "engrenage": '<circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/>',
+    "check": '<circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 9.8"/>',
+    "horloge": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    "photo": '<rect x="3" y="6" width="18" height="14" rx="1"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/>',
 }
 
 
@@ -181,6 +192,12 @@ def photo_uri(p: dict) -> str:
     return chemin.as_uri()
 
 
+def taille_phrase(phrase: str) -> int:
+    """Réduit la taille quand une ligne est longue, pour éviter les mots orphelins."""
+    plus_longue = max(len(l.replace("*", "")) for l in phrase.split("\n"))
+    return 88 if plus_longue <= 22 else 76 if plus_longue <= 27 else 66
+
+
 def tpl_plein(p: dict) -> str:
     """Photo pleine page, filet intérieur, une phrase centrée. Esprit hôtellerie de luxe."""
     cadrage = p.get("cadrage", "center")
@@ -188,11 +205,11 @@ def tpl_plein(p: dict) -> str:
 <style>
 body {{ background: var(--noir); }}
 .bg {{ position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: {cadrage}; }}
-.voile {{ position: absolute; inset: 0; background: rgba(13,13,13,{p.get('voile', 0.34)}); }}
+.voile {{ position: absolute; inset: 0; background: rgba(13,13,13,{p.get('voile', 0.42)}); }}
 .filet {{ position: absolute; inset: 44px; border: 1px solid rgba(250,250,248,.55); }}
 .centre {{ position: absolute; inset: 0; transform: translateY({p.get('decalage', 0)}px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 130px; color: var(--blanc); }}
 .lieu {{ font-family: 'Montserrat'; font-weight: 400; font-size: 22px; letter-spacing: .38em; text-transform: uppercase; opacity: .9; margin-bottom: 34px; }}
-.phrase {{ font-family: 'Cormorant'; font-weight: 300; font-size: 88px; line-height: 1.08; text-shadow: 0 2px 30px rgba(0,0,0,.25); }}
+.phrase {{ font-family: 'Cormorant'; font-weight: 300; font-size: {taille_phrase(p['phrase'])}px; line-height: 1.08; text-shadow: 0 2px 24px rgba(0,0,0,.45), 0 0 2px rgba(0,0,0,.3); }}
 .phrase em {{ font-weight: 400; color: var(--beige); }}
 .bas {{ position: absolute; left: 0; right: 0; bottom: 96px; display: flex; flex-direction: column; align-items: center; gap: 20px; }}
 </style>
@@ -200,7 +217,7 @@ body {{ background: var(--noir); }}
 <div class="voile"></div>
 <div class="filet"></div>
 <div class="centre">
-  <div class="lieu">{esc(p.get('lieu', ''))}</div>
+  {f'<div class="lieu">{esc(p["lieu"])}</div>' if p.get('lieu') else ''}
   <div class="phrase">{esc(p['phrase'])}</div>
 </div>
 <div class="bas">

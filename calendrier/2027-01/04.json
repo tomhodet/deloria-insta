@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Pour les conciergeries",
+  "titre": "Les questions reviennent. *Les réponses aussi.*",
+  "texte": "Wifi, parking, arrivée, poubelles : l'essentiel des messages se ressemble. L'assistant y répond avec les informations de chaque logement.",
+  "pictos": [
+    {
+      "icone": "maison",
+      "texte": "Fiche\nlogement"
+    },
+    {
+      "icone": "calendrier",
+      "texte": "Calendrier\nà jour"
+    },
+    {
+      "icone": "message",
+      "texte": "Réponse\nimmédiate"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/interieur-cuisine/11701162_max-vakhtbovych.jpg",
+  "legende": "La plupart des messages de voyageurs portent sur les mêmes sujets. Ce ne sont pas des questions difficiles, ce sont des questions répétées.\n\nL'assistant lit la fiche du logement et le calendrier à chaque conversation. Si une information change, elle change aussi dans ses réponses.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+}

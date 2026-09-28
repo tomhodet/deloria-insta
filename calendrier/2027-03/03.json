@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Pour les conciergeries",
+  "titre": "La saison arrive. *Votre téléphone le sait déjà.*",
+  "texte": "Mettre en place l'assistant avant le rush, c'est le tester au calme et arriver en été avec des réponses rodées.",
+  "pictos": [
+    {
+      "icone": "calendrier",
+      "texte": "Mise en\nplace"
+    },
+    {
+      "icone": "check",
+      "texte": "Tests\nau calme"
+    },
+    {
+      "icone": "lune",
+      "texte": "Été\nserein"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/accueil-sonnette/7820697_mikhail-nilov.jpg",
+  "legende": "Mars est le dernier moment confortable pour mettre en place un assistant avant l'été.\n\nLe temps de configurer un premier logement, de vérifier les réponses et d'ajuster le ton. En juillet, tout sera rodé.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Mikhail Nilov / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+}

@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Pour les PME",
+  "titre": "Vos procédures, *retrouvées en une question.*",
+  "texte": "Normes, modes opératoires, fiches techniques : un assistant interne qui répond à partir de vos documents, et cite sa source.",
+  "pictos": [
+    {
+      "icone": "document",
+      "texte": "Vos\ndocuments"
+    },
+    {
+      "icone": "loupe",
+      "texte": "Une\nquestion"
+    },
+    {
+      "icone": "check",
+      "texte": "Source\ncitée"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/secteur-bureau/8092510_https-kaboompics-com.jpg",
+  "legende": "Dans beaucoup d'entreprises, l'information existe mais personne ne la retrouve. Elle dort dans des dossiers partagés, des classeurs, des versions successives.\n\nUn assistant interne peut répondre à partir de vos propres documents, en indiquant d'où vient la réponse. Vos équipes gagnent du temps, et la bonne version fait foi.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #normandie"
+}

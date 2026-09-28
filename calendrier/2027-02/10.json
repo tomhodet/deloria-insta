@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Vidéo",
+  "titre": "Vos photos *deviennent une vidéo.*",
+  "texte": "Un court film de votre logement ou de votre activité, monté à partir de vos images, pour les réseaux et votre site.",
+  "pictos": [
+    {
+      "icone": "video",
+      "texte": "Format\nréseaux"
+    },
+    {
+      "icone": "photo",
+      "texte": "À partir de\nvos photos"
+    },
+    {
+      "icone": "pinceau",
+      "texte": "À vos\ncouleurs"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/interieur-chambre/28057651_alexander-mass.jpg",
+  "legende": "Je réalise aussi de courtes vidéos pour les réseaux, à partir de vos photos.\n\nUn format qui attire l'œil, sans organiser de tournage. Idéal pour présenter un logement, une activité ou une nouveauté.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Alexander Mass / Pexels\n\n#reseauxsociaux #instagram #automatisation #normandie #video"
+}

@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Exemple · Restaurant",
+  "titre": "Les questions du soir, *répondues pendant le service.*",
+  "texte": "Horaires, accès, réservations de groupe : les messages arrivent quand vous êtes en cuisine. Un assistant peut répondre avec vos informations.",
+  "pictos": [
+    {
+      "icone": "horloge",
+      "texte": "Horaires"
+    },
+    {
+      "icone": "message",
+      "texte": "Messages"
+    },
+    {
+      "icone": "cloche",
+      "texte": "Vous alerte\nsi besoin"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/secteur-restaurant/10545412_kristina-paukshtite.jpg",
+  "legende": "Un exemple de ce qui est possible pour un restaurant.\n\nPendant le service, personne n'a le temps de répondre aux messages. Un assistant peut prendre en charge les questions simples et vous transmettre les demandes qui méritent votre attention, comme une réservation de groupe.\n\nPhoto : Kristina Paukshtite / Pexels\n\n#pme #automatisation #entrepreneur #normandie #restaurant"
+}

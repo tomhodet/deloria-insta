@@ -1,0 +1,125 @@
+"""Construit le calendrier : dates, choix des photos, numérotation, légendes, JSON par post.
+
+Usage :
+    python3 calendrier/construire.py              # écrit les specs JSON et calendrier.json
+    python3 templates/render.py calendrier/20*/*.json   # génère les visuels
+
+Chaque post devient calendrier/AAAA-MM/JJ.json (spec de rendu + légende).
+calendrier/calendrier.json est l'index lu par n8n : date, URL de l'image, légende.
+"""
+
+import datetime as dt
+import json
+import sys
+from collections import Counter
+from pathlib import Path
+
+ICI = Path(__file__).resolve().parent
+REPO = ICI.parent
+sys.path.insert(0, str(ICI))
+from contenu import POSTS  # noqa: E402
+
+DEBUT = dt.date(2026, 10, 5)          # lundi
+JOURS = {0, 2, 4}                     # lundi, mercredi, vendredi
+RAW = "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/"
+
+# Photos écartées après revue visuelle : visages reconnaissables, logos de marques,
+# lieux mal étiquetés, sujets hors ton. Index 1 = premier fichier par ordre alphabétique.
+EXCLUES = {
+    "interieur-lit": [3], "accueil-panier": [2, 4, 5], "accueil-sonnette": [2, 3],
+    "details-telephone": [2, 4, 5], "details-carnet": [4], "saison-noel": [5, 6],
+    "saison-hiver-mer": [1, 6], "normandie-lehavre": [1, 2, 3, 4, 5],
+    "secteur-chef": [4, 5, 6], "secteur-atelier": [3, 5], "secteur-boulangerie": [5, 6],
+    "details-cles": [3], "secteur-bureau": [1, 3, 6], "details-cafe": [6],
+    "interieur-fenetre": [1, 3], "normandie-cote": [3, 6], "interieur-cheminee": [5],
+    "interieur-chambre": [1], "interieur-salon": [5], "secteur-restaurant": [5],
+    "normandie-mont": [2, 3],
+}
+
+
+def dates(n: int) -> list[dt.date]:
+    out, d = [], DEBUT
+    while len(out) < n:
+        if d.weekday() in JOURS:
+            out.append(d)
+        d += dt.timedelta(days=1)
+    return out
+
+
+def fichiers(dossier: str) -> list[str]:
+    tous = sorted((REPO / "photos/pexels" / dossier).glob("*.jpg"))
+    exclus = set(EXCLUES.get(dossier, []))
+    return [str(f.relative_to(REPO)) for i, f in enumerate(tous, 1) if i not in exclus]
+
+
+def resoudre_fichier(ref: str) -> str:
+    """'dossier#3' -> 3e fichier du dossier (ordre alphabétique), sinon chemin tel quel."""
+    if "#" in ref:
+        dossier, idx = ref.split("#")
+        tous = sorted((REPO / "photos/pexels" / dossier).glob("*.jpg"))
+        return str(tous[int(idx) - 1].relative_to(REPO))
+    return ref
+
+
+def credit(chemin: str) -> str:
+    slug = Path(chemin).stem.split("_", 1)[1]
+    return " ".join(m.capitalize() for m in slug.split("-"))
+
+
+def inserer_credit(legende: str, nom: str) -> str:
+    """Place 'Photo : X / Pexels' juste avant le bloc de hashtags final."""
+    blocs = legende.strip().split("\n\n")
+    ligne = f"Photo : {nom} / Pexels"
+    if blocs[-1].lstrip().startswith("#"):
+        blocs.insert(len(blocs) - 1, ligne)
+    else:
+        blocs.append(ligne)
+    return "\n\n".join(blocs)
+
+
+def main() -> None:
+    jours = dates(len(POSTS))
+    utilisees: Counter = Counter()
+    imposees = {resoudre_fichier(p["photo_fichier"]) for p in POSTS if p.get("photo_fichier")}
+    utilisees.update(imposees)
+    index, num_terrain = [], 0
+
+    for jour, post in zip(jours, POSTS):
+        spec = {k: v for k, v in post.items() if k not in ("legende", "photo", "photo_fichier")}
+        legende = post["legende"]
+
+        if post.get("photo_fichier"):
+            spec["photo"] = resoudre_fichier(post["photo_fichier"])
+        elif post.get("photo"):
+            candidats = fichiers(post["photo"])
+            libres = [f for f in candidats if utilisees[f] == 0]
+            choix = (libres or sorted(candidats, key=lambda f: utilisees[f]))[0]
+            utilisees[choix] += 1
+            spec["photo"] = choix
+        if spec.get("photo"):
+            legende = inserer_credit(legende, credit(spec["photo"]))
+
+        if post["template"] in ("terrain", "terrain_photo"):
+            num_terrain += 1
+            spec["numero"] = f"{num_terrain:02d}"
+
+        dossier = ICI / jour.strftime("%Y-%m")
+        dossier.mkdir(exist_ok=True)
+        chemin = dossier / f"{jour:%d}.json"
+        chemin.write_text(json.dumps({**spec, "legende": legende}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        index.append({
+            "date": jour.isoformat(),
+            "image_url": RAW + str(chemin.with_suffix(".jpg").relative_to(REPO)),
+            "legende": legende,
+            "template": post["template"],
+        })
+
+    (ICI / "calendrier.json").write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
+    doublons = [f for f, n in utilisees.items() if n > 1]
+    print(f"{len(index)} posts, du {index[0]['date']} au {index[-1]['date']}")
+    print(f"photos utilisées : {len(utilisees)}, réutilisées : {len(doublons)} {doublons}")
+
+
+if __name__ == "__main__":
+    main()

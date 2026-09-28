@@ -1,0 +1,10 @@
+{
+  "template": "terrain_photo",
+  "label": "Note de terrain",
+  "titre": "Le silence *est le pire des échecs.*",
+  "texte": "Un voyageur sans réponse réécrit, s'inquiète, puis se plaint. Une réponse imparfaite vaut mieux que pas de réponse.",
+  "chute": "Quand l'assistant hésite, il fait patienter et vous prévient.",
+  "photo": "photos/pexels/interieur-fenetre/16577844_esra-erdem.jpg",
+  "numero": "05",
+  "legende": "Une conviction forgée en production : ne rien envoyer est pire qu'envoyer une réponse imparfaite.\n\nC'est pour ça que, lorsque l'assistant n'a pas l'information, il ne se tait pas. Il répond au voyageur qu'on revient vers lui très vite, et il vous alerte avec le détail de la demande.\n\nPhoto : Esra Erdem / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+}

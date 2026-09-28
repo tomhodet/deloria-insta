@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Pour les PME industrielles",
+  "titre": "Un devis prêt *avant la fin de l'appel.*",
+  "texte": "Votre client choisit ses paramètres, l'outil prépare le devis, le descriptif et le mail. Vous relisez, vous envoyez.",
+  "pictos": [
+    {
+      "icone": "engrenage",
+      "texte": "Vos\nparamètres"
+    },
+    {
+      "icone": "document",
+      "texte": "Devis\nen PDF"
+    },
+    {
+      "icone": "message",
+      "texte": "Mail\nprêt"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/secteur-industrie/12951623_alex-urezkov.jpg",
+  "legende": "Pour les entreprises qui vendent des produits configurables, je construis des configurateurs sur mesure.\n\nLe client saisit ses besoins, l'outil génère le devis, le descriptif technique et le mail d'accompagnement. Vous gardez la relecture et la décision.\n\nIngénieur de métier, je parle le même langage que vos équipes techniques.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Alex Urezkov / Pexels\n\n#pme #automatisation #entrepreneur #normandie #industrie"
+}

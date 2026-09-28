@@ -1,0 +1,9 @@
+{
+  "template": "terrain",
+  "label": "Note de terrain",
+  "titre": "Un test qui ne couvre pas un cas *ne prouve rien sur ce cas.*",
+  "texte": "Voyageur qui se renseigne, voyageur qui a réservé, propriétaire qui écrit : chaque situation se teste avant la mise en route.",
+  "chute": "La plupart des pannes viennent du cas qu'on n'avait pas imaginé.",
+  "numero": "17",
+  "legende": "Une leçon d'ingénieur, réapprise sur le terrain.\n\nTester avec une seule situation, même dix fois, ne dit rien des autres. Avant chaque mise en route, je liste tous les cas possibles d'une conversation et je vérifie qu'au moins un test couvre chacun.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #pme #automatisation #entrepreneur #normandie"
+}

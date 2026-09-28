@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Exemple · Commerce",
+  "titre": "Vos horaires, vos produits, *toujours à jour.*",
+  "texte": "Une fiche Google soignée, des publications régulières, des réponses aux questions courantes : ce qui fait venir les clients.",
+  "pictos": [
+    {
+      "icone": "etoile",
+      "texte": "Fiche\nGoogle"
+    },
+    {
+      "icone": "calendrier",
+      "texte": "Posts\nréguliers"
+    },
+    {
+      "icone": "message",
+      "texte": "Réponses\nrapides"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/secteur-boulangerie/36169353_ervasa.jpg",
+  "legende": "Un exemple de ce qui est possible pour un commerce de proximité.\n\nDes horaires justes sur Google, des publications régulières sans y penser, des réponses aux questions qu'on vous pose tous les jours. De quoi rester visible sans y passer vos soirées.\n\nPhoto : Ervasa / Pexels\n\n#pme #automatisation #entrepreneur #normandie #commercelocal"
+}

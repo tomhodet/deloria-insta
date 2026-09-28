@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "label": "Exemple · Artisan",
+  "titre": "Le soir, *le devis est déjà parti.*",
+  "texte": "Quelques informations saisies sur le chantier, un devis mis en forme automatiquement, envoyé au client après votre relecture.",
+  "pictos": [
+    {
+      "icone": "mobile",
+      "texte": "Saisie sur\nle chantier"
+    },
+    {
+      "icone": "document",
+      "texte": "Devis mis\nen forme"
+    },
+    {
+      "icone": "check",
+      "texte": "Relu\npar vous"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/secteur-artisan/10414793_jean-daniel-francoeur.jpg",
+  "legende": "Un exemple de ce qui est possible pour un artisan.\n\nLe devis, c'est souvent ce qui se fait le soir, fatigué, après la journée. Une partie peut se préparer automatiquement à partir de quelques informations saisies sur place. Vous vérifiez, vous envoyez.\n\nChaque métier a ses tâches répétitives. Parlons des vôtres.\n\nPhoto : Jean Daniel Francoeur / Pexels\n\n#pme #automatisation #entrepreneur #normandie #artisan"
+}
