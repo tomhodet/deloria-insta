@@ -100,12 +100,12 @@ Si vous voulez la même chose pour votre activité, parlons-en.
 
 {H_RESEAUX}"""),
 
-    dict(template="plein", photo="normandie-honfleur", lieu="Honfleur, Normandie", phrase="Honfleur s'éveille.\n*Vos messages aussi.*",
+    dict(template="plein", photo_fichier="region-paris#6", lieu="Paris", phrase="Paris s'éveille.\n*Vos messages aussi.*",
          legende=f"""Les premiers messages de la journée arrivent souvent avant le premier café : une heure d'arrivée, une question sur le petit-déjeuner, un train en retard.
 
-Un petit bout de Normandie pour commencer le week-end.
+Un peu de Paris pour commencer le week-end.
 
-#honfleur {H_NORM} #conciergerie"""),
+#paris #conciergerie #locationcourteduree"""),
 
     dict(template="terrain", label="Note de terrain",
          titre="Le prix affiché par l'outil *n'est pas celui que paie le voyageur.*",
@@ -187,10 +187,10 @@ Une identité claire, c'est des visuels cohérents partout : site, réseaux, dev
 
 {H_DESIGN}"""),
 
-    dict(template="plein", photo="normandie-falaises", lieu="Étretat, Normandie", phrase="Certains paysages\n*se passent de description.*",
-         legende=f"""Pas de conseil aujourd'hui. Juste Étretat.
+    dict(template="plein", photo_fichier="region-corse#2", lieu="Bonifacio, Corse", phrase="Certains paysages\n*se passent de description.*",
+         legende=f"""Pas de conseil aujourd'hui. Juste la Corse.
 
-#etretat {H_NORM} #cotedalbatre"""),
+#corse #bonifacio #france"""),
 
     dict(template="terrain_photo", photo="interieur-fenetre", label="Note de terrain",
          titre="Le silence *est le pire des échecs.*",
@@ -322,10 +322,10 @@ L'assistant répond dans la langue de chaque voyageur, avec les informations du 
 
 {H_CONC}"""),
 
-    dict(template="plein", photo="normandie-honfleur", lieu="Honfleur, Normandie", phrase="Les plus beaux ports\n*ne ferment jamais.*",
-         legende=f"""Honfleur en décembre. Bon week-end à tous.
+    dict(template="plein", photo_fichier="region-nice#3", lieu="Nice", phrase="Les plus beaux ports\n*ne ferment jamais.*",
+         legende=f"""Nice en décembre. Bon week-end à tous.
 
-#honfleur {H_NORM}"""),
+#nice #cotedazur #france"""),
 
     dict(template="service", label="Comment on démarre", titre="Commencer petit, *pour bien commencer.*",
          points=["Un appel pour comprendre votre quotidien", "Un premier logement pour tester", "On élargit quand tout fonctionne"],
@@ -397,10 +397,12 @@ Mieux vaut un assistant qui dit « je me renseigne » qu'un assistant qui invent
 
 {H_CONC}"""),
 
-    dict(template="plein", photo="normandie-campagne", phrase="Hors saison.\n*Calme, enfin.*",
-         legende=f"""Les chemins sont vides, les réservations plus rares. Le bon moment pour souffler, et pour préparer la saison.
+    dict(template="plein", photo_fichier="region-alpes#1", phrase="En montagne,\n*la saison bat son plein.*",
+         legende=f"""Pendant que le littoral se repose, les stations tournent à plein. Pour les conciergeries de montagne, janvier, c'est la haute saison.
 
-{H_NORM} #campagne"""),
+Bon courage à toutes celles qui enchaînent les arrivées ce week-end.
+
+#montagne #ski {H_CONC}"""),
 
     dict(template="edito", photo="secteur-industrie", label="Pour les PME industrielles",
          titre="Un devis prêt *avant la fin de l'appel.*",
@@ -455,14 +457,14 @@ Chaque métier a ses tâches répétitives. Parlons des vôtres.
 
 {H_PME} #artisan"""),
 
-    dict(template="plein", photo="normandie-falaises", lieu="Étretat, Normandie", phrase="Où que vous soyez,\n*tout se fait à distance.*",
+    dict(template="plein", photo_fichier="region-lyon#6", lieu="Lyon", phrase="Où que vous soyez,\n*tout se fait à distance.*",
          legende=f"""Je travaille avec des conciergeries et des entreprises dans toute la France.
 
 Un premier appel en visio suffit pour comprendre votre activité. La configuration, les tests et le suivi se font ensuite à distance, sans que vous ayez à vous déplacer.
 
 {CONTACT}
 
-#etretat {H_NORM} #france"""),
+#lyon #france"""),
 
     dict(template="terrain_photo", photo="details-carnet", label="Note de terrain",
          titre="Une information, *un seul endroit.*",
@@ -489,10 +491,10 @@ Et un interlocuteur unique, qui vous répond directement.
 
 {H_CONC} {H_DESIGN}"""),
 
-    dict(template="plein", photo="normandie-deauville", lieu="Deauville", phrase="Deauville hors saison.\n*Le temps de tout préparer.*",
-         legende=f"""Les planches sont calmes en janvier. Dans quelques semaines, les réservations du printemps arriveront.
+    dict(template="plein", photo_fichier="region-biarritz#3", lieu="Biarritz", phrase="Biarritz hors saison.\n*Le temps de tout préparer.*",
+         legende=f"""L'océan est calme en janvier. Dans quelques semaines, les réservations du printemps arriveront.
 
-#deauville {H_NORM}"""),
+#biarritz #paysbasque #france"""),
 
     # ─────────────── FÉVRIER 2027 ───────────────
     dict(template="edito", photo="secteur-restaurant", label="Exemple · Restaurant",
@@ -621,10 +623,10 @@ Le temps de configurer un premier logement, de vérifier les réponses et d'ajus
 
 {H_CONC}"""),
 
-    dict(template="plein", photo="normandie-falaises", lieu="Côte d'Albâtre", phrase="La côte se réveille.\n*Vos réservations aussi.*",
+    dict(template="plein", photo_fichier="region-bretagne#2", lieu="Bretagne", phrase="La côte se réveille.\n*Vos réservations aussi.*",
          legende=f"""Les premières réservations de printemps arrivent. Bon week-end.
 
-#cotedalbatre {H_NORM}"""),
+#bretagne #france"""),
 
     dict(template="terrain_photo", photo="details-carnet", label="Note de terrain",
          titre="Un outil sans surveillance *tombe en panne en silence.*",
@@ -672,10 +674,10 @@ Tester avec une seule situation, même dix fois, ne dit rien des autres. Avant c
 
 {H_CONC} {H_PME}"""),
 
-    dict(template="plein", photo="normandie-honfleur", lieu="Honfleur", phrase="Honfleur,\n*à l'heure où tout commence.*",
-         legende=f"""Les terrasses rouvrent, les voyageurs reviennent. La saison est lancée.
+    dict(template="plein", photo_fichier="region-provence#4", lieu="Provence", phrase="Les beaux jours\n*se préparent dès maintenant.*",
+         legende=f"""Les terrasses rouvrent, les voyageurs reviennent. Partout en France, la saison se lance.
 
-#honfleur {H_NORM}"""),
+#provence #france {H_CONC}"""),
 
     dict(template="edito", photo="secteur-boulangerie", label="Exemple · Commerce",
          titre="Vos horaires, vos produits, *toujours à jour.*",
@@ -723,7 +725,7 @@ Avant de répondre, l'assistant vérifie de quel logement il s'agit et ne répon
 {H_CONC}"""),
 
     # ─────────────── AVRIL 2027 ───────────────
-    dict(template="plein", photo="normandie-cote", phrase="Six mois de posts.\n*Aucun publié à la main.*",
+    dict(template="plein", photo_fichier="region-nice#4", phrase="Six mois de posts.\n*Aucun publié à la main.*",
          legende=f"""Depuis octobre, chaque publication de ce compte est partie toute seule, cinq fois par semaine. Visuels, textes, dates : tout était prêt à l'avance.
 
 Si vous voulez la même tranquillité pour votre activité, sur vos réseaux ou avec vos voyageurs, écrivez-moi.
@@ -779,10 +781,10 @@ L'automatisation sert justement à libérer du temps pour ce genre de détail.
 Une carte posée à l'entrée, et le message du soir disparaît.
 
 {H_ACC}"""),
-    dict(template="plein", photo="normandie-campagne", phrase="Un dimanche à la campagne,\n*sans notification.*",
+    dict(template="plein", photo_fichier="region-bordeaux#6", phrase="Un dimanche dans les vignes,\n*sans notification.*",
          legende=f"""Prenez le temps. Les messages attendront lundi.
 
-{H_NORM} #campagne"""),
+#vignes #campagne #france"""),
 
     # 31 octobre et 1er novembre
     dict(template="carte", photo_fichier="astuce-parapluie#4", label=ASTUCE,
@@ -1008,10 +1010,10 @@ Des photos justes, c'est un séjour qui commence bien.
          legende=f"""Ce n'est pas le grand ménage qui pose problème, ce sont les petits oublis. Une liste identique pour chaque passage, et ils disparaissent.
 
 {H_ACC}"""),
-    dict(template="plein", photo="normandie-campagne", phrase="Fin février.\n*Les jours rallongent.*",
+    dict(template="plein", photo_fichier="region-annecy#3", phrase="Fin février.\n*Les jours rallongent.*",
          legende=f"""La saison approche doucement. Bon dimanche.
 
-{H_NORM}"""),
+#lac #montagne #france"""),
 
     # 6 et 7 mars
     dict(template="carte", photo_fichier="astuce-jardin#4", label=ASTUCE,
