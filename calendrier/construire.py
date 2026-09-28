@@ -17,10 +17,11 @@ from pathlib import Path
 ICI = Path(__file__).resolve().parent
 REPO = ICI.parent
 sys.path.insert(0, str(ICI))
-from contenu import POSTS  # noqa: E402
+from contenu import POSTS, WEEKEND  # noqa: E402
 
 DEBUT = dt.date(2026, 10, 5)          # lundi
-JOURS = {0, 2, 4}                     # lundi, mercredi, vendredi
+JOURS_SEMAINE = {0, 2, 4}             # lundi, mercredi, vendredi
+JOURS_WEEKEND = {5, 6}                # samedi, dimanche
 RAW = "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/"
 
 # Photos écartées après revue visuelle : visages reconnaissables, logos de marques,
@@ -37,10 +38,10 @@ EXCLUES = {
 }
 
 
-def dates(n: int) -> list[dt.date]:
+def dates(n: int, jours: set) -> list[dt.date]:
     out, d = [], DEBUT
     while len(out) < n:
-        if d.weekday() in JOURS:
+        if d.weekday() in jours:
             out.append(d)
         d += dt.timedelta(days=1)
     return out
@@ -78,13 +79,16 @@ def inserer_credit(legende: str, nom: str) -> str:
 
 
 def main() -> None:
-    jours = dates(len(POSTS))
+    planning = list(zip(dates(len(POSTS), JOURS_SEMAINE), POSTS))
+    planning += list(zip(dates(len(WEEKEND), JOURS_WEEKEND), WEEKEND))
+    planning.sort(key=lambda x: x[0])
+    tous = POSTS + WEEKEND
     utilisees: Counter = Counter()
-    imposees = {resoudre_fichier(p["photo_fichier"]) for p in POSTS if p.get("photo_fichier")}
+    imposees = {resoudre_fichier(p["photo_fichier"]) for p in tous if p.get("photo_fichier")}
     utilisees.update(imposees)
-    index, num_terrain = [], 0
+    index, numeros = [], Counter()
 
-    for jour, post in zip(jours, POSTS):
+    for jour, post in planning:
         spec = {k: v for k, v in post.items() if k not in ("legende", "photo", "photo_fichier")}
         legende = post["legende"]
 
@@ -99,9 +103,10 @@ def main() -> None:
         if spec.get("photo"):
             legende = inserer_credit(legende, credit(spec["photo"]))
 
-        if post["template"] in ("terrain", "terrain_photo"):
-            num_terrain += 1
-            spec["numero"] = f"{num_terrain:02d}"
+        serie = {"terrain": "terrain", "terrain_photo": "terrain", "carte": "astuce"}.get(post["template"])
+        if serie:
+            numeros[serie] += 1
+            spec["numero"] = f"{numeros[serie]:02d}"
 
         dossier = ICI / jour.strftime("%Y-%m")
         dossier.mkdir(exist_ok=True)

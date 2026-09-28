@@ -1,6 +1,6 @@
 """Contenu éditorial DelorIA, 6 mois, du lundi 5 octobre 2026 au vendredi 2 avril 2027.
 
-Une entrée par post, dans l'ordre de publication (lundi, mercredi, vendredi).
+POSTS : lundi, mercredi, vendredi, dans l'ordre. WEEKEND : samedi puis dimanche, dans l'ordre.
 "photo" désigne un dossier de photos/pexels/ : construire.py choisit une photo
 non encore utilisée dans ce dossier, sauf si "photo_fichier" impose un fichier.
 Règles : faits réels uniquement, aucun tiret long ou moyen, vouvoiement,
@@ -89,12 +89,12 @@ Ce genre de question peut recevoir une réponse juste, immédiate, sans vous.
 
     dict(template="edito", photo="secteur-bureau", label="Coulisses",
          titre="Ce post a été publié *sans que personne n'appuie sur un bouton.*",
-         texte="Visuel, texte, date de publication : tout part automatiquement, trois fois par semaine. Je peux mettre en place la même chose pour votre compte.",
-         pictos=[dict(icone="calendrier", texte="3 posts\npar semaine"), dict(icone="pinceau", texte="À vos\ncouleurs"), dict(icone="engrenage", texte="Sans y\npenser")],
+         texte="Visuel, texte, date de publication : tout part automatiquement, cinq fois par semaine. Je peux mettre en place la même chose pour votre compte.",
+         pictos=[dict(icone="calendrier", texte="5 posts\npar semaine"), dict(icone="pinceau", texte="À vos\ncouleurs"), dict(icone="engrenage", texte="Sans y\npenser")],
          cta="Écrivez-moi en privé",
          legende=f"""Petit aveu : ce compte tourne tout seul.
 
-Les visuels sont générés à mes couleurs, les textes sont préparés à l'avance, et un automate publie chaque lundi, mercredi et vendredi. Je n'ouvre Instagram que pour répondre à vos messages.
+Les visuels sont générés à mes couleurs, les textes sont préparés à l'avance, et un automate publie cinq jours par semaine. Je n'ouvre Instagram que pour répondre à vos messages.
 
 Si vous voulez la même chose pour votre activité, parlons-en.
 
@@ -722,9 +722,357 @@ Avant de répondre, l'assistant vérifie de quel logement il s'agit et ne répon
 
     # ─────────────── AVRIL 2027 ───────────────
     dict(template="plein", photo="normandie-cote", phrase="Six mois de posts.\n*Aucun publié à la main.*",
-         legende=f"""Depuis octobre, chaque publication de ce compte est partie toute seule, trois fois par semaine. Visuels, textes, dates : tout était prêt à l'avance.
+         legende=f"""Depuis octobre, chaque publication de ce compte est partie toute seule, cinq fois par semaine. Visuels, textes, dates : tout était prêt à l'avance.
 
 Si vous voulez la même tranquillité pour votre activité, sur vos réseaux ou avec vos voyageurs, écrivez-moi.
 
 {H_RESEAUX} {H_CONC}"""),
+]
+
+
+# ═══════════════════════ WEEK-END ═══════════════════════
+# Samedi : « Astuce d'accueil », gabarit carte, série numérotée.
+# Dimanche : alternance photo respiration et réflexion courte.
+# Ordre : samedi 10 oct, dimanche 11 oct, samedi 17 oct, dimanche 18 oct, etc.
+
+H_ACC = "#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+ASTUCE = "Astuce d'accueil"
+
+WEEKEND = [
+    # 10 et 11 octobre
+    dict(template="carte", photo="interieur-salon", label=ASTUCE,
+         titre="Une lampe allumée *pour une arrivée de nuit.*",
+         texte="Un voyageur qui arrive tard cherche l'interrupteur dans le noir. Une lampe laissée allumée change la première impression.",
+         legende=f"""Nouvelle série du samedi : une astuce d'accueil simple, applicable dès ce week-end.
+
+La première minute dans un logement compte énormément. Arriver de nuit dans une pièce éclairée, c'est se sentir attendu.
+
+{H_ACC}"""),
+    dict(template="plein", photo="interieur-lit", phrase="Dimanche.\n*Le téléphone peut dormir aussi.*",
+         legende=f"""Bon dimanche à toutes les conciergeries.
+
+{H_CONC}"""),
+
+    # 17 et 18 octobre
+    dict(template="carte", photo="details-carnet", label=ASTUCE,
+         titre="Un mot écrit à la main *vaut toutes les attentions.*",
+         texte="Quelques lignes, le prénom du voyageur, un conseil pour le soir même. Deux minutes, et un souvenir.",
+         legende=f"""Dans un monde de messages automatiques, un mot manuscrit se remarque. C'est aussi ce qu'on retrouve souvent cité dans les avis.
+
+L'automatisation sert justement à libérer du temps pour ce genre de détail.
+
+{H_ACC}"""),
+    dict(template="constat", label="Le dimanche soir",
+         texte="Dimanche, 19h.\nLes départs du week-end sont faits.", chute="Les questions de la semaine arrivent déjà.",
+         legende=f"""Le dimanche soir, c'est souvent le moment où tout se superpose : les avis des voyageurs partis, les questions de ceux qui arrivent.
+
+{H_CONC}"""),
+
+    # 24 et 25 octobre
+    dict(template="carte", photo="details-telephone", label=ASTUCE,
+         titre="Affichez le code wifi *là où on le cherche.*",
+         texte="Une petite carte près de l'entrée ou sur la table. C'est une question que l'on ne vous posera plus.",
+         legende=f"""La question la plus fréquente mérite la réponse la plus visible.
+
+Une carte posée à l'entrée, et le message du soir disparaît.
+
+{H_ACC}"""),
+    dict(template="plein", photo="normandie-campagne", phrase="Un dimanche à la campagne,\n*sans notification.*",
+         legende=f"""Prenez le temps. Les messages attendront lundi.
+
+{H_NORM} #campagne"""),
+
+    # 31 octobre et 1er novembre
+    dict(template="carte", photo="interieur-fenetre", label=ASTUCE,
+         titre="En Normandie, *un parapluie dans l'entrée.*",
+         texte="Le détail qui fait sourire les voyageurs, et qui leur sauve une journée de balade.",
+         legende=f"""On ne va pas se mentir, il pleut parfois en Normandie.
+
+Un parapluie à disposition, c'est une attention qui coûte peu et que les voyageurs n'oublient pas.
+
+{H_ACC} {H_NORM}"""),
+    dict(template="constat", label="Fin des vacances",
+         texte="Les vacances se terminent.\nLes derniers voyageurs repartent.", chute="Les avis arrivent.",
+         legende=f"""Après les départs, les avis. Pensez à remercier ceux qui en laissent, même quand tout s'est bien passé.
+
+{H_CONC}"""),
+
+    # 7 et 8 novembre
+    dict(template="carte", photo="interieur-cuisine", label=ASTUCE,
+         titre="Expliquez le tri *avant qu'on vous le demande.*",
+         texte="Jours de collecte, bacs, conteneur à verre : trois lignes dans le livret évitent les sacs oubliés au départ.",
+         legende=f"""Chaque commune a ses règles, et les voyageurs ne les connaissent pas. Trois lignes claires suffisent.
+
+{H_ACC}"""),
+    dict(template="plein", photo="saison-hiver-mer", phrase="Au bord de l'eau,\n*le calme de novembre.*",
+         legende=f"""La mer hors saison a quelque chose d'unique. Bon dimanche.
+
+#mer {H_NORM}"""),
+
+    # 14 et 15 novembre
+    dict(template="carte", photo="interieur-chambre", label=ASTUCE,
+         titre="Des photos fidèles *évitent les déceptions.*",
+         texte="Mieux vaut un logement un peu plus beau que ses photos que l'inverse. Les avis s'en souviennent.",
+         legende=f"""La tentation est grande de montrer le logement sous son meilleur jour. Mais un voyageur déçu à l'arrivée le dira dans son avis.
+
+Des photos justes, c'est un séjour qui commence bien.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Vous répondez à vos voyageurs depuis des années.", chute="Vous connaissez déjà toutes les réponses.",
+         legende=f"""Tout ce savoir existe déjà, dans votre tête. Le transmettre une bonne fois à un assistant, c'est ne plus avoir à le répéter.
+
+{H_CONC}"""),
+
+    # 21 et 22 novembre
+    dict(template="carte", photo="interieur-cheminee", label=ASTUCE,
+         titre="Un plaid sur le canapé, *le chauffage déjà lancé.*",
+         texte="En hiver, arriver dans un logement froid gâche la soirée. Programmer le chauffage avant l'arrivée change tout.",
+         legende=f"""L'hiver, le confort commence par la température. Un thermostat programmable ou un passage avant l'arrivée, et le voyageur se sent chez lui.
+
+{H_ACC}"""),
+    dict(template="plein", photo="interieur-cheminee", phrase="Un dimanche au coin du feu.\n*Enfin.*",
+         legende=f"""Bon dimanche.
+
+{H_CONC}"""),
+
+    # 28 et 29 novembre
+    dict(template="carte", photo="accueil-panier", label=ASTUCE,
+         titre="Un livret d'accueil *se lit en deux minutes.*",
+         texte="Les voyageurs ne lisent pas vingt pages. L'essentiel d'abord : arrivée, wifi, départ, urgences.",
+         legende=f"""Un livret trop long n'est pas lu. Commencez par ce dont le voyageur a besoin dans l'heure qui suit son arrivée, le reste peut venir après.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="La meilleure réponse à un voyageur ?", chute="Celle qu'il n'a pas eu à attendre.",
+         legende=f"""La qualité d'une réponse, c'est aussi son délai.
+
+{H_CONC}"""),
+
+    # 5 et 6 décembre
+    dict(template="carte", photo="details-cafe", label=ASTUCE,
+         titre="Un café prêt *pour le premier matin.*",
+         texte="Quelques dosettes, du sucre, deux tasses propres. Le premier réveil dans un logement devient un bon souvenir.",
+         legende=f"""Le premier matin, personne n'a envie de chercher une boulangerie ouverte. Un café à disposition, c'est une attention simple et très appréciée.
+
+{H_ACC}"""),
+    dict(template="plein", photo="normandie-deauville", lieu="Deauville", phrase="Un dimanche sur les planches.\n*Sans personne.*",
+         legende=f"""Deauville en décembre, rien que pour vous. Bon dimanche.
+
+#deauville {H_NORM}"""),
+
+    # 12 et 13 décembre
+    dict(template="carte", photo="details-linge", label=ASTUCE,
+         titre="Des serviettes en plus, *bien en vue.*",
+         texte="Une pile rangée en évidence dans la salle de bain évite un message à 22h.",
+         legende=f"""Si le voyageur doit chercher, il écrit. Si c'est visible, il se sert.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Déléguer, ce n'est pas disparaître.", chute="C'est choisir où vous êtes utile.",
+         legende=f"""Confier les questions répétitives, c'est garder votre énergie pour ce qui compte : les propriétaires, les imprévus, les voyageurs qui ont vraiment besoin de vous.
+
+{H_CONC}"""),
+
+    # 19 et 20 décembre
+    dict(template="carte", photo="saison-noel", label=ASTUCE,
+         titre="Une touche de fête, *sans en faire trop.*",
+         texte="Quelques branches de sapin, une bougie, une guirlande discrète. Les voyageurs de décembre y sont sensibles.",
+         legende=f"""Décorer un logement pour les fêtes, oui. Le transformer en vitrine de grand magasin, non. La sobriété fonctionne toujours mieux.
+
+{H_ACC}"""),
+    dict(template="plein", photo="saison-noel", phrase="Dernier dimanche avant Noël.\n*Respirez.*",
+         legende=f"""La semaine qui arrive sera chargée. Profitez de ce dimanche.
+
+{H_CONC}"""),
+
+    # 26 et 27 décembre
+    dict(template="carte", photo="details-cles", label=ASTUCE,
+         titre="Le départ *se prépare dès l'arrivée.*",
+         texte="Heure de départ, clés, poubelles, volets : une liste courte près de la porte. Moins de questions le dernier jour.",
+         legende=f"""Les questions du dernier jour se ressemblent toutes. Une liste de départ affichée près de la porte y répond d'avance.
+
+{H_ACC}"""),
+    dict(template="constat", label="Entre les fêtes",
+         texte="Entre Noël et le Nouvel An, les voyageurs écrivent toujours.", chute="Vous, vous avez le droit de souffler.",
+         legende=f"""Bonnes fêtes de fin d'année.
+
+{H_CONC}"""),
+
+    # 2 et 3 janvier
+    dict(template="carte", photo="interieur-lit", label=ASTUCE,
+         titre="Un chargeur de téléphone *près du lit.*",
+         texte="C'est le plus oublié des bagages. Un chargeur universel coûte peu et évite une soirée compliquée.",
+         legende=f"""Première astuce de l'année, et sans doute la plus rentable : un chargeur laissé sur la table de nuit.
+
+{H_ACC}"""),
+    dict(template="plein", photo="normandie-mont", lieu="Mont-Saint-Michel", phrase="Premier dimanche de l'année.\n*Premier vrai repos ?*",
+         legende=f"""Bonne année, et bon dimanche.
+
+#montsaintmichel {H_NORM}"""),
+
+    # 9 et 10 janvier
+    dict(template="carte", photo="accueil-sonnette", label=ASTUCE,
+         titre="Répondez aux avis, *même aux bons.*",
+         texte="Un merci personnalisé montre qu'il y a quelqu'un derrière l'annonce. Les futurs voyageurs lisent aussi vos réponses.",
+         legende=f"""Un avis sans réponse, c'est une conversation laissée en suspens. Quelques mots suffisent, à condition qu'ils ne soient pas copiés-collés.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Votre expérience est précieuse.", chute="Elle mérite d'être transmise, pas répétée.",
+         legende=f"""Chaque réponse que vous tapez pour la dixième fois est une connaissance qui pourrait travailler pour vous.
+
+{H_CONC}"""),
+
+    # 16 et 17 janvier
+    dict(template="carte", photo="details-cles", label=ASTUCE,
+         titre="Une arrivée autonome *s'explique en images.*",
+         texte="Une photo de la porte, une de la boîte à clés, une de l'interrupteur. Plus clair que trois paragraphes.",
+         legende=f"""Pour une arrivée autonome, rien ne vaut quelques photos bien choisies. Le voyageur se repère tout de suite, même de nuit.
+
+{H_ACC}"""),
+    dict(template="plein", photo="interieur-fenetre", phrase="Un dimanche de pluie.\n*Rien d'urgent.*",
+         legende=f"""Bon dimanche à tous.
+
+{H_CONC}"""),
+
+    # 23 et 24 janvier
+    dict(template="carte", photo="saison-printemps", label=ASTUCE,
+         titre="Le stationnement *se décrit avec précision.*",
+         texte="Gratuit ou payant, à quelle distance, dans quelle rue. C'est souvent la toute première question.",
+         legende=f"""« Où est-ce que je peux me garer ? » arrive souvent avant même « bonjour ». Une réponse précise dans l'annonce et dans le livret évite ce message.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Un bon gérant ne répond pas à tout.", chute="Il s'organise pour que tout ait une réponse.",
+         legende=f"""Nuance importante, et c'est toute la différence entre être disponible et être organisé.
+
+{H_CONC}"""),
+
+    # 30 et 31 janvier
+    dict(template="carte", photo="interieur-cuisine", label=ASTUCE,
+         titre="Les appareils compliqués *méritent une étiquette.*",
+         texte="Plaque de cuisson, machine à café, chauffage : une petite étiquette évite les appels au mauvais moment.",
+         legende=f"""Ce qui est évident pour vous ne l'est pas pour quelqu'un qui découvre le logement. Une étiquette discrète, et le mode d'emploi est là où on en a besoin.
+
+{H_ACC}"""),
+    dict(template="plein", photo="details-cafe", phrase="Le dimanche commence\n*par un café chaud.*",
+         legende=f"""Bon dimanche.
+
+{H_CONC}"""),
+
+    # 6 et 7 février
+    dict(template="carte", photo="interieur-salon", label=ASTUCE,
+         titre="Vous accueillez des familles ? *Dites-le avec des détails.*",
+         texte="Lit parapluie, chaise haute, barrière d'escalier : les parents cherchent précisément ces mots dans l'annonce.",
+         legende=f"""« Adapté aux familles » ne veut rien dire pour un parent. La liste précise de l'équipement, si.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Combien de fois avez-vous écrit où se trouve le code wifi ?", chute="Une dernière fois suffit.",
+         legende=f"""Écrire une réponse une fois, correctement, et ne plus jamais la retaper. C'est tout le principe.
+
+{H_CONC}"""),
+
+    # 13 et 14 février
+    dict(template="carte", photo="details-cafe", label=ASTUCE,
+         titre="Pour un séjour à deux, *un détail suffit.*",
+         texte="Deux verres, une bougie, une bonne adresse de restaurant. Pas besoin de pétales de rose partout.",
+         legende=f"""Le week-end de la Saint-Valentin, beaucoup de réservations sont des séjours à deux. Une petite attention fait toute la différence.
+
+{H_ACC}"""),
+    dict(template="plein", photo="interieur-salle-bain", phrase="Bonne Saint-Valentin.\n*Le téléphone reste dans le sac.*",
+         legende=f"""Bon dimanche, et belle Saint-Valentin.
+
+{H_CONC}"""),
+
+    # 20 et 21 février
+    dict(template="carte", photo="normandie-campagne", label=ASTUCE,
+         titre="Animaux acceptés ? *Précisez les règles.*",
+         texte="Sur le canapé ou pas, gamelle fournie ou non, supplément éventuel. Des règles claires évitent les litiges.",
+         legende=f"""Accepter les animaux ouvre votre logement à beaucoup de voyageurs. Encore faut-il que tout le monde parte avec les mêmes règles en tête.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Un voyageur satisfait ne se souvient pas de la réponse.", chute="Il se souvient qu'elle est arrivée vite.",
+         legende=f"""La rapidité est une forme d'attention.
+
+{H_CONC}"""),
+
+    # 27 et 28 février
+    dict(template="carte", photo="details-linge", label=ASTUCE,
+         titre="Une liste de contrôle *pour chaque ménage.*",
+         texte="Les oublis se ressemblent : ampoule grillée, papier toilette, piles de télécommande. La même liste à chaque passage.",
+         legende=f"""Ce n'est pas le grand ménage qui pose problème, ce sont les petits oublis. Une liste identique pour chaque passage, et ils disparaissent.
+
+{H_ACC}"""),
+    dict(template="plein", photo="normandie-campagne", phrase="Fin février.\n*Les jours rallongent.*",
+         legende=f"""La saison approche doucement. Bon dimanche.
+
+{H_NORM}"""),
+
+    # 6 et 7 mars
+    dict(template="carte", photo="saison-printemps", label=ASTUCE,
+         titre="Le jardin *fait partie du logement.*",
+         texte="Salon de jardin sorti, pelouse tondue, éclairage extérieur vérifié : au printemps, les voyageurs vivent dehors.",
+         legende=f"""Dès les premiers beaux jours, l'extérieur devient la pièce principale. Il mérite la même attention que l'intérieur.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="L'été dernier, combien de messages après 23h ?", chute="Cet été peut être différent.",
+         legende=f"""Il reste quelques semaines pour s'organiser avant la saison.
+
+{H_CONC}"""),
+
+    # 13 et 14 mars
+    dict(template="carte", photo="accueil-sonnette", label=ASTUCE,
+         titre="Un contact d'urgence *clair et affiché.*",
+         texte="Dans le livret et près de la porte : qui appeler en cas de souci, et pour quoi. Le voyageur ne doit jamais se sentir seul.",
+         legende=f"""Une fuite, une coupure de courant, une serrure qui bloque : en cas de vrai problème, le voyageur doit savoir immédiatement vers qui se tourner.
+
+{H_ACC}"""),
+    dict(template="plein", photo="saison-printemps", phrase="Le printemps arrive\n*doucement.*",
+         legende=f"""Bon dimanche.
+
+{H_CONC}"""),
+
+    # 20 et 21 mars
+    dict(template="carte", photo="interieur-salle-bain", label=ASTUCE,
+         titre="Testez votre logement *comme un voyageur.*",
+         texte="Dormez-y une nuit, ou demandez à un proche. On découvre toujours un détail : un store qui coince, une lampe qui manque.",
+         legende=f"""Rien ne remplace l'expérience réelle. Une nuit dans votre propre logement avant la saison vous apprendra plus qu'une longue liste de vérifications.
+
+{H_ACC}"""),
+    dict(template="constat", label="Réflexion du dimanche",
+         texte="Ce que vous faites de mieux, c'est accueillir.", chute="Pas répéter le code wifi.",
+         legende=f"""Gardez votre temps pour ce qui fait vraiment votre valeur.
+
+{H_CONC}"""),
+
+    # 27 et 28 mars
+    dict(template="carte", photo="details-cles", label=ASTUCE,
+         titre="Un bon séjour *se termine par un au revoir.*",
+         texte="Un message le jour du départ, un merci, une invitation à revenir. C'est souvent ce qui déclenche un bel avis.",
+         legende=f"""La dernière impression compte autant que la première. Un au revoir personnalisé, et le voyageur repart avec l'envie de revenir.
+
+{H_ACC}"""),
+    dict(template="plein", photo="saison-printemps", phrase="Joyeuses Pâques.\n*Un dimanche pour vous.*",
+         legende=f"""Joyeuses Pâques à toutes et à tous.
+
+{H_CONC}"""),
+
+    # 3 et 4 avril
+    dict(template="carte", photo="normandie-cote", label=ASTUCE,
+         titre="Relisez votre annonce *avant chaque saison.*",
+         texte="Équipements, horaires, règles, photos : ce qui était vrai l'an dernier ne l'est peut-être plus.",
+         legende=f"""Dernière astuce de la série, et peut-être la plus importante. Une annonce à jour, c'est moins de questions, moins de surprises, et de meilleurs avis.
+
+{H_ACC}"""),
+    dict(template="constat", label="La saison commence",
+         texte="Les beaux jours sont là.\nLes voyageurs arrivent.", chute="Cette fois, vous êtes prêts.",
+         legende=f"""Bonne saison à toutes les conciergeries qui nous suivent.
+
+{CONTACT}
+
+{H_CONC}"""),
 ]

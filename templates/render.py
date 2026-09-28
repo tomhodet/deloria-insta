@@ -291,9 +291,36 @@ body {{ background: var(--beige-clair); color: var(--noir); }}
 </div>"""
 
 
+def tpl_carte(p: dict) -> str:
+    """Astuce d'accueil : grande photo en haut, bandeau noir en bas. Série du samedi."""
+    cadrage = p.get("cadrage", "center")
+    return f"""
+<style>
+body {{ background: var(--noir); color: var(--blanc); }}
+.ph {{ position: absolute; left: 0; right: 0; top: 0; height: 700px; width: 100%; object-fit: cover; object-position: {cadrage}; }}
+.bloc {{ position: absolute; left: 0; right: 0; top: 700px; bottom: 0; padding: 62px 110px 90px; display: flex; flex-direction: column; }}
+.haut {{ display: flex; align-items: baseline; gap: 26px; }}
+.num {{ font-family: 'Cormorant'; font-variant-numeric: lining-nums; font-weight: 300; font-size: 64px; line-height: .8; color: var(--or); }}
+.titre {{ font-family: 'Cormorant'; font-weight: 300; font-size: 58px; line-height: 1.08; margin-top: 28px; }}
+.titre em {{ color: var(--or); font-weight: 400; }}
+.txt {{ font-family: 'Montserrat'; font-weight: 300; font-size: 25px; line-height: 1.6; color: var(--beige); opacity: .85; margin-top: 24px; }}
+</style>
+<img class="ph" src="{photo_uri(p)}">
+<div class="bloc">
+  <div class="haut"><div class="num">{esc(p['numero'])}</div><div class="label" style="color:var(--or)">{esc(p['label'])}</div></div>
+  <div class="titre">{esc(p['titre'])}</div>
+  <div class="txt">{esc(p['texte'])}</div>
+  <div class="foot">
+    {wordmark('--blanc', '--or')}
+    <div class="handle" style="color:var(--beige); opacity:.55">@DELORIA.IA</div>
+  </div>
+</div>"""
+
+
 TEMPLATES = {
     "constat": tpl_constat, "terrain": tpl_terrain, "service": tpl_service,
     "plein": tpl_plein, "edito": tpl_edito, "terrain_photo": tpl_terrain_photo,
+    "carte": tpl_carte,
 }
 
 

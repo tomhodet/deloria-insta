@@ -2,11 +2,11 @@
   "template": "edito",
   "label": "Coulisses",
   "titre": "Ce post a été publié *sans que personne n'appuie sur un bouton.*",
-  "texte": "Visuel, texte, date de publication : tout part automatiquement, trois fois par semaine. Je peux mettre en place la même chose pour votre compte.",
+  "texte": "Visuel, texte, date de publication : tout part automatiquement, cinq fois par semaine. Je peux mettre en place la même chose pour votre compte.",
   "pictos": [
     {
       "icone": "calendrier",
-      "texte": "3 posts\npar semaine"
+      "texte": "5 posts\npar semaine"
     },
     {
       "icone": "pinceau",
@@ -19,5 +19,5 @@
   ],
   "cta": "Écrivez-moi en privé",
   "photo": "photos/pexels/secteur-bureau/8092313_https-kaboompics-com.jpg",
-  "legende": "Petit aveu : ce compte tourne tout seul.\n\nLes visuels sont générés à mes couleurs, les textes sont préparés à l'avance, et un automate publie chaque lundi, mercredi et vendredi. Je n'ouvre Instagram que pour répondre à vos messages.\n\nSi vous voulez la même chose pour votre activité, parlons-en.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #normandie"
+  "legende": "Petit aveu : ce compte tourne tout seul.\n\nLes visuels sont générés à mes couleurs, les textes sont préparés à l'avance, et un automate publie cinq jours par semaine. Je n'ouvre Instagram que pour répondre à vos messages.\n\nSi vous voulez la même chose pour votre activité, parlons-en.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #normandie"
 }
