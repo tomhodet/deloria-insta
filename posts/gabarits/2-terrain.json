@@ -1,0 +1,8 @@
+{
+  "template": "terrain",
+  "label": "Note de terrain",
+  "numero": "01",
+  "titre": "Airbnb refuse tout message qui contient *un lien.*",
+  "texte": "Un nom de site, une adresse e-mail, un numéro de téléphone : le message entier est bloqué. Le voyageur ne reçoit rien. Et personne ne vous prévient.",
+  "chute": "Ce qui répond à vos voyageurs doit le savoir."
+}
