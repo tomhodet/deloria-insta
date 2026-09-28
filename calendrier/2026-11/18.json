@@ -1,7 +1,10 @@
 {
-  "template": "constat",
-  "label": "Le quotidien d'une conciergerie",
-  "texte": "Vous avez créé une conciergerie\npour être plus libre.",
-  "chute": "Votre téléphone n'est pas au courant.",
-  "legende": "Beaucoup de conciergeries sont nées d'une envie d'indépendance. Et beaucoup de gérants passent aujourd'hui leurs soirées à répondre aux mêmes questions.\n\nCe n'est pas une fatalité.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note de design",
+  "titre": "Deux typographies, *pas plus.*",
+  "texte": "Une pour les titres, une pour le texte. Au-delà, un support perd sa cohérence et son élégance.",
+  "chute": "La sobriété se voit avant de se lire.",
+  "photo": "photos/pexels/astuce-mot/4668376_vlada-karpovich.jpg",
+  "numero": "01",
+  "legende": "Nouvelle série : des notes de design, pour des supports qui vous ressemblent.\n\nSur ce compte, il n'y a que deux polices : une élégante pour les titres, une simple pour le texte. C'est cette contrainte qui donne l'impression d'ensemble.\n\nPhoto : Vlada Karpovich / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #normandie"
 }

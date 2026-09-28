@@ -1,7 +1,7 @@
 {
   "template": "constat",
-  "label": "Le quotidien d'une conciergerie",
-  "texte": "Un voyageur allemand écrit à minuit.",
-  "chute": "Il attend une réponse dans sa langue.",
-  "legende": "Une clientèle internationale, c'est une chance. C'est aussi des messages en anglais, en allemand ou en néerlandais, à toute heure.\n\nL'assistant répond dans la langue de chaque voyageur, avec les informations du logement.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "En entreprise",
+  "texte": "L'information existe quelque part.",
+  "chute": "Le problème, c'est de la retrouver.",
+  "legende": "Une procédure, une fiche technique, la bonne version d'un devis : tout est là, mais dans quel dossier ?\n\nUn assistant interne peut répondre à partir de vos propres documents, en citant la source.\n\n#pme #automatisation #industrie #normandie #entrepreneur"
 }

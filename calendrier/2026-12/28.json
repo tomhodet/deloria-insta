@@ -1,10 +1,12 @@
 {
-  "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Un voyageur intéressé par un service, *c'est un revenu.*",
-  "texte": "Vélos, petit-déjeuner, ménage en plus : quand un voyageur montre un intérêt, l'assistant le transmet tout de suite à la conciergerie.",
-  "chute": "Un assistant peut aussi rapporter.",
-  "photo": "photos/pexels/accueil-panier/10481955_chickenbunny.jpg",
-  "numero": "09",
-  "legende": "On parle souvent d'un assistant comme d'un moyen de gagner du temps. C'est aussi un moyen de ne plus rater de ventes.\n\nQuand un voyageur s'intéresse à un service de la conciergerie, l'assistant vous le signale immédiatement, avec le service concerné, les dates et le nombre de personnes. À vous de conclure.\n\nPhoto : Chickenbunny / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "service",
+  "label": "Identité visuelle",
+  "titre": "Ce que comprend *une identité visuelle.*",
+  "points": [
+    "Un logo en plusieurs versions",
+    "Une palette et deux typographies",
+    "Des règles d'usage simples"
+  ],
+  "signature": "DELORIA · NORMANDIE",
+  "legende": "Un logo seul ne fait pas une identité.\n\nCe qui rend une marque reconnaissable, c'est la cohérence : les mêmes couleurs, les mêmes polices et les mêmes règles sur le site, les réseaux, les devis et les cartes de visite.\n\nUne question ? Écrivez-moi en message privé.\n\n#identitevisuelle #chartegraphique #siteinternet #normandie"
 }

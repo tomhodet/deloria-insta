@@ -1,7 +1,10 @@
 {
-  "template": "constat",
-  "label": "Le quotidien d'une conciergerie",
-  "texte": "Répondre vite, c'est bien.",
-  "chute": "Répondre juste, c'est mieux.",
-  "legende": "La rapidité compte, mais une réponse fausse coûte plus cher qu'une réponse lente. Un prix inventé, une adresse approximative, et c'est la confiance qui part.\n\nC'est pour ça que l'assistant préfère vous passer la main plutôt que deviner.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note d'ingénieur",
+  "titre": "Commencer par la tâche *la plus répétée.*",
+  "texte": "Le meilleur premier projet est rarement le plus ambitieux. C'est une tâche simple, faite plusieurs fois par jour.",
+  "chute": "Les gains visibles donnent envie d'aller plus loin.",
+  "photo": "photos/pexels/secteur-industrie/27084598_hong-son.jpg",
+  "numero": "03",
+  "legende": "Quand on démarre l'automatisation, la tentation est de s'attaquer au problème le plus complexe.\n\nC'est souvent une erreur. Une petite tâche très fréquente, bien automatisée, fait gagner du temps dès la première semaine. C'est ce qui convainc les équipes.\n\nPhoto : Hong Son / Pexels\n\n#pme #automatisation #industrie #normandie #entrepreneur"
 }

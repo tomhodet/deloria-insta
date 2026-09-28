@@ -1,9 +1,10 @@
 {
-  "template": "terrain",
-  "label": "Note de terrain",
-  "titre": "Deux logements, *deux fiches.*",
-  "texte": "Même conciergerie, même ville, mais pas le même parking ni le même wifi. L'assistant répond avec la fiche du bon logement.",
-  "chute": "Le détail qui évite la pire des erreurs.",
-  "numero": "18",
-  "legende": "Quand une conciergerie gère plusieurs logements, tous les messages arrivent souvent au même endroit.\n\nAvant de répondre, l'assistant vérifie de quel logement il s'agit et ne répond qu'avec ses informations. Répondre avec le code wifi du voisin, c'est exactement ce qu'on doit rendre impossible.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note de design",
+  "titre": "Un logo se teste *en tout petit.*",
+  "texte": "Sur une photo de profil ou dans un onglet de navigateur, il ne fait que quelques millimètres.",
+  "chute": "S'il reste lisible là, il le sera partout.",
+  "photo": "photos/pexels/secteur-atelier/5582870_thirdman.jpg",
+  "numero": "05",
+  "legende": "Un logo se juge souvent en grand, sur un écran d'ordinateur. Mais il vivra surtout en petit : sur les réseaux, dans un onglet, sur un tampon.\n\nLe test le plus simple : le réduire à la taille d'un ongle et voir ce qu'il en reste.\n\nPhoto : Thirdman / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #normandie"
 }

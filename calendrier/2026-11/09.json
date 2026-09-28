@@ -1,10 +1,10 @@
 {
   "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Du 19 au 20, *c'est une seule nuit.*",
-  "texte": "Évident pour vous. Beaucoup moins pour un outil qui compte des jours au lieu de nuits.",
-  "chute": "Chaque automatisme se teste sur des cas réels, pas sur des cas faciles.",
-  "photo": "photos/pexels/details-carnet/12911169_mizuno-k.jpg",
-  "numero": "04",
-  "legende": "Une erreur que j'ai vue passer : un séjour du 19 au 20 compté comme deux nuits.\n\nPour une personne, c'est évident. Pour un programme, tout dépend de la façon dont on lui décrit les dates. C'est typiquement le genre de détail qui ne se voit qu'en conditions réelles.\n\nC'est aussi pour ça que l'assistant ne fait jamais de calcul de prix.\n\nPhoto : Mizuno K / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "Note d'ingénieur",
+  "titre": "Automatiser un processus flou, *c'est automatiser le désordre.*",
+  "texte": "Avant d'écrire une ligne, on décrit le processus tel qu'il est vraiment, avec ses exceptions et ses cas particuliers.",
+  "chute": "La moitié du travail se fait sur papier.",
+  "photo": "photos/pexels/secteur-atelier/5582599_thirdman.jpg",
+  "numero": "01",
+  "legende": "Nouvelle série : des notes d'ingénieur sur l'automatisation en entreprise.\n\nLa première règle est simple. Un outil ne rend pas un processus plus clair, il le rend plus rapide. Si le processus est confus, il devient confus plus vite. On commence donc toujours par le décrire.\n\nPhoto : Thirdman / Pexels\n\n#pme #automatisation #industrie #normandie #entrepreneur"
 }

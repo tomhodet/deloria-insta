@@ -1,7 +1,23 @@
 {
-  "template": "constat",
-  "label": "Vacances d'hiver",
-  "texte": "Les vacances d'hiver commencent.\nLes réservations repartent.",
-  "chute": "Et les questions avec elles.",
-  "legende": "Petit avant-goût de la saison. Si les messages de ces deux semaines vous pèsent déjà, imaginez juillet.\n\nC'est maintenant qu'il faut s'organiser.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "edito",
+  "label": "Exemple · Maintenance",
+  "titre": "Le rapport d'intervention, *rédigé avant de repartir.*",
+  "texte": "Quelques notes prises sur place, un rapport mis en forme automatiquement, envoyé au client après votre relecture.",
+  "pictos": [
+    {
+      "icone": "mobile",
+      "texte": "Notes\nsur place"
+    },
+    {
+      "icone": "document",
+      "texte": "Rapport\nmis en forme"
+    },
+    {
+      "icone": "check",
+      "texte": "Relu\npar vous"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/secteur-industrie/12951632_alex-urezkov.jpg",
+  "legende": "Un exemple de ce qui est possible pour une entreprise de maintenance.\n\nLe rapport d'intervention se rédige souvent le soir, de mémoire. Il peut se préparer à partir de quelques notes prises sur place, dans un format propre et identique à chaque fois.\n\nPhoto : Alex Urezkov / Pexels\n\n#pme #automatisation #industrie #normandie #entrepreneur"
 }

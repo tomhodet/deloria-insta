@@ -1,10 +1,10 @@
 {
   "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Une heure de départ, *la même partout.*",
-  "texte": "10h sur l'annonce, 11h dans les messages : le voyageur retiendra celle qui l'arrange. L'assistant répète ce qu'on lui donne.",
-  "chute": "Automatiser oblige à mettre de l'ordre.",
-  "photo": "photos/pexels/interieur-lit/32895225_frederick-adegoke-snr.jpg",
-  "numero": "15",
-  "legende": "Mettre en place un assistant révèle souvent de petites incohérences : une heure de départ différente selon le support, un équipement annoncé qui n'existe plus.\n\nC'est un effet secondaire très utile. Avant la saison, tout ce que vous dites à vos voyageurs devient enfin cohérent.\n\nPhoto : Frederick Adegoke Snr / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "Note de design",
+  "titre": "Le contact, *à un geste sur chaque page.*",
+  "texte": "Téléphone, formulaire, message : sur un site, le moyen de vous joindre doit se trouver sans chercher.",
+  "chute": "Un visiteur qui cherche est un visiteur qui part.",
+  "photo": "photos/pexels/astuce-porte/18378438_clement-proust.jpg",
+  "numero": "04",
+  "legende": "Un détail qui change tout sur un site : l'accès au contact.\n\nS'il faut remonter la page ou fouiller un menu pour vous joindre, beaucoup abandonnent. Un bouton visible partout, et la question ne se pose plus.\n\nPhoto : Clement Proust / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #normandie"
 }

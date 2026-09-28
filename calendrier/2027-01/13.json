@@ -1,7 +1,10 @@
 {
-  "template": "constat",
-  "label": "Le quotidien d'une conciergerie",
-  "texte": "Chaque message a l'air urgent.",
-  "chute": "Très peu le sont vraiment.",
-  "legende": "Tout le problème est là : pour savoir qu'un message n'est pas urgent, il faut déjà l'avoir lu.\n\nUn assistant trie pour vous. Il répond à ce qui peut l'être, et ne vous dérange que pour ce qui compte vraiment.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note d'ingénieur",
+  "titre": "Garder l'humain *au moment de la décision.*",
+  "texte": "L'outil prépare, trie, rédige. La validation d'un devis ou d'une réponse importante reste chez vous.",
+  "chute": "Automatiser n'est pas abdiquer.",
+  "photo": "photos/pexels/secteur-artisan/10414793_jean-daniel-francoeur.jpg",
+  "numero": "02",
+  "legende": "Une règle que j'applique à chaque projet : l'automatisme fait le travail répétitif, la personne garde la décision.\n\nC'est plus sûr, et c'est aussi ce qui permet aux équipes d'adopter l'outil sans méfiance.\n\nPhoto : Jean Daniel Francoeur / Pexels\n\n#pme #automatisation #industrie #normandie #entrepreneur"
 }

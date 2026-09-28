@@ -1,23 +1,23 @@
 {
   "template": "edito",
-  "label": "Pour les conciergeries",
-  "titre": "Les questions reviennent. *Les réponses aussi.*",
-  "texte": "Wifi, parking, arrivée, poubelles : l'essentiel des messages se ressemble. L'assistant y répond avec les informations de chaque logement.",
+  "label": "Réseaux sociaux",
+  "titre": "Vos publications, *à vos couleurs, prêtes à l'avance.*",
+  "texte": "Des modèles créés une fois dans votre charte, remplis automatiquement à chaque publication. Le rendu reste le même, post après post.",
   "pictos": [
     {
-      "icone": "maison",
-      "texte": "Fiche\nlogement"
+      "icone": "pinceau",
+      "texte": "Vos\nmodèles"
     },
     {
       "icone": "calendrier",
-      "texte": "Calendrier\nà jour"
+      "texte": "Prêts à\nl'avance"
     },
     {
-      "icone": "message",
-      "texte": "Réponse\nimmédiate"
+      "icone": "check",
+      "texte": "Rendu\nconstant"
     }
   ],
   "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/interieur-cuisine/12234116_cede-joey.jpg",
-  "legende": "La plupart des messages de voyageurs portent sur les mêmes sujets. Ce ne sont pas des questions difficiles, ce sont des questions répétées.\n\nL'assistant lit la fiche du logement et le calendrier à chaque conversation. Si une information change, elle change aussi dans ses réponses.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cede Joey / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "photo": "photos/pexels/astuce-lampe/28703872_orhan-pergel.jpg",
+  "legende": "Nouvelle année, bonne résolution : publier régulièrement.\n\nLe plus dur n'est pas de publier une fois, c'est de tenir. Avec des modèles à vos couleurs et un calendrier préparé, la régularité ne dépend plus de votre emploi du temps.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Orhan Pergel / Pexels\n\n#reseauxsociaux #instagram #automatisation #normandie"
 }

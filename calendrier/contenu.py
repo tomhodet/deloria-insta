@@ -1076,3 +1076,211 @@ Des photos justes, c'est un séjour qui commence bien.
 
 {H_CONC}"""),
 ]
+
+
+# ═══════════════════════ RÉÉQUILIBRAGE (28/09/2026) ═══════════════════════
+# Tom réoriente DelorIA : moins de messagerie voyageurs, plus de sites, identité,
+# réseaux et automatisation PME. Ces posts remplacent, à la même date, le post
+# de semaine prévu initialement. Clé = date de publication.
+
+H_PME2 = "#pme #automatisation #industrie #normandie #entrepreneur"
+DESIGN = "Note de design"
+INGE = "Note d'ingénieur"
+
+REMPLACEMENTS = {
+    "2026-10-19": dict(template="constat", label="Réseaux sociaux",
+         texte="Votre dernier post date de quand ?", chute="Vos clients, eux, regardent.",
+         legende=f"""Un compte Instagram ou une fiche Google qui ne bouge plus, c'est souvent la première chose qu'un client potentiel remarque.
+
+La régularité rassure. Et elle peut s'automatiser, comme sur ce compte.
+
+{H_RESEAUX}"""),
+
+    "2026-11-04": dict(template="constat", label="En entreprise",
+         texte="Combien de fois par semaine recopiez-vous la même information ?", chute="Une fois suffirait.",
+         legende=f"""D'un mail vers un tableau, d'un tableau vers un devis, d'un devis vers une facture. Chaque recopie prend du temps et laisse passer des erreurs.
+
+C'est typiquement ce qu'on automatise en premier.
+
+{H_PME2}"""),
+
+    "2026-11-09": dict(template="terrain_photo", serie="ingenieur", photo="secteur-atelier", label=INGE,
+         titre="Automatiser un processus flou, *c'est automatiser le désordre.*",
+         texte="Avant d'écrire une ligne, on décrit le processus tel qu'il est vraiment, avec ses exceptions et ses cas particuliers.",
+         chute="La moitié du travail se fait sur papier.",
+         legende=f"""Nouvelle série : des notes d'ingénieur sur l'automatisation en entreprise.
+
+La première règle est simple. Un outil ne rend pas un processus plus clair, il le rend plus rapide. Si le processus est confus, il devient confus plus vite. On commence donc toujours par le décrire.
+
+{H_PME2}"""),
+
+    "2026-11-18": dict(template="terrain_photo", serie="design", photo_fichier="astuce-mot#4", label=DESIGN,
+         titre="Deux typographies, *pas plus.*",
+         texte="Une pour les titres, une pour le texte. Au-delà, un support perd sa cohérence et son élégance.",
+         chute="La sobriété se voit avant de se lire.",
+         legende=f"""Nouvelle série : des notes de design, pour des supports qui vous ressemblent.
+
+Sur ce compte, il n'y a que deux polices : une élégante pour les titres, une simple pour le texte. C'est cette contrainte qui donne l'impression d'ensemble.
+
+{H_DESIGN}"""),
+
+    "2026-11-25": dict(template="edito", photo_fichier="astuce-mot#1", label="Pour les PME",
+         titre="Les mails qui se ressemblent *peuvent se préparer seuls.*",
+         texte="Demandes de prix, relances, confirmations : un outil prépare la réponse avec vos informations. Vous relisez, vous envoyez.",
+         pictos=[dict(icone="message", texte="Mail\nreçu"), dict(icone="document", texte="Réponse\npréparée"), dict(icone="check", texte="Relue\npar vous")],
+         cta="Écrivez-moi en privé",
+         legende=f"""Dans beaucoup d'entreprises, une partie des mails reçus appelle toujours la même réponse, à quelques détails près.
+
+Un outil peut les repérer, préparer la réponse avec les bonnes informations, et vous la proposer. La décision d'envoyer reste la vôtre.
+
+{CONTACT}
+
+{H_PME2}"""),
+
+    "2026-12-02": dict(template="constat", label="Réseaux sociaux",
+         texte="Un compte qui ne publie plus donne l'impression d'une activité qui s'arrête.", chute="Même quand ce n'est pas le cas.",
+         legende=f"""Décembre est souvent le mois où l'on n'a plus le temps de publier. C'est aussi celui où beaucoup de clients préparent l'année suivante et regardent qui est actif.
+
+{H_RESEAUX}"""),
+
+    "2026-12-14": dict(template="terrain_photo", serie="design", photo_fichier="astuce-lampe#6", label=DESIGN,
+         titre="Une couleur d'accent, *utilisée avec parcimonie.*",
+         texte="Dans ma charte, l'or n'apparaît que sur quelques détails. C'est ce qui lui garde sa valeur.",
+         chute="Ce qui est partout ne se remarque plus.",
+         legende=f"""Une palette réussie repose souvent sur une couleur forte, réservée aux éléments importants.
+
+Utilisée partout, elle devient du bruit. Utilisée avec retenue, elle guide le regard.
+
+{H_DESIGN}"""),
+
+    "2026-12-16": dict(template="constat", label="En entreprise",
+         texte="L'information existe quelque part.", chute="Le problème, c'est de la retrouver.",
+         legende=f"""Une procédure, une fiche technique, la bonne version d'un devis : tout est là, mais dans quel dossier ?
+
+Un assistant interne peut répondre à partir de vos propres documents, en citant la source.
+
+{H_PME2}"""),
+
+    "2026-12-21": dict(template="service", label="Comment se passe un projet", titre="Commencer par une tâche, *pas par tout.*",
+         points=["Un échange pour repérer ce qui se répète", "Un premier outil sur une seule tâche", "On mesure, puis on élargit"],
+         signature="PME · NORMANDIE",
+         legende=f"""Je ne propose jamais de tout automatiser d'un coup.
+
+On part d'une seule tâche, celle qui revient le plus souvent. On la traite bien, on vérifie le gain, et seulement ensuite on passe à la suivante.
+
+{CONTACT}
+
+{H_PME2}"""),
+
+    "2026-12-28": dict(template="service", label="Identité visuelle", titre="Ce que comprend *une identité visuelle.*",
+         points=["Un logo en plusieurs versions", "Une palette et deux typographies", "Des règles d'usage simples"],
+         signature="DELORIA · NORMANDIE",
+         legende=f"""Un logo seul ne fait pas une identité.
+
+Ce qui rend une marque reconnaissable, c'est la cohérence : les mêmes couleurs, les mêmes polices et les mêmes règles sur le site, les réseaux, les devis et les cartes de visite.
+
+{CONTACT}
+
+{H_DESIGN}"""),
+
+    "2026-12-30": dict(template="service", label="Sites internet", titre="Un site en trois étapes, *sans jargon.*",
+         points=["Un échange pour comprendre votre activité", "Une maquette à valider ensemble", "La mise en ligne et les réglages"],
+         signature="DELORIA · NORMANDIE",
+         legende=f"""Pour l'année qui vient, peut-être un nouveau site ?
+
+Je travaille simplement : on parle de votre activité, je vous montre une maquette, on ajuste, puis je m'occupe de la mise en ligne.
+
+{CONTACT}
+
+{H_DESIGN}"""),
+
+    "2027-01-04": dict(template="edito", photo_fichier="astuce-lampe#4", label="Réseaux sociaux",
+         titre="Vos publications, *à vos couleurs, prêtes à l'avance.*",
+         texte="Des modèles créés une fois dans votre charte, remplis automatiquement à chaque publication. Le rendu reste le même, post après post.",
+         pictos=[dict(icone="pinceau", texte="Vos\nmodèles"), dict(icone="calendrier", texte="Prêts à\nl'avance"), dict(icone="check", texte="Rendu\nconstant")],
+         cta="Écrivez-moi en privé",
+         legende=f"""Nouvelle année, bonne résolution : publier régulièrement.
+
+Le plus dur n'est pas de publier une fois, c'est de tenir. Avec des modèles à vos couleurs et un calendrier préparé, la régularité ne dépend plus de votre emploi du temps.
+
+{CONTACT}
+
+{H_RESEAUX}"""),
+
+    "2027-01-13": dict(template="terrain_photo", serie="ingenieur", photo="secteur-artisan", label=INGE,
+         titre="Garder l'humain *au moment de la décision.*",
+         texte="L'outil prépare, trie, rédige. La validation d'un devis ou d'une réponse importante reste chez vous.",
+         chute="Automatiser n'est pas abdiquer.",
+         legende=f"""Une règle que j'applique à chaque projet : l'automatisme fait le travail répétitif, la personne garde la décision.
+
+C'est plus sûr, et c'est aussi ce qui permet aux équipes d'adopter l'outil sans méfiance.
+
+{H_PME2}"""),
+
+    "2027-02-03": dict(template="terrain_photo", serie="design", photo_fichier="astuce-chargeur#2", label=DESIGN,
+         titre="Un site se conçoit *d'abord pour le téléphone.*",
+         texte="On part du petit écran, puis on adapte à l'ordinateur. L'inverse donne des pages illisibles dans la poche.",
+         chute="C'est là que vos clients vous découvrent.",
+         legende=f"""La plupart des visites commencent sur un téléphone, entre deux choses.
+
+Concevoir le site pour ce petit écran en premier oblige à aller à l'essentiel. Et ce qui fonctionne sur téléphone fonctionne presque toujours sur ordinateur.
+
+{H_DESIGN}"""),
+
+    "2027-02-08": dict(template="edito", photo="secteur-industrie", label="Exemple · Maintenance",
+         titre="Le rapport d'intervention, *rédigé avant de repartir.*",
+         texte="Quelques notes prises sur place, un rapport mis en forme automatiquement, envoyé au client après votre relecture.",
+         pictos=[dict(icone="mobile", texte="Notes\nsur place"), dict(icone="document", texte="Rapport\nmis en forme"), dict(icone="check", texte="Relu\npar vous")],
+         cta="Écrivez-moi en privé",
+         legende=f"""Un exemple de ce qui est possible pour une entreprise de maintenance.
+
+Le rapport d'intervention se rédige souvent le soir, de mémoire. Il peut se préparer à partir de quelques notes prises sur place, dans un format propre et identique à chaque fois.
+
+{H_PME2}"""),
+
+    "2027-02-17": dict(template="constat", label="Coulisses",
+         texte="Ces visuels sont générés automatiquement.", chute="La charte, elle, a été pensée à la main.",
+         legende=f"""L'automatisation ne remplace pas le travail de conception. Elle le répète fidèlement.
+
+Tout commence par une charte soignée : couleurs, polices, mises en page. Ensuite seulement, les publications peuvent se produire seules sans perdre en qualité.
+
+{H_DESIGN} {H_RESEAUX}"""),
+
+    "2027-02-24": dict(template="terrain_photo", serie="design", photo_fichier="astuce-porte#3", label=DESIGN,
+         titre="Le contact, *à un geste sur chaque page.*",
+         texte="Téléphone, formulaire, message : sur un site, le moyen de vous joindre doit se trouver sans chercher.",
+         chute="Un visiteur qui cherche est un visiteur qui part.",
+         legende=f"""Un détail qui change tout sur un site : l'accès au contact.
+
+S'il faut remonter la page ou fouiller un menu pour vous joindre, beaucoup abandonnent. Un bouton visible partout, et la question ne se pose plus.
+
+{H_DESIGN}"""),
+
+    "2027-03-10": dict(template="terrain_photo", serie="ingenieur", photo="secteur-industrie", label=INGE,
+         titre="Commencer par la tâche *la plus répétée.*",
+         texte="Le meilleur premier projet est rarement le plus ambitieux. C'est une tâche simple, faite plusieurs fois par jour.",
+         chute="Les gains visibles donnent envie d'aller plus loin.",
+         legende=f"""Quand on démarre l'automatisation, la tentation est de s'attaquer au problème le plus complexe.
+
+C'est souvent une erreur. Une petite tâche très fréquente, bien automatisée, fait gagner du temps dès la première semaine. C'est ce qui convainc les équipes.
+
+{H_PME2}"""),
+
+    "2027-03-24": dict(template="constat", label="En entreprise",
+         texte="Le devis part le lendemain.", chute="Le client, lui, a déjà demandé ailleurs.",
+         legende=f"""La réactivité est un argument commercial. Préparer un devis en quelques minutes au lieu de quelques heures, c'est parfois ce qui fait la différence.
+
+{CONTACT}
+
+{H_PME2}"""),
+
+    "2027-03-31": dict(template="terrain_photo", serie="design", photo_fichier="secteur-atelier#2", label=DESIGN,
+         titre="Un logo se teste *en tout petit.*",
+         texte="Sur une photo de profil ou dans un onglet de navigateur, il ne fait que quelques millimètres.",
+         chute="S'il reste lisible là, il le sera partout.",
+         legende=f"""Un logo se juge souvent en grand, sur un écran d'ordinateur. Mais il vivra surtout en petit : sur les réseaux, dans un onglet, sur un tampon.
+
+Le test le plus simple : le réduire à la taille d'un ongle et voir ce qu'il en reste.
+
+{H_DESIGN}"""),
+}

@@ -1,10 +1,10 @@
 {
   "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Un voyageur de plus, un chien de plus : *le séjour change.*",
-  "texte": "Quand un voyageur parle d'une future réservation, l'assistant lui rappelle une fois d'indiquer le nombre exact de personnes et d'animaux.",
-  "chute": "Une phrase qui évite bien des malentendus à l'arrivée.",
-  "photo": "photos/pexels/interieur-lit/28345543_vale-bocchi.jpg",
-  "numero": "08",
-  "legende": "Un détail qui compte : le nombre de voyageurs et la présence d'un animal modifient souvent le tarif, et parfois les règles du logement.\n\nL'assistant le rappelle naturellement, une seule fois, quand un voyageur évoque sa réservation. Pas de sermon, juste une phrase utile.\n\nPhoto : Vale Bocchi / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "Note de design",
+  "titre": "Une couleur d'accent, *utilisée avec parcimonie.*",
+  "texte": "Dans ma charte, l'or n'apparaît que sur quelques détails. C'est ce qui lui garde sa valeur.",
+  "chute": "Ce qui est partout ne se remarque plus.",
+  "photo": "photos/pexels/astuce-lampe/39007189_oguzcan-culla.jpg",
+  "numero": "02",
+  "legende": "Une palette réussie repose souvent sur une couleur forte, réservée aux éléments importants.\n\nUtilisée partout, elle devient du bruit. Utilisée avec retenue, elle guide le regard.\n\nPhoto : Oguzcan Culla / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #normandie"
 }

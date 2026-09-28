@@ -1,7 +1,7 @@
 {
   "template": "constat",
-  "label": "Hors saison",
-  "texte": "Novembre.\nLes messages ralentissent enfin.",
-  "chute": "C'est le moment de préparer la suite.",
-  "legende": "La basse saison est le meilleur moment pour mettre en place un nouvel outil. On le teste au calme, on corrige, et il est rodé quand les réservations repartent.\n\nMettre en route un assistant en plein mois d'août, c'est l'inverse de ce qu'il faut faire.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "En entreprise",
+  "texte": "Combien de fois par semaine recopiez-vous la même information ?",
+  "chute": "Une fois suffirait.",
+  "legende": "D'un mail vers un tableau, d'un tableau vers un devis, d'un devis vers une facture. Chaque recopie prend du temps et laisse passer des erreurs.\n\nC'est typiquement ce qu'on automatise en premier.\n\n#pme #automatisation #industrie #normandie #entrepreneur"
 }
