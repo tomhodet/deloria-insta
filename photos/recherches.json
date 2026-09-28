@@ -1,16 +1,25 @@
 {
   "nombre_par_recherche": 6,
   "recherches": [
-    { "dossier": "interieur-chambre",   "requete": "luxury bedroom interior natural light" },
-    { "dossier": "interieur-salon",     "requete": "minimal living room interior" },
-    { "dossier": "details-cles",        "requete": "keys on wooden table" },
-    { "dossier": "details-linge",       "requete": "folded white towels" },
-    { "dossier": "details-cafe",        "requete": "coffee cup morning window light" },
-    { "dossier": "normandie-falaises",  "requete": "Etretat cliffs" },
-    { "dossier": "normandie-cote",      "requete": "Normandy coast beach" },
-    { "dossier": "normandie-honfleur",  "requete": "Honfleur harbor" },
-    { "dossier": "secteur-restaurant",  "requete": "restaurant table setting" },
-    { "dossier": "secteur-artisan",     "requete": "craftsman workshop tools" },
-    { "dossier": "secteur-bureau",      "requete": "minimal office desk" }
+    { "dossier": "interieur-cheminee",   "requete": "cozy fireplace living room" },
+    { "dossier": "interieur-lit",        "requete": "made bed white sheets hotel" },
+    { "dossier": "interieur-salle-bain", "requete": "luxury bathroom interior" },
+    { "dossier": "interieur-cuisine",    "requete": "modern apartment kitchen" },
+    { "dossier": "interieur-fenetre",    "requete": "rainy window cozy" },
+    { "dossier": "accueil-panier",       "requete": "welcome basket guest" },
+    { "dossier": "accueil-sonnette",     "requete": "hotel reception bell" },
+    { "dossier": "details-telephone",    "requete": "smartphone on wooden table" },
+    { "dossier": "details-carnet",       "requete": "notebook pen desk planning" },
+    { "dossier": "saison-noel",          "requete": "christmas table decoration" },
+    { "dossier": "saison-hiver-mer",     "requete": "winter sea beach" },
+    { "dossier": "saison-printemps",     "requete": "spring garden house" },
+    { "dossier": "normandie-deauville",  "requete": "Deauville beach" },
+    { "dossier": "normandie-lehavre",    "requete": "Le Havre France" },
+    { "dossier": "normandie-mont",       "requete": "Mont Saint Michel" },
+    { "dossier": "normandie-campagne",   "requete": "Normandy countryside" },
+    { "dossier": "secteur-boulangerie",  "requete": "bakery bread" },
+    { "dossier": "secteur-chef",         "requete": "chef plating dish" },
+    { "dossier": "secteur-atelier",      "requete": "architect drawing plans" },
+    { "dossier": "secteur-industrie",    "requete": "industrial factory machine" }
   ]
 }
