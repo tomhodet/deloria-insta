@@ -1,0 +1,16 @@
+{
+  "nombre_par_recherche": 6,
+  "recherches": [
+    { "dossier": "interieur-chambre",   "requete": "luxury bedroom interior natural light" },
+    { "dossier": "interieur-salon",     "requete": "minimal living room interior" },
+    { "dossier": "details-cles",        "requete": "keys on wooden table" },
+    { "dossier": "details-linge",       "requete": "folded white towels" },
+    { "dossier": "details-cafe",        "requete": "coffee cup morning window light" },
+    { "dossier": "normandie-falaises",  "requete": "Etretat cliffs" },
+    { "dossier": "normandie-cote",      "requete": "Normandy coast beach" },
+    { "dossier": "normandie-honfleur",  "requete": "Honfleur harbor" },
+    { "dossier": "secteur-restaurant",  "requete": "restaurant table setting" },
+    { "dossier": "secteur-artisan",     "requete": "craftsman workshop tools" },
+    { "dossier": "secteur-bureau",      "requete": "minimal office desk" }
+  ]
+}
