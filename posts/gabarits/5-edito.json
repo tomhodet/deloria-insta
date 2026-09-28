@@ -1,0 +1,23 @@
+{
+  "template": "edito",
+  "photo": "photos/pexels/interieur-chambre/29435313_yunus-tug.jpg",
+  "cadrage": "30% center",
+  "label": "Pour les conciergeries",
+  "titre": "Un assistant qui répond *comme vous le feriez.*",
+  "texte": "Il connaît le logement, le calendrier et votre façon de parler aux voyageurs. Il vous prévient dès qu'on a besoin de vous.",
+  "pictos": [
+    {
+      "icone": "globe",
+      "texte": "Langue du\nvoyageur"
+    },
+    {
+      "icone": "lune",
+      "texte": "Jour\net nuit"
+    },
+    {
+      "icone": "cloche",
+      "texte": "Alerte si\nproblème"
+    }
+  ],
+  "cta": "Écrivez-moi en privé"
+}

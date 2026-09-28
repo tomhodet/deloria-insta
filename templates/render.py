@@ -154,7 +154,130 @@ body {{ background: var(--marron); color: var(--blanc); }}
 </div>"""
 
 
-TEMPLATES = {"constat": tpl_constat, "terrain": tpl_terrain, "service": tpl_service}
+REPO = ROOT.parent
+
+# Icônes au trait, dessinées à la main (viewBox 24), pour la rangée de 3 pictos.
+ICONES = {
+    "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/>',
+    "lune": '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
+    "cloche": '<path d="M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20a2 2 0 0 0 4 0"/>',
+    "maison": '<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/>',
+    "cle": '<circle cx="8" cy="15" r="4"/><path d="M11 12l8-8"/><path d="M16 7l3 3"/>',
+    "calendrier": '<rect x="4" y="5" width="16" height="15" rx="1"/><path d="M4 10h16M9 3v4M15 3v4"/>',
+    "message": '<path d="M4 5h16v11H9l-5 4z"/>',
+    "etoile": '<path d="M12 3l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L12 16.8 6.4 20l1.4-6.3L3 9.4l6.4-.6z"/>',
+}
+
+
+def icone(nom: str, couleur: str, taille: int = 46) -> str:
+    return (f'<svg width="{taille}" height="{taille}" viewBox="0 0 24 24" fill="none" stroke="{couleur}" '
+            f'stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">{ICONES[nom]}</svg>')
+
+
+def photo_uri(p: dict) -> str:
+    chemin = (REPO / p["photo"]).resolve()
+    if not chemin.is_file():
+        raise FileNotFoundError(f"Photo introuvable : {chemin}")
+    return chemin.as_uri()
+
+
+def tpl_plein(p: dict) -> str:
+    """Photo pleine page, filet intérieur, une phrase centrée. Esprit hôtellerie de luxe."""
+    cadrage = p.get("cadrage", "center")
+    return f"""
+<style>
+body {{ background: var(--noir); }}
+.bg {{ position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: {cadrage}; }}
+.voile {{ position: absolute; inset: 0; background: rgba(13,13,13,{p.get('voile', 0.34)}); }}
+.filet {{ position: absolute; inset: 44px; border: 1px solid rgba(250,250,248,.55); }}
+.centre {{ position: absolute; inset: 0; transform: translateY({p.get('decalage', 0)}px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 130px; color: var(--blanc); }}
+.lieu {{ font-family: 'Montserrat'; font-weight: 400; font-size: 22px; letter-spacing: .38em; text-transform: uppercase; opacity: .9; margin-bottom: 34px; }}
+.phrase {{ font-family: 'Cormorant'; font-weight: 300; font-size: 88px; line-height: 1.08; text-shadow: 0 2px 30px rgba(0,0,0,.25); }}
+.phrase em {{ font-weight: 400; color: var(--beige); }}
+.bas {{ position: absolute; left: 0; right: 0; bottom: 96px; display: flex; flex-direction: column; align-items: center; gap: 20px; }}
+</style>
+<img class="bg" src="{photo_uri(p)}">
+<div class="voile"></div>
+<div class="filet"></div>
+<div class="centre">
+  <div class="lieu">{esc(p.get('lieu', ''))}</div>
+  <div class="phrase">{esc(p['phrase'])}</div>
+</div>
+<div class="bas">
+  {ornament('--beige')}
+  {wordmark('--blanc', '--or')}
+</div>"""
+
+
+def tpl_edito(p: dict) -> str:
+    """Texte à gauche sur crème, photo à droite, rangée de 3 pictos. Esprit magazine."""
+    cadrage = p.get("cadrage", "center")
+    pictos = "".join(
+        f'<div class="picto">{icone(i["icone"], "#3B2314")}<div class="pl">{esc(i["texte"])}</div></div>'
+        for i in p["pictos"][:3]
+    )
+    cta = f'<div class="cta">{esc(p["cta"])}</div>' if p.get("cta") else ""
+    return f"""
+<style>
+body {{ background: var(--beige-clair); color: var(--noir); }}
+.g {{ position: absolute; left: 0; top: 0; bottom: 0; width: 540px; padding: 100px 56px 90px 76px; display: flex; flex-direction: column; }}
+.ph {{ position: absolute; right: 0; top: 0; width: 540px; height: {H}px; object-fit: cover; object-position: {cadrage}; }}
+.wm {{ font-size: 32px; }}
+.lab {{ margin-top: 74px; font-family: 'Montserrat'; font-weight: 500; font-size: 16px; letter-spacing: .4em; text-transform: uppercase; color: var(--or); }}
+.titre {{ font-family: 'Cormorant'; font-weight: 400; font-size: 64px; line-height: 1.04; margin-top: 26px; }}
+.titre em {{ color: var(--or); }}
+.sep {{ width: 60px; height: 1px; background: var(--noir); opacity: .35; margin: 36px 0 30px; }}
+.txt {{ font-family: 'Montserrat'; font-weight: 300; font-size: 22px; line-height: 1.6; opacity: .8; }}
+.pictos {{ margin-top: auto; display: grid; grid-template-columns: repeat(3, 1fr); }}
+.picto {{ display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; padding: 0 8px; }}
+.picto + .picto {{ border-left: 1px solid rgba(59,35,20,.25); }}
+.pl {{ font-family: 'Montserrat'; font-weight: 500; font-size: 13px; letter-spacing: .14em; line-height: 1.5; text-transform: uppercase; color: var(--marron); }}
+.cta {{ margin-top: 48px; align-self: flex-start; border: 1px solid var(--noir); border-radius: 40px; padding: 18px 34px; font-family: 'Montserrat'; font-weight: 500; font-size: 15px; letter-spacing: .32em; text-transform: uppercase; }}
+</style>
+<div class="g">
+  {wordmark('--noir', '--or')}
+  <div class="lab">{esc(p['label'])}</div>
+  <div class="titre">{esc(p['titre'])}</div>
+  <div class="sep"></div>
+  <div class="txt">{esc(p['texte'])}</div>
+  <div class="pictos">{pictos}</div>
+  {cta}
+</div>
+<img class="ph" src="{photo_uri(p)}">"""
+
+
+def tpl_terrain_photo(p: dict) -> str:
+    """Note de terrain avec bandeau photo en haut. Même voix que 'terrain'."""
+    cadrage = p.get("cadrage", "center")
+    return f"""
+<style>
+body {{ background: var(--beige-clair); color: var(--noir); }}
+.ph {{ position: absolute; left: 0; right: 0; top: 0; height: 520px; width: 100%; object-fit: cover; object-position: {cadrage}; }}
+.bloc {{ position: absolute; left: 0; right: 0; top: 520px; bottom: 0; padding: 64px 110px 96px; display: flex; flex-direction: column; }}
+.haut {{ display: flex; align-items: baseline; gap: 34px; }}
+.num {{ font-family: 'Cormorant'; font-variant-numeric: lining-nums; font-weight: 300; font-size: 96px; line-height: .8; color: var(--or); }}
+.titre {{ font-family: 'Cormorant'; font-weight: 400; font-size: 60px; line-height: 1.08; margin-top: 30px; }}
+.titre em {{ color: var(--marron); }}
+.txt {{ font-family: 'Montserrat'; font-weight: 300; font-size: 26px; line-height: 1.6; opacity: .82; margin-top: 30px; }}
+.chute {{ font-family: 'Cormorant'; font-style: italic; font-weight: 500; font-size: 38px; line-height: 1.25; color: var(--marron); margin-top: 28px; }}
+</style>
+<img class="ph" src="{photo_uri(p)}">
+<div class="bloc">
+  <div class="haut"><div class="num">{esc(p['numero'])}</div><div class="label" style="color:var(--marron); opacity:.75">{esc(p['label'])}</div></div>
+  <div class="titre">{esc(p['titre'])}</div>
+  <div class="txt">{esc(p['texte'])}</div>
+  <div class="chute">{esc(p['chute'])}</div>
+  <div class="foot">
+    {wordmark('--noir', '--marron')}
+    <div class="handle" style="color:var(--marron); opacity:.6">@DELORIA.IA</div>
+  </div>
+</div>"""
+
+
+TEMPLATES = {
+    "constat": tpl_constat, "terrain": tpl_terrain, "service": tpl_service,
+    "plein": tpl_plein, "edito": tpl_edito, "terrain_photo": tpl_terrain_photo,
+}
 
 
 def build_html(spec: dict) -> str:

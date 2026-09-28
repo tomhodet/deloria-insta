@@ -1,0 +1,10 @@
+{
+  "template": "terrain_photo",
+  "photo": "photos/pexels/details-cles/17026019_esra-erdem.jpg",
+  "cadrage": "center 60%",
+  "label": "Note de terrain",
+  "numero": "02",
+  "titre": "Le code de la boîte à clés *ne passe jamais par l'assistant.*",
+  "texte": "Il part tout seul la veille de l'arrivée, depuis le logiciel de gestion. Personne ne le recopie, personne ne l'envoie trop tôt.",
+  "chute": "Automatiser, c'est aussi choisir ce qu'on n'automatise pas."
+}
