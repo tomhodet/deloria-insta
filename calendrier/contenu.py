@@ -240,7 +240,7 @@ J'ai appris à le prévoir dès la construction : toute consigne de silence doit
 
 {H_CONC}"""),
 
-    dict(template="plein", photo="interieur-cheminee", phrase="Les soirées d'hiver\n*méritent mieux qu'un code wifi.*",
+    dict(template="plein", photo_fichier="interieur-cheminee#4", phrase="Les soirées d'hiver\n*méritent mieux qu'un code wifi.*",
          legende=f"""Le feu dans la cheminée, le téléphone retourné sur la table. Voilà l'objectif.
 
 Bon week-end.
@@ -740,7 +740,7 @@ ASTUCE = "Astuce d'accueil"
 
 WEEKEND = [
     # 10 et 11 octobre
-    dict(template="carte", photo="interieur-salon", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-lampe#1", label=ASTUCE,
          titre="Une lampe allumée *pour une arrivée de nuit.*",
          texte="Un voyageur qui arrive tard cherche l'interrupteur dans le noir. Une lampe laissée allumée change la première impression.",
          legende=f"""Nouvelle série du samedi : une astuce d'accueil simple, applicable dès ce week-end.
@@ -754,7 +754,7 @@ La première minute dans un logement compte énormément. Arriver de nuit dans u
 {H_CONC}"""),
 
     # 17 et 18 octobre
-    dict(template="carte", photo="details-carnet", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-mot#3", label=ASTUCE,
          titre="Un mot écrit à la main *vaut toutes les attentions.*",
          texte="Quelques lignes, le prénom du voyageur, un conseil pour le soir même. Deux minutes, et un souvenir.",
          legende=f"""Dans un monde de messages automatiques, un mot manuscrit se remarque. C'est aussi ce qu'on retrouve souvent cité dans les avis.
@@ -783,7 +783,7 @@ Une carte posée à l'entrée, et le message du soir disparaît.
 {H_NORM} #campagne"""),
 
     # 31 octobre et 1er novembre
-    dict(template="carte", photo="interieur-fenetre", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-parapluie#4", label=ASTUCE,
          titre="En Normandie, *un parapluie dans l'entrée.*",
          texte="Le détail qui fait sourire les voyageurs, et qui leur sauve une journée de balade.",
          legende=f"""On ne va pas se mentir, il pleut parfois en Normandie.
@@ -825,19 +825,19 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 21 et 22 novembre
-    dict(template="carte", photo="interieur-cheminee", label=ASTUCE,
+    dict(template="carte", photo_fichier="interieur-cheminee#1", label=ASTUCE,
          titre="Un plaid sur le canapé, *le chauffage déjà lancé.*",
          texte="En hiver, arriver dans un logement froid gâche la soirée. Programmer le chauffage avant l'arrivée change tout.",
          legende=f"""L'hiver, le confort commence par la température. Un thermostat programmable ou un passage avant l'arrivée, et le voyageur se sent chez lui.
 
 {H_ACC}"""),
-    dict(template="plein", photo="interieur-cheminee", phrase="Un dimanche au coin du feu.\n*Enfin.*",
+    dict(template="plein", photo_fichier="interieur-cheminee#3", phrase="Un dimanche au coin du feu.\n*Enfin.*",
          legende=f"""Bon dimanche.
 
 {H_CONC}"""),
 
     # 28 et 29 novembre
-    dict(template="carte", photo="accueil-panier", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-livret#3", label=ASTUCE,
          titre="Un livret d'accueil *se lit en deux minutes.*",
          texte="Les voyageurs ne lisent pas vingt pages. L'essentiel d'abord : arrivée, wifi, départ, urgences.",
          legende=f"""Un livret trop long n'est pas lu. Commencez par ce dont le voyageur a besoin dans l'heure qui suit son arrivée, le reste peut venir après.
@@ -850,7 +850,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 5 et 6 décembre
-    dict(template="carte", photo="details-cafe", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-machine-cafe#4", label=ASTUCE,
          titre="Un café prêt *pour le premier matin.*",
          texte="Quelques dosettes, du sucre, deux tasses propres. Le premier réveil dans un logement devient un bon souvenir.",
          legende=f"""Le premier matin, personne n'a envie de chercher une boulangerie ouverte. Un café à disposition, c'est une attention simple et très appréciée.
@@ -887,7 +887,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 26 et 27 décembre
-    dict(template="carte", photo="details-cles", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-porte#1", label=ASTUCE,
          titre="Le départ *se prépare dès l'arrivée.*",
          texte="Heure de départ, clés, poubelles, volets : une liste courte près de la porte. Moins de questions le dernier jour.",
          legende=f"""Les questions du dernier jour se ressemblent toutes. Une liste de départ affichée près de la porte y répond d'avance.
@@ -900,7 +900,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 2 et 3 janvier
-    dict(template="carte", photo="interieur-lit", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-chargeur#4", label=ASTUCE,
          titre="Un chargeur de téléphone *près du lit.*",
          texte="C'est le plus oublié des bagages. Un chargeur universel coûte peu et évite une soirée compliquée.",
          legende=f"""Première astuce de l'année, et sans doute la plus rentable : un chargeur laissé sur la table de nuit.
@@ -925,7 +925,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 16 et 17 janvier
-    dict(template="carte", photo="details-cles", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-porte#2", label=ASTUCE,
          titre="Une arrivée autonome *s'explique en images.*",
          texte="Une photo de la porte, une de la boîte à clés, une de l'interrupteur. Plus clair que trois paragraphes.",
          legende=f"""Pour une arrivée autonome, rien ne vaut quelques photos bien choisies. Le voyageur se repère tout de suite, même de nuit.
@@ -937,7 +937,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 23 et 24 janvier
-    dict(template="carte", photo="saison-printemps", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-rue#4", label=ASTUCE,
          titre="Le stationnement *se décrit avec précision.*",
          texte="Gratuit ou payant, à quelle distance, dans quelle rue. C'est souvent la toute première question.",
          legende=f"""« Où est-ce que je peux me garer ? » arrive souvent avant même « bonjour ». Une réponse précise dans l'annonce et dans le livret évite ce message.
@@ -950,7 +950,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 30 et 31 janvier
-    dict(template="carte", photo="interieur-cuisine", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-machine-cafe#2", label=ASTUCE,
          titre="Les appareils compliqués *méritent une étiquette.*",
          texte="Plaque de cuisson, machine à café, chauffage : une petite étiquette évite les appels au mauvais moment.",
          legende=f"""Ce qui est évident pour vous ne l'est pas pour quelqu'un qui découvre le logement. Une étiquette discrète, et le mode d'emploi est là où on en a besoin.
@@ -962,7 +962,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 6 et 7 février
-    dict(template="carte", photo="interieur-salon", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-enfants#5", label=ASTUCE,
          titre="Vous accueillez des familles ? *Dites-le avec des détails.*",
          texte="Lit parapluie, chaise haute, barrière d'escalier : les parents cherchent précisément ces mots dans l'annonce.",
          legende=f"""« Adapté aux familles » ne veut rien dire pour un parent. La liste précise de l'équipement, si.
@@ -975,19 +975,19 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 13 et 14 février
-    dict(template="carte", photo="details-cafe", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-deux-verres#4", label=ASTUCE,
          titre="Pour un séjour à deux, *un détail suffit.*",
          texte="Deux verres, une bougie, une bonne adresse de restaurant. Pas besoin de pétales de rose partout.",
          legende=f"""Le week-end de la Saint-Valentin, beaucoup de réservations sont des séjours à deux. Une petite attention fait toute la différence.
 
 {H_ACC}"""),
-    dict(template="plein", photo="interieur-salle-bain", phrase="Bonne Saint-Valentin.\n*Le téléphone reste dans le sac.*",
+    dict(template="plein", photo_fichier="astuce-deux-verres#3", phrase="Bonne Saint-Valentin.\n*Le téléphone reste dans le sac.*",
          legende=f"""Bon dimanche, et belle Saint-Valentin.
 
 {H_CONC}"""),
 
     # 20 et 21 février
-    dict(template="carte", photo="normandie-campagne", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-chien#2", label=ASTUCE,
          titre="Animaux acceptés ? *Précisez les règles.*",
          texte="Sur le canapé ou pas, gamelle fournie ou non, supplément éventuel. Des règles claires évitent les litiges.",
          legende=f"""Accepter les animaux ouvre votre logement à beaucoup de voyageurs. Encore faut-il que tout le monde parte avec les mêmes règles en tête.
@@ -1000,7 +1000,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 27 et 28 février
-    dict(template="carte", photo="details-linge", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-menage#6", label=ASTUCE,
          titre="Une liste de contrôle *pour chaque ménage.*",
          texte="Les oublis se ressemblent : ampoule grillée, papier toilette, piles de télécommande. La même liste à chaque passage.",
          legende=f"""Ce n'est pas le grand ménage qui pose problème, ce sont les petits oublis. Une liste identique pour chaque passage, et ils disparaissent.
@@ -1012,7 +1012,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_NORM}"""),
 
     # 6 et 7 mars
-    dict(template="carte", photo="saison-printemps", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-jardin#4", label=ASTUCE,
          titre="Le jardin *fait partie du logement.*",
          texte="Salon de jardin sorti, pelouse tondue, éclairage extérieur vérifié : au printemps, les voyageurs vivent dehors.",
          legende=f"""Dès les premiers beaux jours, l'extérieur devient la pièce principale. Il mérite la même attention que l'intérieur.
@@ -1025,7 +1025,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 13 et 14 mars
-    dict(template="carte", photo="accueil-sonnette", label=ASTUCE,
+    dict(template="carte", photo="accueil-sonnette", cadrage="center 78%", label=ASTUCE,
          titre="Un contact d'urgence *clair et affiché.*",
          texte="Dans le livret et près de la porte : qui appeler en cas de souci, et pour quoi. Le voyageur ne doit jamais se sentir seul.",
          legende=f"""Une fuite, une coupure de courant, une serrure qui bloque : en cas de vrai problème, le voyageur doit savoir immédiatement vers qui se tourner.
@@ -1050,7 +1050,7 @@ Des photos justes, c'est un séjour qui commence bien.
 {H_CONC}"""),
 
     # 27 et 28 mars
-    dict(template="carte", photo="details-cles", label=ASTUCE,
+    dict(template="carte", photo_fichier="astuce-porte#5", label=ASTUCE,
          titre="Un bon séjour *se termine par un au revoir.*",
          texte="Un message le jour du départ, un merci, une invitation à revenir. C'est souvent ce qui déclenche un bel avis.",
          legende=f"""La dernière impression compte autant que la première. Un au revoir personnalisé, et le voyageur repart avec l'envie de revenir.

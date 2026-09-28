@@ -195,7 +195,7 @@ def photo_uri(p: dict) -> str:
 def taille_phrase(phrase: str) -> int:
     """Réduit la taille quand une ligne est longue, pour éviter les mots orphelins."""
     plus_longue = max(len(l.replace("*", "")) for l in phrase.split("\n"))
-    return 88 if plus_longue <= 22 else 76 if plus_longue <= 27 else 66
+    return 88 if plus_longue <= 22 else 76 if plus_longue <= 26 else 66
 
 
 def tpl_plein(p: dict) -> str:

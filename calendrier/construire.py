@@ -34,7 +34,9 @@ EXCLUES = {
     "details-cles": [3], "secteur-bureau": [1, 3, 6], "details-cafe": [6],
     "interieur-fenetre": [1, 3], "normandie-cote": [3, 6], "interieur-cheminee": [5],
     "interieur-chambre": [1], "interieur-salon": [5], "secteur-restaurant": [5],
-    "normandie-mont": [2, 3],
+    "normandie-mont": [2, 3], "astuce-plaid": [1, 2, 3, 4, 5, 6], "astuce-chargeur": [1, 6],
+    "astuce-chien": [], "astuce-enfants": [2, 3], "astuce-machine-cafe": [6], "astuce-menage": [2, 5],
+    "astuce-mot": [6], "astuce-parapluie": [1, 5, 6], "astuce-livret": [2, 4], "astuce-deux-verres": [1, 5, 6],
 }
 
 

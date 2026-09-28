@@ -1,5 +1,6 @@
 {
   "template": "carte",
+  "cadrage": "center 78%",
   "label": "Astuce d'accueil",
   "titre": "Un contact d'urgence *clair et affiché.*",
   "texte": "Dans le livret et près de la porte : qui appeler en cas de souci, et pour quoi. Le voyageur ne doit jamais se sentir seul.",
