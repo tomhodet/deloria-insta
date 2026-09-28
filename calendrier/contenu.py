@@ -8,10 +8,10 @@ aucun nom de client, jamais "à leur place".
 """
 
 H_CONC = "#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
-H_NORM = "#normandie #lehavre"
-H_PME = "#pme #automatisation #entrepreneur #normandie"
-H_DESIGN = "#identitevisuelle #chartegraphique #siteinternet #normandie"
-H_RESEAUX = "#reseauxsociaux #instagram #automatisation #normandie"
+H_NORM = "#normandie"
+H_PME = "#pme #automatisation #entrepreneur #france"
+H_DESIGN = "#identitevisuelle #chartegraphique #siteinternet #design"
+H_RESEAUX = "#reseauxsociaux #instagram #automatisation #communication"
 
 CONTACT = "Une question ? Écrivez-moi en message privé."
 
@@ -21,7 +21,7 @@ POSTS = [
          lieu="Étretat, Normandie", phrase="La côte ne dort jamais.\n*Vos voyageurs non plus.*", decalage=-230,
          legende=f"""Bienvenue chez DelorIA.
 
-Je m'appelle Tom, je suis ingénieur et je travaille depuis la région du Havre. Je construis des outils qui répondent aux voyageurs des conciergeries comme vous le feriez, de jour comme de nuit.
+Je m'appelle Tom, je suis ingénieur, basé en Normandie, et je travaille avec des conciergeries et des entreprises partout en France. Je construis des outils qui répondent aux voyageurs des conciergeries comme vous le feriez, de jour comme de nuit.
 
 Ici, je partage ce que j'apprends sur le terrain : ce qui marche, ce qui casse, et ce qu'on ne devrait jamais automatiser.
 
@@ -121,7 +121,7 @@ Un assistant qui annonce un prix finit donc par se tromper, et un voyageur qui s
 
     dict(template="service", label="Ce que l'assistant ne fait jamais", titre="Savoir ce qu'il ne faut *pas automatiser.*",
          points=["Annoncer un prix", "Donner le code d'accès", "Inventer une réponse qu'il n'a pas"],
-         signature="CONCIERGERIES · NORMANDIE",
+         signature="CONCIERGERIES · PARTOUT EN FRANCE",
          legende=f"""Un bon assistant se définit aussi par ce qu'il refuse de faire.
 
 Pas de prix, parce que le total final dépend de trop de paramètres. Pas de code d'accès, parce qu'il part déjà automatiquement au bon moment. Et pas d'invention : quand il ne sait pas, il vous passe la main.
@@ -249,7 +249,7 @@ Bon week-end.
 
     dict(template="service", label="Pour les PME", titre="Automatiser ce qui se répète, *garder ce qui compte.*",
          points=["Des devis préparés à partir de vos paramètres", "Des réponses aux mails qui reviennent sans cesse", "Vos procédures retrouvées en une question"],
-         signature="PME · NORMANDIE",
+         signature="PME · PARTOUT EN FRANCE",
          legende=f"""DelorIA ne travaille pas qu'avec des conciergeries.
 
 J'accompagne aussi des PME, notamment industrielles : préparer des devis, trier et préparer des réponses aux mails, retrouver une information dans une documentation technique. Tout ce qui se répète peut être allégé.
@@ -272,7 +272,7 @@ Préparer les réponses maintenant, c'est passer les fêtes un peu plus tranquil
     dict(template="plein", photo="saison-hiver-mer", phrase="L'hiver au bord de la mer\n*a ses fidèles.*",
          legende=f"""Il y a ceux qui ne viennent qu'en été, et ceux qui préfèrent la mer en hiver. Ces voyageurs-là méritent le même accueil.
 
-{H_NORM} #mer #hiver"""),
+#mer #hiver #france"""),
 
     dict(template="terrain_photo", photo_fichier="details-cafe#4", cadrage="center 60%", label="Note de terrain",
          titre="Deux voix dans la même conversation *sèment le doute.*",
@@ -329,7 +329,7 @@ L'assistant répond dans la langue de chaque voyageur, avec les informations du 
 
     dict(template="service", label="Comment on démarre", titre="Commencer petit, *pour bien commencer.*",
          points=["Un appel pour comprendre votre quotidien", "Un premier logement pour tester", "On élargit quand tout fonctionne"],
-         signature="CONCIERGERIES · NORMANDIE",
+         signature="CONCIERGERIES · PARTOUT EN FRANCE",
          legende=f"""Je ne branche jamais un assistant sur tout un parc d'un coup.
 
 On commence par un échange sur votre façon de travailler, puis un seul logement, le temps de vérifier que les réponses sont justes et que le ton vous ressemble. Ensuite seulement, on étend.
@@ -346,7 +346,7 @@ On commence par un échange sur votre façon de travailler, puis un seul logemen
     dict(template="plein", photo_fichier="interieur-cheminee#6", phrase="Joyeux Noël.\n*Le téléphone peut attendre.*",
          legende="""Joyeux Noël à toutes les conciergeries, à leurs équipes, et à tous ceux qui travaillent pendant que les autres sont en vacances.
 
-#joyeuxnoel #conciergerie #normandie"""),
+#joyeuxnoel #conciergerie #hotes"""),
 
     dict(template="terrain_photo", photo="accueil-panier", label="Note de terrain",
          titre="Un voyageur intéressé par un service, *c'est un revenu.*",
@@ -455,12 +455,14 @@ Chaque métier a ses tâches répétitives. Parlons des vôtres.
 
 {H_PME} #artisan"""),
 
-    dict(template="plein", photo="normandie-falaises", lieu="Étretat, Normandie", phrase="La Normandie,\n*c'est chez moi.*",
-         legende=f"""DelorIA est basée tout près du Havre, à quelques kilomètres de ces falaises.
+    dict(template="plein", photo="normandie-falaises", lieu="Étretat, Normandie", phrase="Où que vous soyez,\n*tout se fait à distance.*",
+         legende=f"""Je travaille avec des conciergeries et des entreprises dans toute la France.
 
-Travailler avec quelqu'un de proche, c'est pouvoir se rencontrer, s'appeler, et avoir un interlocuteur qui connaît votre région. En Normandie, un café est toujours possible.
+Un premier appel en visio suffit pour comprendre votre activité. La configuration, les tests et le suivi se font ensuite à distance, sans que vous ayez à vous déplacer.
 
-#etretat {H_NORM}"""),
+{CONTACT}
+
+#etretat {H_NORM} #france"""),
 
     dict(template="terrain_photo", photo="details-carnet", label="Note de terrain",
          titre="Une information, *un seul endroit.*",
@@ -474,14 +476,14 @@ Si le wifi est écrit à la fois dans votre logiciel de location et dans l'assis
 
     dict(template="service", label="Ce que je fais", titre="Un seul interlocuteur *pour tout ce qui se répète.*",
          points=["Les réponses à vos voyageurs", "Vos sites et votre identité visuelle", "Vos publications sur les réseaux"],
-         signature="DELORIA · NORMANDIE",
+         signature="PARTOUT EN FRANCE",
          legende=f"""En résumé, DelorIA, c'est :
 
 Un assistant qui répond à vos voyageurs comme vous le feriez.
 Des sites, logos et chartes graphiques à votre image.
 Des publications automatisées sur vos réseaux, comme ce compte.
 
-Et un interlocuteur unique, près de chez vous.
+Et un interlocuteur unique, qui vous répond directement.
 
 {CONTACT}
 
@@ -517,7 +519,7 @@ Partager le calendrier et les réservations, oui. Ouvrir la messagerie, non : si
     dict(template="plein", photo="interieur-fenetre", phrase="Dehors, il pleut.\n*Dedans, tout est prêt.*",
          legende=f"""Février en Normandie. Le bon temps pour un plaid, un livre, et un téléphone silencieux.
 
-{H_CONC} {H_NORM}"""),
+{H_CONC}"""),
 
     dict(template="constat", label="Vacances d'hiver",
          texte="Les vacances d'hiver commencent.\nLes réservations repartent.", chute="Et les questions avec elles.",
@@ -599,7 +601,7 @@ C'est un effet secondaire très utile. Avant la saison, tout ce que vous dites �
     # ─────────────── MARS 2027 ───────────────
     dict(template="service", label="Avant la saison", titre="Trois choses *à vérifier maintenant.*",
          points=["Vos annonces disent exactement la vérité", "Vos messages programmés ne se contredisent pas", "Vos réponses aux questions courantes sont prêtes"],
-         signature="CONCIERGERIES · NORMANDIE",
+         signature="CONCIERGERIES · PARTOUT EN FRANCE",
          legende=f"""Une petite liste avant le printemps.
 
 Une annonce fidèle évite les mauvaises surprises. Des messages cohérents évitent les confusions. Et des réponses prêtes vous évitent de retaper les mêmes phrases tout l'été.
@@ -699,16 +701,16 @@ Des horaires justes sur Google, des publications régulières sans y penser, des
 
 {H_CONC}"""),
 
-    dict(template="service", label="Pourquoi DelorIA", titre="Un ingénieur près du Havre, *pas une plateforme.*",
+    dict(template="service", label="Pourquoi DelorIA", titre="Un ingénieur, *pas une plateforme.*",
          points=["Je configure tout avec vous", "Je surveille ce que j'installe", "Je réponds quand vous m'écrivez"],
-         signature="LE HAVRE · NORMANDIE",
+         signature="PARTOUT EN FRANCE",
          legende=f"""Les grands logiciels vendent des fonctionnalités. Je propose un accompagnement.
 
-Je configure chaque outil avec vous, je surveille ce que j'installe, et vous avez quelqu'un à appeler. Près de chez vous.
+Je configure chaque outil avec vous, je surveille ce que j'installe, et vous avez quelqu'un à appeler. Où que vous soyez en France.
 
 {CONTACT}
 
-{H_CONC} {H_NORM}"""),
+{H_CONC}"""),
 
     dict(template="terrain", label="Note de terrain",
          titre="Deux logements, *deux fiches.*",
@@ -784,13 +786,13 @@ Une carte posée à l'entrée, et le message du soir disparaît.
 
     # 31 octobre et 1er novembre
     dict(template="carte", photo_fichier="astuce-parapluie#4", label=ASTUCE,
-         titre="En Normandie, *un parapluie dans l'entrée.*",
+         titre="Un jour de pluie, *un parapluie dans l'entrée.*",
          texte="Le détail qui fait sourire les voyageurs, et qui leur sauve une journée de balade.",
-         legende=f"""On ne va pas se mentir, il pleut parfois en Normandie.
+         legende=f"""La météo ne se commande pas, même en vacances.
 
 Un parapluie à disposition, c'est une attention qui coûte peu et que les voyageurs n'oublient pas.
 
-{H_ACC} {H_NORM}"""),
+{H_ACC}"""),
     dict(template="constat", label="Fin des vacances",
          texte="Les vacances se terminent.\nLes derniers voyageurs repartent.", chute="Les avis arrivent.",
          legende=f"""Après les départs, les avis. Pensez à remercier ceux qui en laissent, même quand tout s'est bien passé.
@@ -807,7 +809,7 @@ Un parapluie à disposition, c'est une attention qui coûte peu et que les voyag
     dict(template="plein", photo="saison-hiver-mer", phrase="Au bord de l'eau,\n*le calme de novembre.*",
          legende=f"""La mer hors saison a quelque chose d'unique. Bon dimanche.
 
-#mer {H_NORM}"""),
+#mer #hiver #france"""),
 
     # 14 et 15 novembre
     dict(template="carte", photo="interieur-chambre", label=ASTUCE,
@@ -1083,7 +1085,7 @@ Des photos justes, c'est un séjour qui commence bien.
 # réseaux et automatisation PME. Ces posts remplacent, à la même date, le post
 # de semaine prévu initialement. Clé = date de publication.
 
-H_PME2 = "#pme #automatisation #industrie #normandie #entrepreneur"
+H_PME2 = "#pme #automatisation #industrie #entrepreneur #france"
 DESIGN = "Note de design"
 INGE = "Note d'ingénieur"
 
@@ -1163,7 +1165,7 @@ Un assistant interne peut répondre à partir de vos propres documents, en citan
 
     "2026-12-21": dict(template="service", label="Comment se passe un projet", titre="Commencer par une tâche, *pas par tout.*",
          points=["Un échange pour repérer ce qui se répète", "Un premier outil sur une seule tâche", "On mesure, puis on élargit"],
-         signature="PME · NORMANDIE",
+         signature="PME · PARTOUT EN FRANCE",
          legende=f"""Je ne propose jamais de tout automatiser d'un coup.
 
 On part d'une seule tâche, celle qui revient le plus souvent. On la traite bien, on vérifie le gain, et seulement ensuite on passe à la suivante.
@@ -1174,7 +1176,7 @@ On part d'une seule tâche, celle qui revient le plus souvent. On la traite bien
 
     "2026-12-28": dict(template="service", label="Identité visuelle", titre="Ce que comprend *une identité visuelle.*",
          points=["Un logo en plusieurs versions", "Une palette et deux typographies", "Des règles d'usage simples"],
-         signature="DELORIA · NORMANDIE",
+         signature="PARTOUT EN FRANCE",
          legende=f"""Un logo seul ne fait pas une identité.
 
 Ce qui rend une marque reconnaissable, c'est la cohérence : les mêmes couleurs, les mêmes polices et les mêmes règles sur le site, les réseaux, les devis et les cartes de visite.
@@ -1185,7 +1187,7 @@ Ce qui rend une marque reconnaissable, c'est la cohérence : les mêmes couleurs
 
     "2026-12-30": dict(template="service", label="Sites internet", titre="Un site en trois étapes, *sans jargon.*",
          points=["Un échange pour comprendre votre activité", "Une maquette à valider ensemble", "La mise en ligne et les réglages"],
-         signature="DELORIA · NORMANDIE",
+         signature="PARTOUT EN FRANCE",
          legende=f"""Pour l'année qui vient, peut-être un nouveau site ?
 
 Je travaille simplement : on parle de votre activité, je vous montre une maquette, on ajuste, puis je m'occupe de la mise en ligne.

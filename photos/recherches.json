@@ -1,19 +1,15 @@
 {
   "nombre_par_recherche": 6,
   "recherches": [
-    { "dossier": "astuce-livret",      "requete": "guest book welcome table" },
-    { "dossier": "astuce-parapluie",   "requete": "umbrella entrance hallway" },
-    { "dossier": "astuce-plaid",       "requete": "cozy blanket sofa" },
-    { "dossier": "astuce-machine-cafe","requete": "coffee machine kitchen counter" },
-    { "dossier": "astuce-jardin",      "requete": "garden furniture terrace" },
-    { "dossier": "astuce-chargeur",    "requete": "phone charger bedside table" },
-    { "dossier": "astuce-enfants",     "requete": "kids bedroom interior" },
-    { "dossier": "astuce-chien",       "requete": "dog bed home interior" },
-    { "dossier": "astuce-deux-verres", "requete": "two wine glasses candle table" },
-    { "dossier": "astuce-menage",      "requete": "cleaning supplies home" },
-    { "dossier": "astuce-rue",         "requete": "quiet village street parked cars" },
-    { "dossier": "astuce-lampe",       "requete": "lamp at night cozy living room" },
-    { "dossier": "astuce-porte",       "requete": "front door house entrance" },
-    { "dossier": "astuce-mot",         "requete": "handwritten note on table" }
+    { "dossier": "region-provence",   "requete": "Provence lavender field" },
+    { "dossier": "region-alpes",      "requete": "French Alps chalet snow" },
+    { "dossier": "region-bretagne",   "requete": "Brittany coast France" },
+    { "dossier": "region-annecy",     "requete": "Annecy lake" },
+    { "dossier": "region-bordeaux",   "requete": "Bordeaux vineyard" },
+    { "dossier": "region-nice",       "requete": "Nice France coast" },
+    { "dossier": "region-biarritz",   "requete": "Biarritz" },
+    { "dossier": "region-paris",      "requete": "Paris rooftops" },
+    { "dossier": "region-lyon",       "requete": "Lyon France" },
+    { "dossier": "region-corse",      "requete": "Corsica beach" }
   ]
 }
