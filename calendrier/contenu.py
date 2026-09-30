@@ -27,23 +27,25 @@ Ici, je partage ce que j'apprends sur le terrain : ce qui marche, ce qui casse, 
 
 {H_CONC} #etretat {H_NORM}"""),
 
-    dict(template="constat", label="Le quotidien d'une conciergerie",
-         texte="Un voyageur écrit à 22h43 pour savoir où se garer.\nQuelqu'un répond forcément.", chute="Aujourd'hui, c'est vous.",
-         legende=f"""Un voyageur qui cherche où se garer n'attend pas le lendemain. Il écrit maintenant, et il attend une réponse maintenant.
+    dict(template="constat", photo_fichier="astuce-rue#2", label="Le quotidien d'une conciergerie",
+         texte="22h43.\n« Je me gare où ? »", chute="Quelqu'un répond toujours.\nAujourd'hui, c'est vous.",
+         legende=f"""Le voyageur n'attend pas le lendemain. Il écrit maintenant, et il attend une réponse maintenant.
 
-Dans beaucoup de conciergeries, cette réponse part du téléphone personnel du gérant, entre deux autres choses. C'est ce quotidien que je veux alléger.
+Dans beaucoup de conciergeries, cette réponse part du téléphone personnel du gérant, en plein dîner.
+
+Ce n'est pas un problème d'organisation. C'est un problème de disponibilité. Et la disponibilité, ça se délègue.
 
 {H_CONC}"""),
 
     dict(template="terrain_photo", photo="details-telephone", cadrage="center 85%", label="Note de terrain",
-         titre="Airbnb refuse tout message qui contient *un lien.*",
-         texte="Un nom de site, une adresse e-mail, un numéro de téléphone : le message entier est bloqué. Le voyageur ne reçoit rien.",
-         chute="Ce qui répond à vos voyageurs doit le savoir.",
-         legende=f"""Airbnb bloque les messages qui contiennent une coordonnée, pour éviter qu'on sorte de la plateforme. Ce n'est pas seulement le lien qui saute : c'est tout le message.
+         titre="Un lien dans un message,\n*et Airbnb bloque tout.*",
+         texte="Un site, une adresse e-mail, un numéro : le message entier ne part pas. Un outil automatique n'en sait rien.",
+         chute="Le voyageur attend une réponse qui n'arrivera jamais.",
+         legende=f"""Je l'ai appris en conditions réelles. Une bonne réponse sur les pharmacies de garde, avec le nom d'un site. Airbnb a refusé le message entier. Le voyageur n'a rien reçu.
 
-Quand vous écrivez vous-même, l'application vous prévient. Un outil automatique, lui, peut ne jamais le savoir.
+Quand vous écrivez vous-même, l'application vous prévient. Un outil automatique, non.
 
-C'est pour ça que l'assistant que je configure n'écrit aucune coordonnée. Pour une adresse précise, il vous passe la main.
+Depuis, l'assistant que je configure n'écrit aucune coordonnée. Pour une adresse précise, il vous passe la main.
 
 {H_CONC}"""),
 
@@ -745,15 +747,17 @@ ASTUCE = "Astuce d'accueil"
 WEEKEND = [
     # 10 et 11 octobre
     dict(template="carte", photo_fichier="astuce-lampe#1", label=ASTUCE,
-         titre="Une lampe allumée *pour une arrivée de nuit.*",
-         texte="Un voyageur qui arrive tard cherche l'interrupteur dans le noir. Une lampe laissée allumée change la première impression.",
-         legende=f"""Nouvelle série du samedi : une astuce d'accueil simple, applicable dès ce week-end.
+         titre="Arrivée à 23h.\n*Où est l'interrupteur ?*",
+         texte="Laissez une lampe allumée pour les arrivées tardives. Ça ne coûte rien. Ça change la première minute.",
+         legende=f"""Nouvelle série du samedi : une astuce d'accueil par semaine, applicable dès ce week-end.
 
-La première minute dans un logement compte énormément. Arriver de nuit dans une pièce éclairée, c'est se sentir attendu.
+Arriver de nuit dans un logement inconnu, c'est chercher l'interrupteur à tâtons, les valises à la main. Arriver dans une pièce éclairée, c'est se sentir attendu.
 
 {H_ACC}"""),
-    dict(template="plein", photo="interieur-lit", phrase="Dimanche.\n*Le téléphone peut dormir aussi.*",
-         legende=f"""Bon dimanche à toutes les conciergeries.
+    dict(template="plein", photo="interieur-lit", voile=0.55, phrase="Dimanche.\n*Qui répond à vos voyageurs ?*",
+         legende=f"""Si la réponse est vous, ce n'est pas vraiment un dimanche.
+
+Bon dimanche à toutes les conciergeries.
 
 {H_CONC}"""),
 
@@ -1293,43 +1297,50 @@ Le test le plus simple : le réduire à la taille d'un ongle et voir ce qu'il en
 # Semaine d'ouverture, avant le lundi 5 octobre. Photos imposées, jamais utilisées ailleurs,
 # gabarits sans numérotation de série : le reste du calendrier n'est pas modifié.
 AVANT_PREMIERE = {
-    "2026-09-30": dict(template="constat", label="Identité visuelle",
-         texte="Un logo flou.\nTrois polices.\nDes couleurs qui changent\nd'un support à l'autre.",
-         chute="Vos clients le remarquent avant vous.",
-         legende=f"""Une identité visuelle cohérente ne se remarque pas. Une identité incohérente, si.
+    "2026-09-30": dict(template="constat", photo_fichier="secteur-artisan#6", label="Identité visuelle",
+         texte="Tout a changé\ndepuis vos débuts.", chute="Sauf votre logo.",
+         legende=f"""Vos clients, vos outils, votre niveau : tout a progressé. Le logo, lui, date souvent de la première semaine.
 
-Un logo net, deux typographies, quelques couleurs, et les mêmes règles partout : site, réseaux, devis, carte de visite. C'est ce qu'on appelle une charte graphique, et c'est souvent le premier chantier avant un site.
+Personne ne vous en parlera. Un client qui ne vous connaît pas encore compare quelques secondes, puis choisit.
+
+Une charte graphique, c'est la même image partout. La bonne.
 
 {CONTACT}
 
 {H_DESIGN}"""),
 
     "2026-10-02": dict(template="plein", photo_fichier="region-lyon#3", lieu="Lyon", decalage=-250,
-         phrase="Les villes changent.\n*Les questions restent.*",
-         legende=f"""Lyon, Biarritz, Annecy ou la côte normande : d'une conciergerie à l'autre, les voyageurs posent les mêmes questions. L'arrivée, le stationnement, le wifi, les commerces autour.
+         phrase="Deux conciergeries, une ville.\n*On se souvient d'une seule.*",
+         legende=f"""Même quartier, mêmes prestations, souvent le même prix. La différence se joue ailleurs.
 
-Ce qui change, ce sont les réponses. Chaque logement a les siennes, et c'est avec elles que je configure l'assistant.
+Une réponse qui arrive tout de suite. Un ton qui ressemble à une personne. Le détail prévu avant qu'on le demande.
+
+C'est là que naît le souvenir. Et l'avis qui va avec.
 
 {CONTACT}
 
 {H_CONC} #lyon"""),
 
     "2026-10-03": dict(template="plein", photo_fichier="details-linge#6", decalage=-420,
-         phrase="Samedi, jour de rotation.\n*Courage aux équipes.*",
-         legende=f"""Le samedi, les départs et les arrivées s'enchaînent. Le ménage, le linge, les vérifications, et les messages qui continuent d'arriver pendant ce temps.
+         phrase="Samedi, les draps changent.\n*Les questions, jamais.*",
+         legende=f"""Jour de rotation. Pendant que les équipes font les lits, les messages continuent d'arriver : l'heure d'arrivée, le parking, le code du wifi.
+
+Toujours les mêmes. C'est exactement ce qui se délègue.
 
 Courage à toutes les équipes sur le terrain aujourd'hui.
 
 {H_CONC}"""),
 
-    "2026-10-04": dict(template="service", label="DelorIA en bref",
-         titre="Vous rendre du temps,\n*sans perdre votre style.*",
-         points=["Répondre à vos voyageurs comme vous le feriez",
-                 "Publier sur vos réseaux sans y penser",
-                 "Créer un site et une identité à votre image"],
-         legende=f"""Pour ceux qui découvrent ce compte, voici ce que je fais.
+    "2026-10-04": dict(template="service", photo_fichier="details-carnet#6", label="DelorIA en bref",
+         titre="Automatiser\nce qui se répète.\n*Jamais ce qui vous distingue.*",
+         points=["Les réponses à vos voyageurs, dans leur langue",
+                 "Vos publications, prêtes des mois à l'avance",
+                 "Votre site et votre identité, sur mesure"],
+         legende=f"""Pour ceux qui découvrent ce compte.
 
-Pour les conciergeries, un assistant qui répond aux voyageurs avec les informations de chaque logement. Pour les entreprises et les indépendants, des publications préparées des mois à l'avance et publiées seules. Et pour tous, des sites et des identités visuelles sur mesure.
+Aux conciergeries, un assistant qui répond aux voyageurs avec les informations de chaque logement. Aux entreprises et aux indépendants, des publications prêtes des mois à l'avance. À tous, des sites et des identités visuelles sur mesure.
+
+Une règle pour tout : ce qui fait votre style ne s'automatise pas.
 
 {CONTACT}
 

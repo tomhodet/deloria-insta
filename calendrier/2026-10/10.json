@@ -1,9 +1,9 @@
 {
   "template": "carte",
   "label": "Astuce d'accueil",
-  "titre": "Une lampe allumée *pour une arrivée de nuit.*",
-  "texte": "Un voyageur qui arrive tard cherche l'interrupteur dans le noir. Une lampe laissée allumée change la première impression.",
+  "titre": "Arrivée à 23h.\n*Où est l'interrupteur ?*",
+  "texte": "Laissez une lampe allumée pour les arrivées tardives. Ça ne coûte rien. Ça change la première minute.",
   "photo": "photos/pexels/astuce-lampe/14367647_denis-gvozdov.jpg",
   "numero": "01",
-  "legende": "Nouvelle série du samedi : une astuce d'accueil simple, applicable dès ce week-end.\n\nLa première minute dans un logement compte énormément. Arriver de nuit dans une pièce éclairée, c'est se sentir attendu.\n\nPhoto : Denis Gvozdov / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "Nouvelle série du samedi : une astuce d'accueil par semaine, applicable dès ce week-end.\n\nArriver de nuit dans un logement inconnu, c'est chercher l'interrupteur à tâtons, les valises à la main. Arriver dans une pièce éclairée, c'est se sentir attendu.\n\nPhoto : Denis Gvozdov / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

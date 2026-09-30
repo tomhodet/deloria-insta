@@ -75,6 +75,20 @@ def ornament(color: str) -> str:
             f'<div class="l" style="background:var({color})"></div></div>')
 
 
+def fond_photo(p: dict, teinte: str) -> str:
+    """Photo pleine page en fond, derrière le texte. 'noir' : noir et blanc assombri.
+    'marron' : noir et blanc teinté marron de la charte. Aucun dégradé."""
+    if not p.get("photo"):
+        return ""
+    cadrage = p.get("cadrage", "center")
+    img = (f'<img src="{photo_uri(p)}" style="position:absolute; inset:0; width:100%; height:100%; z-index:-1; '
+           f'object-fit:cover; object-position:{cadrage}; filter:grayscale(1) contrast(1.06)">')
+    if teinte == "marron":
+        return (img + '<div style="position:absolute; inset:0; z-index:-1; background:#8A5A3C; mix-blend-mode:color"></div>'
+                f'<div style="position:absolute; inset:0; z-index:-1; background:rgba(59,35,20,{p.get("voile", 0.84)})"></div>')
+    return img + f'<div style="position:absolute; inset:0; z-index:-1; background:rgba(13,13,13,{p.get("voile", 0.6)})"></div>'
+
+
 def tpl_constat(p: dict) -> str:
     """Noir + crème + or. Un constat du quotidien, une chute en italique or."""
     return f"""
@@ -84,11 +98,11 @@ body {{ background: var(--noir); color: var(--blanc); }}
 .r1 {{ width: 980px; height: 980px; opacity: 0.07; }}
 .r2 {{ width: 700px; height: 700px; opacity: 0.11; }}
 .body {{ margin-top: auto; margin-bottom: auto; position: relative; }}
-.texte {{ font-family: 'Cormorant'; font-weight: 300; font-size: 76px; line-height: 1.12; letter-spacing: 0.01em; }}
-.chute {{ font-family: 'Cormorant'; font-style: italic; font-weight: 400; font-size: 84px; line-height: 1.1; color: var(--or); margin-top: 44px; }}
+.texte {{ font-family: 'Cormorant'; font-weight: 300; font-size: {92 if len(p['texte']) <= 40 else 76}px; line-height: 1.1; letter-spacing: 0.01em; }}
+.chute {{ font-family: 'Cormorant'; font-style: italic; font-weight: 400; font-size: {96 if len(p['chute']) <= 24 else 84}px; line-height: 1.08; color: var(--or); margin-top: 44px; }}
 </style>
 <div class="frame">
-  <div class="ring r1"></div><div class="ring r2"></div>
+  {fond_photo(p, "noir") or '<div class="ring r1"></div><div class="ring r2"></div>'}
   <div class="label" style="color:var(--or); position:relative">{esc(p['label'])}</div>
   <div class="body">
     <div class="texte">{esc(p['texte'])}</div>
@@ -143,6 +157,7 @@ body {{ background: var(--marron); color: var(--blanc); }}
 .item .d {{ flex: none; width: 10px; height: 10px; background: var(--or); transform: rotate(45deg) translateY(-6px); }}
 </style>
 <div class="frame">
+  {fond_photo(p, "marron")}
   <div class="label" style="color:var(--beige); opacity:.7">{esc(p['label'])}</div>
   <div class="titre">{esc(p['titre'])}</div>
   <div class="items">{items}</div>

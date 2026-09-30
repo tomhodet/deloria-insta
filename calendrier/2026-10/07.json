@@ -1,7 +1,8 @@
 {
   "template": "constat",
   "label": "Le quotidien d'une conciergerie",
-  "texte": "Un voyageur écrit à 22h43 pour savoir où se garer.\nQuelqu'un répond forcément.",
-  "chute": "Aujourd'hui, c'est vous.",
-  "legende": "Un voyageur qui cherche où se garer n'attend pas le lendemain. Il écrit maintenant, et il attend une réponse maintenant.\n\nDans beaucoup de conciergeries, cette réponse part du téléphone personnel du gérant, entre deux autres choses. C'est ce quotidien que je veux alléger.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "texte": "22h43.\n« Je me gare où ? »",
+  "chute": "Quelqu'un répond toujours.\nAujourd'hui, c'est vous.",
+  "photo": "photos/pexels/astuce-rue/18713046_mathilde-langevin.jpg",
+  "legende": "Le voyageur n'attend pas le lendemain. Il écrit maintenant, et il attend une réponse maintenant.\n\nDans beaucoup de conciergeries, cette réponse part du téléphone personnel du gérant, en plein dîner.\n\nCe n'est pas un problème d'organisation. C'est un problème de disponibilité. Et la disponibilité, ça se délègue.\n\nPhoto : Mathilde Langevin / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

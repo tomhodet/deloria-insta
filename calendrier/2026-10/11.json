@@ -1,6 +1,7 @@
 {
   "template": "plein",
-  "phrase": "Dimanche.\n*Le téléphone peut dormir aussi.*",
+  "voile": 0.55,
+  "phrase": "Dimanche.\n*Qui répond à vos voyageurs ?*",
   "photo": "photos/pexels/interieur-lit/10133744_pauline-raw.jpg",
-  "legende": "Bon dimanche à toutes les conciergeries.\n\nPhoto : Pauline Raw / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "legende": "Si la réponse est vous, ce n'est pas vraiment un dimanche.\n\nBon dimanche à toutes les conciergeries.\n\nPhoto : Pauline Raw / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

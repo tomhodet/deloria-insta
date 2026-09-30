@@ -2,10 +2,10 @@
   "template": "terrain_photo",
   "cadrage": "center 85%",
   "label": "Note de terrain",
-  "titre": "Airbnb refuse tout message qui contient *un lien.*",
-  "texte": "Un nom de site, une adresse e-mail, un numéro de téléphone : le message entier est bloqué. Le voyageur ne reçoit rien.",
-  "chute": "Ce qui répond à vos voyageurs doit le savoir.",
+  "titre": "Un lien dans un message,\n*et Airbnb bloque tout.*",
+  "texte": "Un site, une adresse e-mail, un numéro : le message entier ne part pas. Un outil automatique n'en sait rien.",
+  "chute": "Le voyageur attend une réponse qui n'arrivera jamais.",
   "photo": "photos/pexels/details-telephone/14988552_merve.jpg",
   "numero": "01",
-  "legende": "Airbnb bloque les messages qui contiennent une coordonnée, pour éviter qu'on sorte de la plateforme. Ce n'est pas seulement le lien qui saute : c'est tout le message.\n\nQuand vous écrivez vous-même, l'application vous prévient. Un outil automatique, lui, peut ne jamais le savoir.\n\nC'est pour ça que l'assistant que je configure n'écrit aucune coordonnée. Pour une adresse précise, il vous passe la main.\n\nPhoto : Merve / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "legende": "Je l'ai appris en conditions réelles. Une bonne réponse sur les pharmacies de garde, avec le nom d'un site. Airbnb a refusé le message entier. Le voyageur n'a rien reçu.\n\nQuand vous écrivez vous-même, l'application vous prévient. Un outil automatique, non.\n\nDepuis, l'assistant que je configure n'écrit aucune coordonnée. Pour une adresse précise, il vous passe la main.\n\nPhoto : Merve / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }
