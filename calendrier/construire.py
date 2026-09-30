@@ -17,7 +17,7 @@ from pathlib import Path
 ICI = Path(__file__).resolve().parent
 REPO = ICI.parent
 sys.path.insert(0, str(ICI))
-from contenu import POSTS, WEEKEND, REMPLACEMENTS  # noqa: E402
+from contenu import POSTS, WEEKEND, REMPLACEMENTS, AVANT_PREMIERE  # noqa: E402
 
 DEBUT = dt.date(2026, 10, 5)          # lundi
 JOURS_SEMAINE = {0, 2, 4}             # lundi, mercredi, vendredi
@@ -87,6 +87,7 @@ def main() -> None:
     inconnues = set(REMPLACEMENTS) - {j.isoformat() for j, _ in planning}
     assert not inconnues, f"Dates de remplacement hors calendrier : {inconnues}"
     planning = [(j, REMPLACEMENTS.get(j.isoformat(), p)) for j, p in planning]
+    planning = [(dt.date.fromisoformat(j), p) for j, p in AVANT_PREMIERE.items()] + planning
     tous = [p for _, p in planning]
     utilisees: Counter = Counter()
     imposees = {resoudre_fichier(p["photo_fichier"]) for p in tous if p.get("photo_fichier")}

@@ -1288,3 +1288,50 @@ Le test le plus simple : le réduire à la taille d'un ongle et voir ce qu'il en
 
 {H_DESIGN}"""),
 }
+
+
+# Semaine d'ouverture, avant le lundi 5 octobre. Photos imposées, jamais utilisées ailleurs,
+# gabarits sans numérotation de série : le reste du calendrier n'est pas modifié.
+AVANT_PREMIERE = {
+    "2026-09-30": dict(template="constat", label="Identité visuelle",
+         texte="Un logo flou.\nTrois polices.\nDes couleurs qui changent\nd'un support à l'autre.",
+         chute="Vos clients le remarquent avant vous.",
+         legende=f"""Une identité visuelle cohérente ne se remarque pas. Une identité incohérente, si.
+
+Un logo net, deux typographies, quelques couleurs, et les mêmes règles partout : site, réseaux, devis, carte de visite. C'est ce qu'on appelle une charte graphique, et c'est souvent le premier chantier avant un site.
+
+{CONTACT}
+
+{H_DESIGN}"""),
+
+    "2026-10-02": dict(template="plein", photo_fichier="region-lyon#3", lieu="Lyon", decalage=-250,
+         phrase="Les villes changent.\n*Les questions restent.*",
+         legende=f"""Lyon, Biarritz, Annecy ou la côte normande : d'une conciergerie à l'autre, les voyageurs posent les mêmes questions. L'arrivée, le stationnement, le wifi, les commerces autour.
+
+Ce qui change, ce sont les réponses. Chaque logement a les siennes, et c'est avec elles que je configure l'assistant.
+
+{CONTACT}
+
+{H_CONC} #lyon"""),
+
+    "2026-10-03": dict(template="plein", photo_fichier="details-linge#6", decalage=-420,
+         phrase="Samedi, jour de rotation.\n*Courage aux équipes.*",
+         legende=f"""Le samedi, les départs et les arrivées s'enchaînent. Le ménage, le linge, les vérifications, et les messages qui continuent d'arriver pendant ce temps.
+
+Courage à toutes les équipes sur le terrain aujourd'hui.
+
+{H_CONC}"""),
+
+    "2026-10-04": dict(template="service", label="DelorIA en bref",
+         titre="Vous rendre du temps,\n*sans perdre votre style.*",
+         points=["Répondre à vos voyageurs comme vous le feriez",
+                 "Publier sur vos réseaux sans y penser",
+                 "Créer un site et une identité à votre image"],
+         legende=f"""Pour ceux qui découvrent ce compte, voici ce que je fais.
+
+Pour les conciergeries, un assistant qui répond aux voyageurs avec les informations de chaque logement. Pour les entreprises et les indépendants, des publications préparées des mois à l'avance et publiées seules. Et pour tous, des sites et des identités visuelles sur mesure.
+
+{CONTACT}
+
+#automatisation #conciergerie #siteinternet #reseauxsociaux #pme #entrepreneur"""),
+}
