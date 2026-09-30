@@ -1297,7 +1297,7 @@ Le test le plus simple : le réduire à la taille d'un ongle et voir ce qu'il en
 # Semaine d'ouverture, avant le lundi 5 octobre. Photos imposées, jamais utilisées ailleurs,
 # gabarits sans numérotation de série : le reste du calendrier n'est pas modifié.
 AVANT_PREMIERE = {
-    "2026-09-30": dict(template="constat", photo_fichier="secteur-artisan#6", label="Identité visuelle",
+    "2026-09-30": dict(template="constat", ton="clair", photo_fichier="secteur-artisan#6", label="Identité visuelle",
          texte="Tout a changé\ndepuis vos débuts.", chute="Sauf votre logo.",
          legende=f"""Vos clients, vos outils, votre niveau : tout a progressé. Le logo, lui, date souvent de la première semaine.
 
