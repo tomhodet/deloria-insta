@@ -1,15 +1,26 @@
 {
   "nombre_par_recherche": 6,
   "recherches": [
-    { "dossier": "region-provence",   "requete": "Provence lavender field" },
-    { "dossier": "region-alpes",      "requete": "French Alps chalet snow" },
-    { "dossier": "region-bretagne",   "requete": "Brittany coast France" },
-    { "dossier": "region-annecy",     "requete": "Annecy lake" },
-    { "dossier": "region-bordeaux",   "requete": "Bordeaux vineyard" },
-    { "dossier": "region-nice",       "requete": "Nice France coast" },
-    { "dossier": "region-biarritz",   "requete": "Biarritz" },
-    { "dossier": "region-paris",      "requete": "Paris rooftops" },
-    { "dossier": "region-lyon",       "requete": "Lyon France" },
-    { "dossier": "region-corse",      "requete": "Corsica beach" }
+    { "dossier": "site-bureau-clair",   "requete": "minimal white desk laptop" },
+    { "dossier": "site-bureau-sombre",  "requete": "laptop dark moody desk" },
+    { "dossier": "reseaux-telephone",   "requete": "smartphone flat lay minimal beige" },
+    { "dossier": "reseaux-appareil",    "requete": "camera flat lay minimal" },
+    { "dossier": "reseaux-planning",    "requete": "planner calendar minimal desk" },
+    { "dossier": "design-nuancier",     "requete": "color swatches design" },
+    { "dossier": "design-typographie",  "requete": "letterpress type" },
+    { "dossier": "design-papeterie",    "requete": "stationery branding mockup" },
+    { "dossier": "design-croquis",      "requete": "designer sketching pencil paper" },
+    { "dossier": "design-sceau",        "requete": "wax seal letter" },
+    { "dossier": "texture-papier",      "requete": "beige paper texture" },
+    { "dossier": "texture-lin",         "requete": "linen fabric texture beige" },
+    { "dossier": "temps-sablier",       "requete": "hourglass" },
+    { "dossier": "temps-horlogerie",    "requete": "watch movement macro" },
+    { "dossier": "auto-engrenages",     "requete": "brass gears mechanism" },
+    { "dossier": "pme-courrier",        "requete": "envelopes letters desk" },
+    { "dossier": "pme-dossiers",        "requete": "paperwork stack office" },
+    { "dossier": "commerce-vitrine",    "requete": "boutique storefront window" },
+    { "dossier": "strategie-echecs",    "requete": "chess pieces dark" },
+    { "dossier": "bureau-nuit",         "requete": "office window night city" },
+    { "dossier": "porte-lumiere",       "requete": "open door light minimal" }
   ]
 }
