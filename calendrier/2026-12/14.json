@@ -1,10 +1,11 @@
 {
   "template": "terrain_photo",
-  "label": "Note de design",
-  "titre": "Une couleur d'accent, *utilisée avec parcimonie.*",
-  "texte": "Dans ma charte, l'or n'apparaît que sur quelques détails. C'est ce qui lui garde sa valeur.",
-  "chute": "Ce qui est partout ne se remarque plus.",
-  "photo": "photos/pexels/astuce-lampe/39007189_oguzcan-culla.jpg",
-  "numero": "02",
-  "legende": "Une palette réussie repose souvent sur une couleur forte, réservée aux éléments importants.\n\nUtilisée partout, elle devient du bruit. Utilisée avec retenue, elle guide le regard.\n\nPhoto : Oguzcan Culla / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #design"
+  "label": "Note de terrain",
+  "titre": "Un filtre oublié, et l'assistant\n*répond avec le mauvais logement.*",
+  "texte": "Le logiciel envoie les messages de tous les logements d'un compte au même endroit. Sans filtre, tout se mélange.",
+  "chute": "Chaque logement a son filtre.",
+  "photo": "photos/pexels/details-cles/15862185_coppertist-wu.jpg",
+  "ton": "clair",
+  "numero": "04",
+  "legende": "Une découverte faite en conditions réelles.\n\nUn même compte gère souvent plusieurs logements, et les messages de tous les voyageurs arrivent par la même porte. Sans filtre, un assistant pourrait répondre à un voyageur de la maison A avec les informations de l'appartement B.\n\nChaque logement a donc son filtre, vérifié avant chaque réponse. Ce détail ne se voit jamais en démonstration. Il se voit le jour où il manque.\n\nPhoto : Coppertist Wu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

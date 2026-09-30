@@ -1,23 +1,9 @@
 {
-  "template": "edito",
+  "template": "constat",
   "label": "Coulisses",
-  "titre": "Ce post a été publié *sans que personne n'appuie sur un bouton.*",
-  "texte": "Visuel, texte, date de publication : tout part automatiquement, cinq fois par semaine. Je peux mettre en place la même chose pour votre compte.",
-  "pictos": [
-    {
-      "icone": "calendrier",
-      "texte": "5 posts\npar semaine"
-    },
-    {
-      "icone": "pinceau",
-      "texte": "À vos\ncouleurs"
-    },
-    {
-      "icone": "engrenage",
-      "texte": "Sans y\npenser"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-bureau/8092313_https-kaboompics-com.jpg",
-  "legende": "Petit aveu : ce compte tourne tout seul.\n\nLes visuels sont générés à mes couleurs, les textes sont préparés à l'avance, et un automate publie cinq jours par semaine. Je n'ouvre Instagram que pour répondre à vos messages.\n\nSi vous voulez la même chose pour votre activité, parlons-en.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
+  "texte": "Ce compte publie\ncinq fois par semaine.",
+  "chute": "Je n'y touche pas.",
+  "photo": "photos/pexels/site-bureau-sombre/17717728_toni-ferreira.jpg",
+  "ton": "sombre",
+  "legende": "Petit aveu : ce compte tourne tout seul.\n\nLe calendrier est écrit des mois à l'avance. Les visuels sont générés à mes couleurs. Et chaque lundi, mercredi, vendredi, samedi et dimanche, un programme publie le post du jour à 17h30.\n\nJe n'ai pas moins de choses à dire. J'ai juste arrêté de les publier à la main.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Toni Ferreira, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

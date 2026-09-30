@@ -1,0 +1,10 @@
+{
+  "template": "slide",
+  "ton": "clair",
+  "label": "Identité visuelle",
+  "compteur": "04 / 06",
+  "numero": "03",
+  "titre": "Le test\n*du fond sombre.*",
+  "texte": "Posé sur une photo ou un fond foncé, reste-t-il net ? Sinon, il lui faut une version claire.",
+  "photo": "photos/pexels/texture-lin/15679399_lisett-kruusimae.jpg"
+}

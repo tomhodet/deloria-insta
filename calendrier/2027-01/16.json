@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Une arrivée autonome *s'explique en images.*",
-  "texte": "Une photo de la porte, une de la boîte à clés, une de l'interrupteur. Plus clair que trois paragraphes.",
-  "photo": "photos/pexels/astuce-porte/17490027_yelena-wegel.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Relisez votre annonce\n*avant chaque saison.*",
+  "texte": "Équipements, horaires, règles, photos : ce qui était vrai l'an dernier ne l'est peut-être plus.",
+  "photo": "photos/pexels/interieur-salle-bain/38782152_vladimir-lila.jpg",
+  "ton": "marron",
   "numero": "15",
-  "legende": "Pour une arrivée autonome, rien ne vaut quelques photos bien choisies. Le voyageur se repère tout de suite, même de nuit.\n\nPhoto : Yelena Wegel / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté accueil.\n\nUne annonce qui promet un équipement disparu, c'est un voyageur déçu et un avis moyen. Une relecture par saison suffit à l'éviter.\n\nC'est aussi ce qui garantit des réponses justes : l'assistant répond avec les informations que vous lui donnez.\n\nPhoto : Vladimir Lila / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

@@ -1,8 +1,9 @@
 {
-  "template": "plein",
-  "lieu": "Étretat, Normandie",
-  "phrase": "La côte ne dort jamais.\n*Vos voyageurs non plus.*",
-  "decalage": -230,
-  "photo": "photos/pexels/normandie-falaises/6395435_adrien-olichon.jpg",
-  "legende": "Bienvenue chez DelorIA.\n\nJe m'appelle Tom, je suis ingénieur, basé en Normandie, et je travaille avec des conciergeries et des entreprises partout en France. Je construis des outils qui répondent aux voyageurs des conciergeries comme vous le feriez, de jour comme de nuit.\n\nIci, je partage ce que j'apprends sur le terrain : ce qui marche, ce qui casse, et ce qu'on ne devrait jamais automatiser.\n\nPhoto : Adrien Olichon / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #etretat #normandie"
+  "template": "constat",
+  "label": "Qui est derrière",
+  "texte": "Je suis ingénieur.",
+  "chute": "Pas une agence.",
+  "photo": "photos/pexels/design-croquis/9617407_ron-lach.jpg",
+  "ton": "clair",
+  "legende": "Je m'appelle Tom. Ingénieur de formation, je conçois des systèmes qui prennent en charge le travail répétitif des entreprises et des conciergeries.\n\nPas de sous-traitance, pas d'intermédiaire : je configure avec vous, je surveille ce que j'installe, et vous savez à qui écrire quand vous avez une question.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ron Lach / Pexels\n\n#automatisation #entrepreneur #pme #conciergerie"
 }

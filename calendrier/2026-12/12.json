@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Des serviettes en plus, *bien en vue.*",
-  "texte": "Une pile rangée en évidence dans la salle de bain évite un message à 22h.",
-  "photo": "photos/pexels/details-linge/19014639_dmitriy-steinke.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Affichez le code wifi\n*là où on le cherche.*",
+  "texte": "Une petite carte près de l'entrée ou sur la table. C'est une question qu'on ne vous posera plus.",
+  "photo": "photos/pexels/design-papeterie/5420989_https-kaboompics-com.jpg",
+  "ton": "clair",
   "numero": "10",
-  "legende": "Si le voyageur doit chercher, il écrit. Si c'est visible, il se sert.\n\nPhoto : Dmitriy Steinke / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté accueil.\n\nLe wifi fait partie des toutes premières questions, et c'est la plus simple à éviter. Une carte élégante, bien placée, avec le nom du réseau et le mot de passe.\n\nUn message de moins pour vous, une première minute plus fluide pour le voyageur.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

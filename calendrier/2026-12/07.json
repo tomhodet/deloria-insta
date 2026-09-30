@@ -1,11 +1,11 @@
 {
   "template": "terrain_photo",
-  "cadrage": "center 60%",
-  "label": "Note de terrain",
-  "titre": "Deux voix dans la même conversation *sèment le doute.*",
-  "texte": "Messages programmés d'un côté, réponses de l'assistant de l'autre : si personne ne décide qui dit quoi, le voyageur reçoit des doublons.",
-  "chute": "On fait la liste avant de lancer, pas après.",
-  "photo": "photos/pexels/details-cafe/29392194_hubbugaye.jpg",
-  "numero": "05",
-  "legende": "Beaucoup de conciergeries utilisent déjà des messages programmés : bienvenue, instructions d'arrivée, rappel de départ. C'est très bien.\n\nMais dès qu'un assistant répond aussi, il faut décider qui dit quoi. Sinon le voyageur reçoit deux fois la même information, ou pire, deux informations différentes.\n\nAvant chaque mise en route, on fait ensemble la liste de vos messages automatiques.\n\nPhoto : Hubbugaye / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "Note d'ingénieur",
+  "titre": "Un texte généré\n*se vérifie toujours.*",
+  "texte": "La même question peut produire deux réponses différentes. Chaque sortie est contrôlée et complétée avant de partir.",
+  "chute": "Ce n'est pas de la méfiance. C'est de l'ingénierie.",
+  "photo": "photos/pexels/auto-engrenages/8327817_tima-miroshnichenko.jpg",
+  "ton": "marron",
+  "numero": "03",
+  "legende": "Une note d'ingénieur, tirée de la production.\n\nUn modèle de langage ne répond pas toujours de la même façon à la même question. La plupart du temps, c'est sans conséquence. Parfois, un champ manque, et l'envoi casse.\n\nChaque réponse est donc vérifiée, et complétée si besoin, avant de partir. Un système fiable ne suppose jamais que tout ira bien.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
 }

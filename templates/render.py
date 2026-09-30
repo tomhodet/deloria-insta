@@ -175,7 +175,7 @@ def tpl_constat(p: dict) -> str:
     """Un constat du quotidien, une chute en italique or. Fond photo noir et blanc (sombre) ou teinté (marron)."""
     t = ton(p)
     pal = PAL[t]
-    fond = fond_photo(p, t, 0.6 if t == "sombre" else 0.72)
+    fond = fond_photo(p, t, 0.6 if t == "sombre" else 0.76)
     anneaux = "" if fond else ('<div class="ring r1"></div><div class="ring r2"></div>')
     return f"""
 <style>
@@ -235,7 +235,7 @@ def tpl_plein(p: dict) -> str:
     t = ton(p)
     cadrage = p.get("cadrage", "center")
     if t == "marron":
-        fond = fond_photo(p, "marron", 0.64)
+        fond = fond_photo(p, "marron", 0.7)
         em = "var(--or)"
     else:
         fond = (f'<img class="bg grade" src="{photo_uri(p)}">'

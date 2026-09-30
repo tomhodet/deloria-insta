@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "Réflexion du dimanche",
-  "texte": "Vous répondez à vos voyageurs depuis des années.",
-  "chute": "Vous connaissez déjà toutes les réponses.",
-  "legende": "Tout ce savoir existe déjà, dans votre tête. Le transmettre une bonne fois à un assistant, c'est ne plus avoir à le répéter.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "Ce qui se répète\n*peut se déléguer.*",
+  "photo": "photos/pexels/temps-sablier/11162131_towfiqu-barbhuiya.jpg",
+  "ton": "marron",
+  "legende": "Une règle simple pour la semaine qui vient : notez ce que vous faites plus de trois fois. C'est la première liste de ce qui peut partir sans vous.\n\nBon dimanche.\n\nPhoto : Towfiqu Barbhuiya / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

@@ -1,23 +1,9 @@
 {
-  "template": "edito",
-  "label": "Pour les PME",
-  "titre": "Vos procédures, *retrouvées en une question.*",
-  "texte": "Normes, modes opératoires, fiches techniques : un assistant interne qui répond à partir de vos documents, et cite sa source.",
-  "pictos": [
-    {
-      "icone": "document",
-      "texte": "Vos\ndocuments"
-    },
-    {
-      "icone": "loupe",
-      "texte": "Une\nquestion"
-    },
-    {
-      "icone": "check",
-      "texte": "Source\ncitée"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-bureau/8092510_https-kaboompics-com.jpg",
-  "legende": "Dans beaucoup d'entreprises, l'information existe mais personne ne la retrouve. Elle dort dans des dossiers partagés, des classeurs, des versions successives.\n\nUn assistant interne peut répondre à partir de vos propres documents, en indiquant d'où vient la réponse. Vos équipes gagnent du temps, et la bonne version fait foi.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france"
+  "template": "constat",
+  "label": "Coulisses",
+  "texte": "Ce visuel n'a été\ndessiné par personne.",
+  "chute": "Il a été généré,\nà mes couleurs.",
+  "photo": "photos/pexels/design-nuancier/6474454_tima-miroshnichenko.jpg",
+  "ton": "clair",
+  "legende": "Chaque visuel de ce compte est produit par un programme à partir de mes gabarits : mes typographies, ma palette, mes règles de mise en page. Je n'ouvre aucun logiciel de dessin.\n\nRésultat : une cohérence parfaite d'un post à l'autre, et des visuels prêts en quelques secondes.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication #design"
 }

@@ -1,10 +1,9 @@
 {
-  "template": "terrain_photo",
-  "label": "Note d'ingénieur",
-  "titre": "Commencer par la tâche *la plus répétée.*",
-  "texte": "Le meilleur premier projet est rarement le plus ambitieux. C'est une tâche simple, faite plusieurs fois par jour.",
-  "chute": "Les gains visibles donnent envie d'aller plus loin.",
-  "photo": "photos/pexels/secteur-industrie/27084598_hong-son.jpg",
-  "numero": "03",
-  "legende": "Quand on démarre l'automatisation, la tentation est de s'attaquer au problème le plus complexe.\n\nC'est souvent une erreur. Une petite tâche très fréquente, bien automatisée, fait gagner du temps dès la première semaine. C'est ce qui convainc les équipes.\n\nPhoto : Hong Son / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "template": "constat",
+  "label": "Automatisation",
+  "texte": "Quatre automatisations\nqui changent une semaine.",
+  "chute": "Aucune ne remplace\npersonne.",
+  "photo": "photos/pexels/auto-engrenages/8327882_tima-miroshnichenko.jpg",
+  "ton": "sombre",
+  "legende": "Pas besoin d'un grand projet pour sentir la différence. Ces quatre automatisations, prises une par une, rendent déjà des heures chaque semaine.\n\nAucune ne remplace une personne. Toutes lui rendent du temps.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Tima Miroshnichenko, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

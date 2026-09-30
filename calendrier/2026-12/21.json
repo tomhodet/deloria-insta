@@ -1,12 +1,9 @@
 {
-  "template": "service",
-  "label": "Comment se passe un projet",
-  "titre": "Commencer par une tâche, *pas par tout.*",
-  "points": [
-    "Un échange pour repérer ce qui se répète",
-    "Un premier outil sur une seule tâche",
-    "On mesure, puis on élargit"
-  ],
-  "signature": "PME · PARTOUT EN FRANCE",
-  "legende": "Je ne propose jamais de tout automatiser d'un coup.\n\nOn part d'une seule tâche, celle qui revient le plus souvent. On la traite bien, on vérifie le gain, et seulement ensuite on passe à la suivante.\n\nUne question ? Écrivez-moi en message privé.\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "template": "constat",
+  "label": "Le quotidien d'une conciergerie",
+  "texte": "24 décembre, 21h.",
+  "chute": "« La porte ne s'ouvre pas. »",
+  "photo": "photos/pexels/porte-lumiere/22743998_kemal-can-acarturk.jpg",
+  "ton": "sombre",
+  "legende": "Certains messages peuvent attendre le lendemain. Celui-là, non.\n\nDans ce cas, l'assistant que je configure ne cherche pas à régler le problème seul. Il rassure le voyageur immédiatement et vous alerte, avec le détail de la situation.\n\nAutomatiser, ce n'est pas disparaître. C'est être prévenu au bon moment.\n\nPhoto : Kemal Can Acarturk / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

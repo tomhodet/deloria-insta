@@ -1,23 +1,11 @@
 {
-  "template": "edito",
-  "label": "Sites internet",
-  "titre": "Vos propriétaires vous jugent *sur votre site.*",
-  "texte": "Avant de vous confier leur bien, ils regardent comment vous vous présentez. Un site clair et rassurant fait une partie du travail.",
-  "pictos": [
-    {
-      "icone": "maison",
-      "texte": "Vos\nlogements"
-    },
-    {
-      "icone": "etoile",
-      "texte": "Vos\navis"
-    },
-    {
-      "icone": "message",
-      "texte": "Contact\nsimple"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/interieur-salon/38975400_mcfollis.jpg",
-  "legende": "Pour une conciergerie, le site ne sert pas qu'aux voyageurs. Il sert surtout à convaincre de nouveaux propriétaires.\n\nDes logements bien présentés, des avis visibles, un contact simple : c'est ce qui rassure quelqu'un qui hésite à vous confier son bien.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Mcfollis / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #design #conciergerie"
+  "template": "terrain_photo",
+  "label": "Note de design",
+  "titre": "L'espace vide\n*n'est pas du vide.*",
+  "texte": "Des marges généreuses, peu d'éléments par page : c'est ce qui donne l'impression de qualité.",
+  "chute": "Le luxe respire.",
+  "photo": "photos/pexels/texture-papier/5993561_https-kaboompics-com.jpg",
+  "ton": "sombre",
+  "numero": "05",
+  "legende": "Note de design numéro cinq.\n\nOn a souvent envie de tout montrer, et donc de tout serrer. L'effet est inverse : une page chargée paraît bon marché, une page aérée paraît soignée.\n\nRetirez un élément de chaque page. Vous verrez la différence.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

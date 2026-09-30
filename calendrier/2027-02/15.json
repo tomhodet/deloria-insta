@@ -1,10 +1,11 @@
 {
   "template": "terrain_photo",
   "label": "Note de terrain",
-  "titre": "Un code transmis à l'oral *est un code perdu.*",
-  "texte": "Mot de passe, accès, identifiant : on les envoie par écrit, sur un canal qu'on retrouve. Jamais seulement dans le chat d'une visio.",
-  "chute": "Une règle simple, apprise à mes dépens.",
-  "photo": "photos/pexels/details-carnet/4195411_https-kaboompics-com.jpg",
-  "numero": "09",
-  "legende": "Petite histoire vraie : un accès transmis dans le chat d'une visio, et plus rien à la fin de l'appel. Le chat avait disparu avec la réunion. Un jour de perdu.\n\nDepuis, la règle est simple : tout ce qui est important passe par écrit, par e-mail ou par SMS. C'est valable pour vos équipes aussi.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #pme #automatisation #entrepreneur #france"
+  "titre": "Le jour où le voyageur réserve,\n*tout change.*",
+  "texte": "Avant la réservation, la conversation vit à une adresse. Après, à une autre. Le bug n'apparaissait qu'avec une vraie réservation.",
+  "chute": "Tester chaque cas, pas seulement le plus simple.",
+  "photo": "photos/pexels/details-cles/16262613_coppertist-wu.jpg",
+  "ton": "sombre",
+  "numero": "06",
+  "legende": "Une note de terrain, la plus coûteuse de l'année.\n\nPour un logiciel de location, une demande d'information et une réservation confirmée ne vivent pas au même endroit. Tant qu'un voyageur se renseigne, tout fonctionne. Dès qu'il réserve, l'ancienne adresse ne répond plus.\n\nEn test, aucune réservation réelle n'existait. Le bug est apparu en production. Depuis, chaque état possible d'une conversation a son test.\n\nPhoto : Coppertist Wu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

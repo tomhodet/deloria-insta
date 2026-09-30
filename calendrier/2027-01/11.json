@@ -1,23 +1,13 @@
 {
-  "template": "edito",
-  "label": "Pour les PME industrielles",
-  "titre": "Un devis prêt *avant la fin de l'appel.*",
-  "texte": "Votre client choisit ses paramètres, l'outil prépare le devis, le descriptif et le mail. Vous relisez, vous envoyez.",
-  "pictos": [
-    {
-      "icone": "engrenage",
-      "texte": "Vos\nparamètres"
-    },
-    {
-      "icone": "document",
-      "texte": "Devis\nen PDF"
-    },
-    {
-      "icone": "message",
-      "texte": "Mail\nprêt"
-    }
+  "template": "service",
+  "label": "Réseaux sociaux",
+  "titre": "Ce que je prépare\n*pour votre compte.*",
+  "points": [
+    "Un calendrier de publications sur plusieurs mois",
+    "Des visuels à vos couleurs, prêts à partir",
+    "Une publication automatique, au jour prévu"
   ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-industrie/12951623_alex-urezkov.jpg",
-  "legende": "Pour les entreprises qui vendent des produits configurables, je construis des configurateurs sur mesure.\n\nLe client saisit ses besoins, l'outil génère le devis, le descriptif technique et le mail d'accompagnement. Vous gardez la relecture et la décision.\n\nIngénieur de métier, je parle le même langage que vos équipes techniques.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Alex Urezkov / Pexels\n\n#pme #automatisation #entrepreneur #france #industrie"
+  "photo": "photos/pexels/reseaux-telephone/5208777_https-kaboompics-com.jpg",
+  "ton": "clair",
+  "legende": "Un compte qui vit toute l'année ne demande pas d'y passer ses soirées. Il demande une préparation sérieuse, une fois, puis un système qui tient le rythme.\n\nC'est exactement ce que je mets en place, à vos couleurs et avec votre ton.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

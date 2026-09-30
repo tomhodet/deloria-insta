@@ -1,7 +1,9 @@
 {
-  "template": "plein",
-  "lieu": "Biarritz",
-  "phrase": "Biarritz hors saison.\n*Le temps de tout préparer.*",
-  "photo": "photos/pexels/region-biarritz/20427312_mathias-reding.jpg",
-  "legende": "L'océan est calme en janvier. Dans quelques semaines, les réservations du printemps arriveront.\n\nPhoto : Mathias Reding / Pexels\n\n#biarritz #paysbasque #france"
+  "template": "constat",
+  "label": "Le quotidien d'une conciergerie",
+  "texte": "Dix logements.",
+  "chute": "Un seul téléphone.",
+  "photo": "photos/pexels/astuce-chargeur/14799193_nvid-daar.jpg",
+  "ton": "clair",
+  "legende": "Dans beaucoup de conciergeries, tout converge vers un seul appareil : celui du gérant. Les voyageurs, les propriétaires, les équipes de ménage, les plateformes.\n\nCe n'est pas un problème de téléphone. C'est un goulot d'étranglement. Et chaque logement de plus le resserre.\n\nPhoto : Nvid Daar / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

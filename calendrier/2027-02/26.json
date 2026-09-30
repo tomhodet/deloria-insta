@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "Le printemps\n*se prépare maintenant.*",
-  "photo": "photos/pexels/saison-printemps/16667312_axp-photography.jpg",
-  "legende": "Les premiers beaux jours arrivent bientôt. Les voyageurs aussi.\n\nPhoto : Axp Photography / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "Identité visuelle",
+  "texte": "Votre carte de visite\net votre site",
+  "chute": "ne se connaissent pas.",
+  "photo": "photos/pexels/design-papeterie/8490097_pnw-production.jpg",
+  "ton": "clair",
+  "legende": "Une couleur sur la carte de visite, une autre sur le site, une troisième sur les réseaux. Chaque support a été fait à un moment différent, par une personne différente.\n\nPour un client, ce sont trois entreprises. Une charte graphique les réunit.\n\nPhoto : Pnw Production / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

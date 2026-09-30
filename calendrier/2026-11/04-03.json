@@ -1,0 +1,10 @@
+{
+  "template": "slide",
+  "ton": "clair",
+  "label": "Site internet",
+  "compteur": "03 / 07",
+  "numero": "02",
+  "titre": "Impossible\n*de vous joindre.*",
+  "texte": "Si le numéro ou le bouton de contact demande plus de deux secondes de recherche, le visiteur repart.",
+  "photo": "photos/pexels/texture-papier/7599590_eva-bronzini.jpg"
+}

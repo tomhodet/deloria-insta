@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "La saison commence",
-  "texte": "Les beaux jours sont là.\nLes voyageurs arrivent.",
-  "chute": "Cette fois, vous êtes prêts.",
-  "legende": "Bonne saison à toutes les conciergeries qui nous suivent.\n\nUne question ? Écrivez-moi en message privé.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "La saison commence.\n*Cette fois, vous êtes prêts.*",
+  "photo": "photos/pexels/normandie-cote/12626626_domethilde.jpg",
+  "ton": "marron",
+  "legende": "Les beaux jours sont là, les voyageurs arrivent. Cette année, les réponses partent à l'heure, les annonces sont à jour et vos soirées vous appartiennent.\n\nBonne saison à toutes les conciergeries.\n\nPhoto : Domethilde / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

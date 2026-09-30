@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "Les fêtes se préparent\n*dans les détails.*",
-  "photo": "photos/pexels/saison-noel/10801751_anna-alexes.jpg",
-  "legende": "Une table dressée, un logement décoré, un message d'accueil soigné. Les voyageurs de décembre s'en souviennent.\n\nPhoto : Anna Alexes / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "Réseaux sociaux",
+  "texte": "Un beau post par mois\nne fait pas un compte.",
+  "chute": "La régularité, si.",
+  "photo": "photos/pexels/site-bureau-sombre/12899144_mizuno-k.jpg",
+  "ton": "sombre",
+  "legende": "On attend souvent l'idée parfaite, la photo parfaite, le bon moment. Pendant ce temps, le compte se tait.\n\nVos clients remarquent surtout une chose : que vous êtes là, semaine après semaine. Mieux vaut un post simple chaque semaine qu'un chef-d'œuvre par trimestre.\n\nPhoto : Mizuno K / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

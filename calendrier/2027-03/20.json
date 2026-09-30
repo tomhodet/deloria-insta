@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Testez votre logement *comme un voyageur.*",
-  "texte": "Dormez-y une nuit, ou demandez à un proche. On découvre toujours un détail : un store qui coince, une lampe qui manque.",
-  "photo": "photos/pexels/interieur-salle-bain/11701113_max-vakhtbovych.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Répondez aux avis,\n*même aux bons.*",
+  "texte": "Un merci personnalisé montre qu'il y a quelqu'un derrière l'annonce. Les futurs voyageurs lisent aussi vos réponses.",
+  "photo": "photos/pexels/accueil-sonnette/7821339_mikhail-nilov.jpg",
+  "ton": "clair",
   "numero": "24",
-  "legende": "Rien ne remplace l'expérience réelle. Une nuit dans votre propre logement avant la saison vous apprendra plus qu'une longue liste de vérifications.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté accueil.\n\nOn répond volontiers aux avis négatifs, pour se défendre. On oublie les bons. Pourtant une réponse chaleureuse à un bel avis est lue par tous ceux qui hésitent encore à réserver.\n\nPhoto : Mikhail Nilov / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

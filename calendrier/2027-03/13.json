@@ -1,10 +1,10 @@
 {
   "template": "carte",
-  "cadrage": "center 78%",
-  "label": "Astuce d'accueil",
-  "titre": "Un contact d'urgence *clair et affiché.*",
-  "texte": "Dans le livret et près de la porte : qui appeler en cas de souci, et pour quoi. Le voyageur ne doit jamais se sentir seul.",
-  "photo": "photos/pexels/accueil-sonnette/7821339_mikhail-nilov.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Laissez vos clients\n*réserver seuls.*",
+  "texte": "Un lien de prise de rendez-vous avec vos vrais créneaux. Plus d'allers-retours pour trouver une date.",
+  "photo": "photos/pexels/details-carnet/12911169_mizuno-k.jpg",
+  "ton": "marron",
   "numero": "23",
-  "legende": "Une fuite, une coupure de courant, une serrure qui bloque : en cas de vrai problème, le voyageur doit savoir immédiatement vers qui se tourner.\n\nPhoto : Mikhail Nilov / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté organisation.\n\nTrouver un créneau par téléphone ou par mail prend souvent plus de temps que le rendez-vous lui-même. Un lien de réservation, relié à votre agenda, règle la question en quelques secondes.\n\nPhoto : Mizuno K / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

@@ -1,24 +1,9 @@
 {
-  "template": "edito",
-  "cadrage": "30% center",
-  "label": "Pour les conciergeries",
-  "titre": "Un assistant qui répond *comme vous le feriez.*",
-  "texte": "Il connaît le logement, le calendrier et votre façon de parler aux voyageurs. Il vous prévient dès qu'on a besoin de vous.",
-  "pictos": [
-    {
-      "icone": "globe",
-      "texte": "Langue du\nvoyageur"
-    },
-    {
-      "icone": "lune",
-      "texte": "Jour\net nuit"
-    },
-    {
-      "icone": "cloche",
-      "texte": "Alerte si\nproblème"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/interieur-chambre/29435313_yunus-tug.jpg",
-  "legende": "Ce que je construis pour les conciergeries : un assistant branché sur votre messagerie de location, qui répond aux voyageurs avec les vraies informations de chaque logement.\n\nIl répond dans la langue du voyageur, à toute heure. Et dès qu'un vrai problème se présente, il ne le règle pas seul : il rassure le voyageur et vous alerte.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Yunus Tug / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "En entreprise",
+  "texte": "Le même mail,\nécrit pour la centième fois.",
+  "chute": "Il pourrait partir seul.",
+  "photo": "photos/pexels/pme-courrier/7012252_cottonbro-studio.jpg",
+  "ton": "marron",
+  "legende": "Une confirmation de rendez-vous, une demande de pièces, une relance : dans beaucoup d'entreprises, les mêmes messages s'écrivent à la main, chaque semaine.\n\nCe qui se répète à l'identique peut partir seul, au bon moment, avec les bonnes informations. Vous gardez votre temps pour les messages qui en valent la peine.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

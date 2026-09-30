@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Un jour de pluie, *un parapluie dans l'entrée.*",
-  "texte": "Le détail qui fait sourire les voyageurs, et qui leur sauve une journée de balade.",
-  "photo": "photos/pexels/astuce-parapluie/28542158_juliane-monari.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Notez ce que vous faites\n*plus de trois fois.*",
+  "texte": "Pendant une semaine, listez chaque tâche qui revient. C'est la liste de ce qui s'automatise en premier.",
+  "photo": "photos/pexels/design-croquis/4219151_https-kaboompics-com.jpg",
+  "ton": "clair",
   "numero": "04",
-  "legende": "La météo ne se commande pas, même en vacances.\n\nUn parapluie à disposition, c'est une attention qui coûte peu et que les voyageurs n'oublient pas.\n\nPhoto : Juliane Monari / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté organisation.\n\nOn pense connaître ses tâches répétitives. On les sous-estime presque toujours. Une semaine de notes suffit pour voir apparaître les mêmes lignes : les mêmes mails, les mêmes relances, les mêmes recopies.\n\nCette liste vaut de l'or. C'est par elle qu'on commence.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

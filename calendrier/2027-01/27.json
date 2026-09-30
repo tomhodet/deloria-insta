@@ -1,12 +1,9 @@
 {
-  "template": "service",
-  "label": "Ce que je fais",
-  "titre": "Un seul interlocuteur *pour tout ce qui se répète.*",
-  "points": [
-    "Les réponses à vos voyageurs",
-    "Vos sites et votre identité visuelle",
-    "Vos publications sur les réseaux"
-  ],
-  "signature": "PARTOUT EN FRANCE",
-  "legende": "En résumé, DelorIA, c'est :\n\nUn assistant qui répond à vos voyageurs comme vous le feriez.\nDes sites, logos et chartes graphiques à votre image.\nDes publications automatisées sur vos réseaux, comme ce compte.\n\nEt un interlocuteur unique, qui vous répond directement.\n\nUne question ? Écrivez-moi en message privé.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #identitevisuelle #chartegraphique #siteinternet #design"
+  "template": "constat",
+  "label": "Réseaux sociaux",
+  "texte": "Quatre erreurs qui font\nfuir vos futurs clients.",
+  "chute": "Aucune ne coûte\nun centime à corriger.",
+  "photo": "photos/pexels/reseaux-appareil/30758129_cemrecan-yurtman.jpg",
+  "ton": "marron",
+  "legende": "Un compte Instagram n'a pas besoin d'être spectaculaire pour attirer des clients. Il a surtout besoin d'éviter quatre erreurs, très courantes et faciles à corriger.\n\nFaites glisser, et regardez votre propre compte avec ces quatre questions en tête.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Cemrecan Yurtman, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

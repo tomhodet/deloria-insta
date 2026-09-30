@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Un bon séjour *se termine par un au revoir.*",
-  "texte": "Un message le jour du départ, un merci, une invitation à revenir. C'est souvent ce qui déclenche un bel avis.",
-  "photo": "photos/pexels/astuce-porte/39490599_sevde-alt-ntas.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Testez votre site\n*dehors, sur votre téléphone.*",
+  "texte": "En 4G, au soleil, d'une main. C'est dans ces conditions que vos clients le découvrent.",
+  "photo": "photos/pexels/astuce-rue/36854975_cozy-tech-talk.jpg",
+  "ton": "sombre",
   "numero": "25",
-  "legende": "La dernière impression compte autant que la première. Un au revoir personnalisé, et le voyageur repart avec l'envie de revenir.\n\nPhoto : Sevde Alt Ntas / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté site.\n\nOn vérifie son site sur un grand écran, au bureau, avec une bonne connexion. Vos clients, eux, le découvrent souvent dans la rue, sur un petit écran, avec une main libre.\n\nFaites le test. Tout ce qui est difficile là est à corriger.\n\nPhoto : Cozy Tech Talk / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

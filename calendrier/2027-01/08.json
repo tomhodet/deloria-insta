@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "En montagne,\n*la saison bat son plein.*",
-  "photo": "photos/pexels/region-alpes/2583494_guillaume-hankenne.jpg",
-  "legende": "Pendant que le littoral se repose, les stations tournent à plein. Pour les conciergeries de montagne, janvier, c'est la haute saison.\n\nBon courage à toutes celles qui enchaînent les arrivées ce week-end.\n\nPhoto : Guillaume Hankenne / Pexels\n\n#montagne #ski #conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "En entreprise",
+  "texte": "Votre meilleur commercial\nrecopie des tableaux.",
+  "chute": "Est-ce vraiment\nson métier ?",
+  "photo": "photos/pexels/pme-dossiers/6567865_cottonbro-studio.jpg",
+  "ton": "sombre",
+  "legende": "Dans beaucoup d'entreprises, les personnes les plus précieuses passent une partie de leur semaine sur des tâches sans valeur : recopier un mail dans un tableau, mettre à jour un fichier, relancer à la main.\n\nChaque heure rendue à ces personnes retourne à ce qu'elles font de mieux : vendre, conseiller, fabriquer.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

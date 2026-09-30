@@ -1,10 +1,11 @@
 {
   "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Un vrai problème *remonte tout de suite.*",
-  "texte": "Une fuite, un chauffage en panne, un voyageur mécontent : l'assistant ne tente pas de régler seul. Il rassure et vous alerte.",
-  "chute": "Déléguer les questions, pas les problèmes.",
-  "photo": "photos/pexels/accueil-sonnette/7820697_mikhail-nilov.jpg",
-  "numero": "07",
-  "legende": "La frontière est claire : l'assistant répond aux questions, il ne gère pas les incidents.\n\nDès qu'un voyageur signale un problème, il lui répond avec sérieux, sans minimiser, et vous envoie une alerte avec le détail. S'il relance sur le même sujet, l'assistant fait le suivi sans vous déranger une seconde fois.\n\nPhoto : Mikhail Nilov / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "label": "Note de design",
+  "titre": "Un logo doit tenir\n*en noir et blanc.*",
+  "texte": "Tampon, gravure, document photocopié : sans ses couleurs, il doit rester reconnaissable.",
+  "chute": "La couleur est un bonus, pas une béquille.",
+  "photo": "photos/pexels/design-typographie/6621008_antoni-shkraba.jpg",
+  "ton": "sombre",
+  "numero": "03",
+  "legende": "Note de design numéro trois.\n\nUn logo qui ne fonctionne qu'en couleur est fragile. Imprimé en noir sur un devis, gravé, brodé, il doit rester lisible et reconnaissable.\n\nLe test : imprimez-le en noir et blanc, en petit. Ce qui reste, c'est votre vrai logo.\n\nPhoto : Antoni Shkraba / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

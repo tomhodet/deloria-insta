@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Vous accueillez des familles ? *Dites-le avec des détails.*",
-  "texte": "Lit parapluie, chaise haute, barrière d'escalier : les parents cherchent précisément ces mots dans l'annonce.",
-  "photo": "photos/pexels/astuce-enfants/7018827_max-vakhtbovych.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Votre plus belle réalisation\n*en haut de la page.*",
+  "texte": "Pas votre histoire, pas votre équipe. Ce que vous faites de mieux, visible sans faire défiler.",
+  "photo": "photos/pexels/secteur-atelier/9617896_ron-lach.jpg",
+  "ton": "clair",
   "numero": "18",
-  "legende": "« Adapté aux familles » ne veut rien dire pour un parent. La liste précise de l'équipement, si.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté site.\n\nLe haut de la page d'accueil est le seul endroit que tous les visiteurs voient. Beaucoup n'iront pas plus loin.\n\nCe qui doit s'y trouver : ce que vous faites, votre plus belle preuve, et un moyen de vous contacter.\n\nPhoto : Ron Lach / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

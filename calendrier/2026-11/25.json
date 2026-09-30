@@ -1,23 +1,9 @@
 {
-  "template": "edito",
-  "label": "Pour les PME",
-  "titre": "Les mails qui se ressemblent *peuvent se préparer seuls.*",
-  "texte": "Demandes de prix, relances, confirmations : un outil prépare la réponse avec vos informations. Vous relisez, vous envoyez.",
-  "pictos": [
-    {
-      "icone": "message",
-      "texte": "Mail\nreçu"
-    },
-    {
-      "icone": "document",
-      "texte": "Réponse\npréparée"
-    },
-    {
-      "icone": "check",
-      "texte": "Relue\npar vous"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/astuce-mot/35714500_esmanur-guler.jpg",
-  "legende": "Dans beaucoup d'entreprises, une partie des mails reçus appelle toujours la même réponse, à quelques détails près.\n\nUn outil peut les repérer, préparer la réponse avec les bonnes informations, et vous la proposer. La décision d'envoyer reste la vôtre.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Esmanur Guler / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "template": "constat",
+  "label": "En entreprise",
+  "texte": "Le devis part le lendemain.",
+  "chute": "Le client, lui, a déjà\ndemandé ailleurs.",
+  "photo": "photos/pexels/pme-dossiers/3927131_muhammad-jawadur-rahman.jpg",
+  "ton": "clair",
+  "legende": "Un devis envoyé le lendemain n'est pas un mauvais devis. C'est un devis en retard sur celui du concurrent qui a répondu dans l'heure.\n\nQuand les informations sont déjà là, dans un mail ou un formulaire, le devis peut se préparer tout seul. Il ne reste qu'à le relire et l'envoyer.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Muhammad Jawadur Rahman / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

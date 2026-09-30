@@ -1,6 +1,11 @@
 {
-  "template": "plein",
-  "phrase": "Le luxe, c'est de n'avoir\n*rien à demander.*",
-  "photo": "photos/pexels/interieur-salon/15743373_ushindi-namegabe.jpg",
-  "legende": "Un logement bien préparé répond à la moitié des questions avant qu'elles soient posées. Le reste, c'est une affaire de réponses claires et rapides.\n\nBon week-end.\n\nPhoto : Ushindi Namegabe / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note de terrain",
+  "titre": "Le prix affiché par l'outil\n*n'est pas celui que paie le voyageur.*",
+  "texte": "Frais de ménage, frais de service, suppléments : le total final n'a rien à voir avec le prix de base.",
+  "chute": "L'assistant ne donne jamais un prix.",
+  "photo": "photos/pexels/pme-courrier/3838314_cottonbro-studio.jpg",
+  "ton": "marron",
+  "numero": "03",
+  "legende": "Une leçon apprise en conditions réelles.\n\nLe prix par nuit qu'un logiciel de location transmet est un prix de base. Le voyageur, lui, paie un total avec les frais de ménage, les frais de service et les suppléments. Annoncer le premier, c'est préparer une mauvaise surprise au moment de payer.\n\nDepuis, l'assistant ne donne jamais de montant. Il renvoie vers l'annonce, où le total s'affiche tout compris.\n\nPhoto : Cottonbro Studio / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

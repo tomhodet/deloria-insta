@@ -1,7 +1,11 @@
 {
-  "template": "plein",
-  "lieu": "Nice",
-  "phrase": "Les plus beaux ports\n*ne ferment jamais.*",
-  "photo": "photos/pexels/region-nice/16797536_gianluca-pugliese.jpg",
-  "legende": "Nice en décembre. Bon week-end à tous.\n\nPhoto : Gianluca Pugliese / Pexels\n\n#nice #cotedazur #france"
+  "template": "terrain_photo",
+  "label": "Note de design",
+  "titre": "Une palette courte\n*se retient.*",
+  "texte": "Trois à cinq couleurs, avec leurs codes exacts. Au-delà, plus personne ne sait lesquelles sont les vôtres.",
+  "chute": "On reconnaît une marque avant de lire son nom.",
+  "photo": "photos/pexels/design-nuancier/6583363_cottonbro-studio.jpg",
+  "ton": "clair",
+  "numero": "02",
+  "legende": "Note de design numéro deux.\n\nUne identité forte se reconnaît de loin, avant même de lire le nom. Ce n'est pas une question de talent, c'est une question de discipline : peu de couleurs, toujours les mêmes, avec leurs codes exacts.\n\nPhoto : Cottonbro Studio / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

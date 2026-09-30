@@ -1,23 +1,9 @@
 {
-  "template": "edito",
-  "label": "Identité visuelle",
-  "titre": "Une identité qui se reconnaît *au premier regard.*",
-  "texte": "Logo, couleurs, typographies, règles d'usage : un cadre simple pour que chaque support vous ressemble, du site aux réseaux.",
-  "pictos": [
-    {
-      "icone": "pinceau",
-      "texte": "Logo"
-    },
-    {
-      "icone": "etoile",
-      "texte": "Charte\ngraphique"
-    },
-    {
-      "icone": "document",
-      "texte": "Règles\nd'usage"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-atelier/9617896_ron-lach.jpg",
-  "legende": "Je crée des logos et des chartes graphiques.\n\nUne identité claire, c'est des visuels cohérents partout : site, réseaux, devis, cartes de visite. Et c'est aussi ce qui permet d'automatiser ensuite des publications qui restent belles.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ron Lach / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #design"
+  "template": "constat",
+  "label": "Pour les conciergeries",
+  "texte": "Le canapé, il l'oubliera.",
+  "chute": "La réponse à 23h, non.",
+  "photo": "photos/pexels/interieur-salon/7404941_cottonbro-studio.jpg",
+  "ton": "clair",
+  "legende": "On soigne la décoration, les photos, le linge. C'est important. Mais ce qu'un voyageur raconte en rentrant, c'est souvent autre chose : la personne qui a répondu quand il était perdu devant la porte.\n\nL'accueil ne commence pas à l'arrivée. Il commence au premier message.\n\nPhoto : Cottonbro Studio / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

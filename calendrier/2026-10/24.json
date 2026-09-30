@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Affichez le code wifi *là où on le cherche.*",
-  "texte": "Une petite carte près de l'entrée ou sur la table. C'est une question que l'on ne vous posera plus.",
-  "photo": "photos/pexels/details-telephone/17800265_beyzaa-yurtkuran.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Votre numéro de téléphone\n*doit se toucher.*",
+  "texte": "Sur mobile, un numéro qu'il faut recopier, c'est un appel en moins. Un lien d'appel se règle en une ligne.",
+  "photo": "photos/pexels/reseaux-telephone/5208784_https-kaboompics-com.jpg",
+  "ton": "marron",
   "numero": "03",
-  "legende": "La question la plus fréquente mérite la réponse la plus visible.\n\nUne carte posée à l'entrée, et le message du soir disparaît.\n\nPhoto : Beyzaa Yurtkuran / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté site.\n\nSur téléphone, un numéro affiché en simple texte oblige le visiteur à le retenir ou à le recopier. Beaucoup ne le font pas.\n\nUn numéro qui lance l'appel, un e-mail qui ouvre la messagerie, une adresse qui ouvre la carte. Trois détails, et votre site travaille pour vous.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

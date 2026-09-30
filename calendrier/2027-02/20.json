@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Animaux acceptés ? *Précisez les règles.*",
-  "texte": "Sur le canapé ou pas, gamelle fournie ou non, supplément éventuel. Des règles claires évitent les litiges.",
-  "photo": "photos/pexels/astuce-chien/2248516_andrew-neel.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Une bonne idée\n*mérite plusieurs vies.*",
+  "texte": "En story le jour même, en carrousel un mois plus tard, en rappel à la saison suivante.",
+  "photo": "photos/pexels/design-sceau/30827478_nam-mau.jpg",
+  "ton": "clair",
   "numero": "20",
-  "legende": "Accepter les animaux ouvre votre logement à beaucoup de voyageurs. Encore faut-il que tout le monde parte avec les mêmes règles en tête.\n\nPhoto : Andrew Neel / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté réseaux.\n\nProduire du contenu prend du temps. Le publier une seule fois, c'est le gaspiller. Une bonne idée peut revivre sous plusieurs formes, à plusieurs moments, sans lasser personne.\n\nPhoto : Nam Mau / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

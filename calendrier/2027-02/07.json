@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "Réflexion du dimanche",
-  "texte": "Combien de fois avez-vous écrit où se trouve le code wifi ?",
-  "chute": "Une dernière fois suffit.",
-  "legende": "Écrire une réponse une fois, correctement, et ne plus jamais la retaper. C'est tout le principe.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "Le temps ne se trouve pas.\n*Il se libère.*",
+  "photo": "photos/pexels/temps-sablier/10994725_towfiqu-barbhuiya.jpg",
+  "ton": "marron",
+  "legende": "On attend souvent d'avoir du temps pour s'occuper de ce qui en ferait gagner. C'est un cercle qui ne se casse jamais tout seul.\n\nLibérer une heure par semaine, puis une autre. C'est comme ça que ça commence.\n\nPhoto : Towfiqu Barbhuiya / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

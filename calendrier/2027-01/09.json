@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Répondez aux avis, *même aux bons.*",
-  "texte": "Un merci personnalisé montre qu'il y a quelqu'un derrière l'annonce. Les futurs voyageurs lisent aussi vos réponses.",
-  "photo": "photos/pexels/accueil-sonnette/28744939_sahin-dogdu.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Une page,\n*un seul objectif.*",
+  "texte": "Appeler, réserver, demander un devis : choisissez une action par page et rendez-la évidente.",
+  "photo": "photos/pexels/secteur-bureau/8092469_https-kaboompics-com.jpg",
+  "ton": "clair",
   "numero": "14",
-  "legende": "Un avis sans réponse, c'est une conversation laissée en suspens. Quelques mots suffisent, à condition qu'ils ne soient pas copiés-collés.\n\nPhoto : Sahin Dogdu / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté site.\n\nUne page qui propose dix choses n'en fait faire aucune. Décidez ce que le visiteur doit faire en arrivant, et placez ce bouton partout où son regard passe.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

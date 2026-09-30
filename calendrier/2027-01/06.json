@@ -1,10 +1,11 @@
 {
   "template": "terrain_photo",
   "label": "Note de terrain",
-  "titre": "L'assistant ne connaît *que ce que vous lui donnez.*",
-  "texte": "Il ne cherche pas sur internet. La boulangerie, la pharmacie, le bon restaurant du coin : il faut les lui transmettre, avec les vraies adresses.",
-  "chute": "Sinon, il vous passe la main. Il n'invente pas.",
-  "photo": "photos/pexels/secteur-boulangerie/30767962_anh-nguyen.jpg",
-  "numero": "06",
-  "legende": "Une précision importante, que je donne à chaque rendez-vous.\n\nL'assistant ne navigue pas sur internet et n'a pas de carte. Il ne connaît que les informations qu'on lui a confiées. C'est pour ça qu'on remplit ensemble une rubrique « autour du logement », avec vos adresses à vous.\n\nMieux vaut un assistant qui dit « je me renseigne » qu'un assistant qui invente une boulangerie.\n\nPhoto : Anh Nguyen / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "titre": "Savoir répondre,\n*et savoir se taire.*",
+  "texte": "Un merci, un pouce levé : certains messages n'appellent aucune réponse. L'assistant sait désormais ne rien envoyer.",
+  "chute": "Une réponse inutile est déjà une erreur.",
+  "photo": "photos/pexels/details-cafe/31673588_buse-colak.jpg",
+  "ton": "clair",
+  "numero": "05",
+  "legende": "Une note de terrain, apprise à mes dépens.\n\nUn assistant à qui l'on dit « ne réponds pas si ce n'est pas utile », mais qui n'a aucun moyen technique de se taire, finira toujours par écrire quelque chose. Et ce quelque chose partira au voyageur.\n\nAujourd'hui, se taire est une réponse prévue, vérifiée avant chaque envoi. Toute consigne de ne rien faire doit avoir son mécanisme.\n\nPhoto : Buse Colak / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

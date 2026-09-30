@@ -1,12 +1,14 @@
 {
   "template": "service",
   "label": "Pourquoi DelorIA",
-  "titre": "Un ingénieur, *pas une plateforme.*",
+  "titre": "Un ingénieur,\n*pas une plateforme.*",
   "points": [
     "Je configure tout avec vous",
     "Je surveille ce que j'installe",
     "Je réponds quand vous m'écrivez"
   ],
   "signature": "PARTOUT EN FRANCE",
-  "legende": "Les grands logiciels vendent des fonctionnalités. Je propose un accompagnement.\n\nJe configure chaque outil avec vous, je surveille ce que j'installe, et vous avez quelqu'un à appeler. Où que vous soyez en France.\n\nUne question ? Écrivez-moi en message privé.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "photo": "photos/pexels/secteur-atelier/5582870_thirdman.jpg",
+  "ton": "marron",
+  "legende": "Une plateforme vous vend un abonnement et vous laisse seul avec les réglages. Je fais l'inverse : je comprends votre façon de travailler, je configure, je teste, et je reste joignable.\n\nDes conciergeries et des entreprises partout en France, un seul interlocuteur.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Thirdman / Pexels\n\n#automatisation #conciergerie #siteinternet #reseauxsociaux #pme"
 }

@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Un mot écrit à la main *vaut toutes les attentions.*",
-  "texte": "Quelques lignes, le prénom du voyageur, un conseil pour le soir même. Deux minutes, et un souvenir.",
-  "photo": "photos/pexels/astuce-mot/4668374_vlada-karpovich.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Publiez moins.\n*Mais publiez toujours.*",
+  "texte": "Deux posts par semaine tenus toute l'année valent mieux que dix posts en une semaine, puis le silence.",
+  "photo": "photos/pexels/reseaux-telephone/5208772_https-kaboompics-com.jpg",
+  "ton": "clair",
   "numero": "02",
-  "legende": "Dans un monde de messages automatiques, un mot manuscrit se remarque. C'est aussi ce qu'on retrouve souvent cité dans les avis.\n\nL'automatisation sert justement à libérer du temps pour ce genre de détail.\n\nPhoto : Vlada Karpovich / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté réseaux.\n\nUn compte qui publie par à-coups donne une impression d'abandon entre deux rafales. Un rythme modeste mais tenu inspire confiance.\n\nChoisissez un rythme que vous pouvez tenir toute l'année. Ou confiez-le à un système qui le tiendra.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

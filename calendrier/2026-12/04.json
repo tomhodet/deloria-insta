@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "L'hiver au bord de la mer\n*a ses fidèles.*",
-  "photo": "photos/pexels/saison-hiver-mer/31015078_nui-malama.jpg",
-  "legende": "Il y a ceux qui ne viennent qu'en été, et ceux qui préfèrent la mer en hiver. Ces voyageurs-là méritent le même accueil.\n\nPhoto : Nui Malama / Pexels\n\n#mer #hiver #france"
+  "template": "constat",
+  "label": "Pour les conciergeries",
+  "texte": "« Vous faites\nle petit-déjeuner ? »",
+  "chute": "Cette question\nvaut de l'argent.",
+  "photo": "photos/pexels/accueil-panier/10481955_chickenbunny.jpg",
+  "ton": "clair",
+  "legende": "Vélos, petit-déjeuner, ménage supplémentaire, transfert : beaucoup de conciergeries proposent des services en plus du logement. Et beaucoup de demandes se perdent dans une conversation, faute d'avoir été repérées.\n\nL'assistant que je configure les repère. Dès qu'un voyageur montre un intérêt réel, il vous prévient avec le détail de la demande.\n\nCe n'est plus un coût. C'est une vente.\n\nPhoto : Chickenbunny / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

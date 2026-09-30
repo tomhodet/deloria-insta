@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Expliquez le tri *avant qu'on vous le demande.*",
-  "texte": "Jours de collecte, bacs, conteneur à verre : trois lignes dans le livret évitent les sacs oubliés au départ.",
-  "photo": "photos/pexels/interieur-cuisine/11701162_max-vakhtbovych.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Expliquez le tri\n*avant qu'on vous le demande.*",
+  "texte": "Jours de collecte, bacs, conteneur à verre : trois lignes dans le livret évitent un message et une poubelle oubliée.",
+  "photo": "photos/pexels/interieur-cuisine/6436783_max-vakhtbovych.jpg",
+  "ton": "sombre",
   "numero": "05",
-  "legende": "Chaque commune a ses règles, et les voyageurs ne les connaissent pas. Trois lignes claires suffisent.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté accueil.\n\nChaque commune a ses règles, et aucun voyageur ne les connaît. Trois lignes claires dans le livret d'accueil, et la question ne se pose plus.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

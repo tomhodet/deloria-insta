@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "Entre les fêtes",
-  "texte": "Entre Noël et le Nouvel An, les voyageurs écrivent toujours.",
-  "chute": "Vous, vous avez le droit de souffler.",
-  "legende": "Bonnes fêtes de fin d'année.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "Entre deux fêtes,\n*préparez l'année.*",
+  "photo": "photos/pexels/region-paris/19786080_khaled-ameur.jpg",
+  "ton": "sombre",
+  "legende": "La semaine entre Noël et le Nouvel An est souvent la plus calme de l'année. C'est le moment idéal pour regarder ce qui vous a pris le plus de temps en 2026.\n\nIl y a de bonnes chances que ce soit la même chose l'an prochain. Sauf si on s'en occupe.\n\nPhoto : Khaled Ameur / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

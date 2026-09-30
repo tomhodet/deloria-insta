@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "Réflexion du dimanche",
-  "texte": "Votre expérience est précieuse.",
-  "chute": "Elle mérite d'être transmise, pas répétée.",
-  "legende": "Chaque réponse que vous tapez pour la dixième fois est une connaissance qui pourrait travailler pour vous.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "Une heure par jour,\n*c'est six semaines par an.*",
+  "photo": "photos/pexels/temps-sablier/38482010_alexander-mass.jpg",
+  "ton": "marron",
+  "legende": "Une heure par jour passée sur des tâches répétitives, sur une année de travail, représente plus de six semaines à temps plein.\n\nSix semaines de mails, de recopies et de relances. Six semaines qui pourraient aller à votre métier.\n\nPhoto : Alexander Mass / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

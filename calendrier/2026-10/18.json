@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "Le dimanche soir",
-  "texte": "Dimanche, 19h.\nLes départs du week-end sont faits.",
-  "chute": "Les questions de la semaine arrivent déjà.",
-  "legende": "Le dimanche soir, c'est souvent le moment où tout se superpose : les avis des voyageurs partis, les questions de ceux qui arrivent.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "Dimanche, 19h.\n*La semaine commence déjà.*",
+  "photo": "photos/pexels/interieur-cheminee/15558300_hello-aesthe.jpg",
+  "ton": "marron",
+  "legende": "Les départs du week-end sont faits. Les questions de la semaine arrivent déjà : les arrivées de lundi, les demandes de dernière minute, les avis à lire.\n\nSi votre dimanche soir ressemble à un lundi matin, c'est qu'une partie de votre travail n'attend pas que vous soyez disponible.\n\nPhoto : Hello Aesthe / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

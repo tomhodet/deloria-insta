@@ -1,0 +1,10 @@
+{
+  "template": "slide",
+  "ton": "clair",
+  "label": "Bilan",
+  "compteur": "04 / 06",
+  "numero": "03",
+  "titre": "Un test incomplet\n*ne prouve rien.*",
+  "texte": "Le bug le plus coûteux de l'année n'apparaissait qu'avec une vraie réservation. Aucune n'existait en test.",
+  "photo": "photos/pexels/texture-lin/15679399_lisett-kruusimae.jpg"
+}

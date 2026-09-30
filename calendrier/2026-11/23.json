@@ -1,23 +1,9 @@
 {
-  "template": "edito",
-  "label": "Google Business",
-  "titre": "Votre fiche Google *est votre première vitrine.*",
-  "texte": "C'est souvent là qu'on vous découvre, avant votre site. Horaires, photos, avis : tout doit être juste et à jour.",
-  "pictos": [
-    {
-      "icone": "horloge",
-      "texte": "Horaires\nà jour"
-    },
-    {
-      "icone": "photo",
-      "texte": "Photos\nsoignées"
-    },
-    {
-      "icone": "etoile",
-      "texte": "Avis\nsuivis"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/details-telephone/7657604_cup-of-couple.jpg",
-  "legende": "Je m'occupe aussi des fiches Google Business.\n\nUne fiche incomplète ou mal tenue fait fuir avant même le premier contact. Des horaires justes, de belles photos et des avis auxquels on répond : c'est simple, et ça change la première impression.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cup Of Couple / Pexels\n\n#googlebusiness #referencementlocal #pme #automatisation #entrepreneur #france"
+  "template": "constat",
+  "label": "Le quotidien d'une conciergerie",
+  "texte": "Vous répondez vite.",
+  "chute": "Mais à quelle heure\ndormez-vous ?",
+  "photo": "photos/pexels/bureau-nuit/32397073_willbone-gallery.jpg",
+  "ton": "sombre",
+  "legende": "Répondre vite est devenu la norme. Les voyageurs s'y attendent, et les plateformes affichent votre délai de réponse.\n\nLe problème, ce n'est pas la vitesse. C'est qu'elle repose souvent sur une seule personne, son téléphone et ses soirées.\n\nUne réactivité qui dépend de votre sommeil n'est pas un système. C'est un sacrifice.\n\nPhoto : Willbone Gallery / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

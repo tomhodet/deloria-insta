@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Le jardin *fait partie du logement.*",
-  "texte": "Salon de jardin sorti, pelouse tondue, éclairage extérieur vérifié : au printemps, les voyageurs vivent dehors.",
-  "photo": "photos/pexels/astuce-jardin/33869744_alena-evseenko.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Décrivez vos images\n*pour ceux qui ne les voient pas.*",
+  "texte": "Un texte alternatif sur chaque photo : les lecteurs d'écran le lisent, les moteurs de recherche aussi.",
+  "photo": "photos/pexels/design-croquis/7147544_michael-burrows.jpg",
+  "ton": "clair",
   "numero": "22",
-  "legende": "Dès les premiers beaux jours, l'extérieur devient la pièce principale. Il mérite la même attention que l'intérieur.\n\nPhoto : Alena Evseenko / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté site.\n\nUne courte description sur chaque image rend votre site accessible aux personnes malvoyantes. Et elle aide les moteurs de recherche à comprendre ce que vous montrez.\n\nDeux raisons de le faire, pour quelques secondes par photo.\n\nPhoto : Michael Burrows / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

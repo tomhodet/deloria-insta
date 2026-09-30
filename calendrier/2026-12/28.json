@@ -1,12 +1,9 @@
 {
-  "template": "service",
+  "template": "constat",
   "label": "Identité visuelle",
-  "titre": "Ce que comprend *une identité visuelle.*",
-  "points": [
-    "Un logo en plusieurs versions",
-    "Une palette et deux typographies",
-    "Des règles d'usage simples"
-  ],
-  "signature": "PARTOUT EN FRANCE",
-  "legende": "Un logo seul ne fait pas une identité.\n\nCe qui rend une marque reconnaissable, c'est la cohérence : les mêmes couleurs, les mêmes polices et les mêmes règles sur le site, les réseaux, les devis et les cartes de visite.\n\nUne question ? Écrivez-moi en message privé.\n\n#identitevisuelle #chartegraphique #siteinternet #design"
+  "texte": "Nouvelle année,\nnouveau logo ?",
+  "chute": "Pas forcément.\nUne charte, sûrement.",
+  "photo": "photos/pexels/design-papeterie/5420976_https-kaboompics-com.jpg",
+  "ton": "clair",
+  "legende": "Changer de logo n'est pas toujours nécessaire. Souvent, le problème n'est pas le logo lui-même, mais la façon dont il est utilisé : étiré, recoloré, remplacé selon les supports.\n\nUne charte graphique remet de l'ordre sans tout jeter. Et vos clients vous reconnaissent toujours.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

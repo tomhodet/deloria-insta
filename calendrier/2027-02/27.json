@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Une liste de contrôle *pour chaque ménage.*",
-  "texte": "Les oublis se ressemblent : ampoule grillée, papier toilette, piles de télécommande. La même liste à chaque passage.",
-  "photo": "photos/pexels/astuce-menage/9462111_liliana-drew.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Le stationnement\n*se décrit avec précision.*",
+  "texte": "Gratuit ou payant, à quelle distance, dans quelle rue. C'est souvent la toute première question.",
+  "photo": "photos/pexels/astuce-rue/34405085_photogramary.jpg",
+  "ton": "sombre",
   "numero": "21",
-  "legende": "Ce n'est pas le grand ménage qui pose problème, ce sont les petits oublis. Une liste identique pour chaque passage, et ils disparaissent.\n\nPhoto : Liliana Drew / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté accueil.\n\n« Stationnement facile » ne veut rien dire pour quelqu'un qui arrive de nuit dans une ville inconnue. Le nom de la rue, la distance à pied, le prix s'il y en a un : trois informations qui évitent un appel depuis la voiture.\n\nPhoto : Photogramary / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

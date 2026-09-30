@@ -1,12 +1,11 @@
 {
-  "template": "service",
-  "label": "Ce que l'assistant ne fait jamais",
-  "titre": "Savoir ce qu'il ne faut *pas automatiser.*",
-  "points": [
-    "Annoncer un prix",
-    "Donner le code d'accès",
-    "Inventer une réponse qu'il n'a pas"
-  ],
-  "signature": "CONCIERGERIES · PARTOUT EN FRANCE",
-  "legende": "Un bon assistant se définit aussi par ce qu'il refuse de faire.\n\nPas de prix, parce que le total final dépend de trop de paramètres. Pas de code d'accès, parce qu'il part déjà automatiquement au bon moment. Et pas d'invention : quand il ne sait pas, il vous passe la main.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note de design",
+  "titre": "Deux typographies,\n*pas plus.*",
+  "texte": "Une pour les titres, une pour le texte. Au-delà, un support perd sa cohérence.",
+  "chute": "La sobriété se voit avant de se lire.",
+  "photo": "photos/pexels/design-typographie/16566150_mikita-yo.jpg",
+  "ton": "clair",
+  "numero": "01",
+  "legende": "Nouvelle série : des notes de design, pour les entreprises qui veulent une image plus nette sans tout refaire.\n\nPremière règle, et la plus simple : deux typographies suffisent. Celle de vos titres, celle de vos textes. Toujours les mêmes, partout.\n\nPhoto : Mikita Yo / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

@@ -1,12 +1,11 @@
 {
-  "template": "service",
-  "label": "Avant la saison",
-  "titre": "Trois choses *à vérifier maintenant.*",
-  "points": [
-    "Vos annonces disent exactement la vérité",
-    "Vos messages programmés ne se contredisent pas",
-    "Vos réponses aux questions courantes sont prêtes"
-  ],
-  "signature": "CONCIERGERIES · PARTOUT EN FRANCE",
-  "legende": "Une petite liste avant le printemps.\n\nUne annonce fidèle évite les mauvaises surprises. Des messages cohérents évitent les confusions. Et des réponses prêtes vous évitent de retaper les mêmes phrases tout l'été.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note d'ingénieur",
+  "titre": "Une automatisation\n*doit s'expliquer en une phrase.*",
+  "texte": "Si personne ne comprend ce qu'elle fait, personne ne saura la corriger le jour où elle se trompe.",
+  "chute": "Simple à expliquer, simple à réparer.",
+  "photo": "photos/pexels/auto-engrenages/31220274_marta-branco.jpg",
+  "ton": "marron",
+  "numero": "05",
+  "legende": "Une note d'ingénieur, sur ce qui fait durer un système.\n\nUne automatisation que seul son créateur comprend est une dépendance, pas un gain. Chaque étape doit pouvoir se dire simplement : quand ceci arrive, on fait cela.\n\nSi l'explication tient en une phrase, l'entreprise garde la main.\n\nPhoto : Marta Branco / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
 }

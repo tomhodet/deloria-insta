@@ -1,10 +1,11 @@
 {
   "template": "terrain_photo",
   "label": "Note de design",
-  "titre": "Un site se conçoit *d'abord pour le téléphone.*",
-  "texte": "On part du petit écran, puis on adapte à l'ordinateur. L'inverse donne des pages illisibles dans la poche.",
-  "chute": "C'est là que vos clients vous découvrent.",
-  "photo": "photos/pexels/astuce-chargeur/14799193_nvid-daar.jpg",
-  "numero": "03",
-  "legende": "La plupart des visites commencent sur un téléphone, entre deux choses.\n\nConcevoir le site pour ce petit écran en premier oblige à aller à l'essentiel. Et ce qui fonctionne sur téléphone fonctionne presque toujours sur ordinateur.\n\nPhoto : Nvid Daar / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #design"
+  "titre": "Vos photos parlent\n*avant vos textes.*",
+  "texte": "Sur un site, l'œil va d'abord aux images. Floues, sombres ou empruntées, elles décrédibilisent tout le reste.",
+  "chute": "Une bonne photo remplace un paragraphe.",
+  "photo": "photos/pexels/interieur-salon/36962663_luk-sauvage.jpg",
+  "ton": "clair",
+  "numero": "04",
+  "legende": "Note de design numéro quatre.\n\nSur une page, le regard se pose d'abord sur les images. Si elles sont floues, mal cadrées ou vues ailleurs, le visiteur doute avant d'avoir lu une ligne.\n\nQuelques bonnes photos de vos locaux, de votre travail ou de vos logements valent mieux que dix pages de texte.\n\nPhoto : Luk Sauvage / Pexels\n\n#identitevisuelle #chartegraphique #logo #design"
 }

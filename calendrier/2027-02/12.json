@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "Un café, une vue,\n*aucune notification.*",
-  "photo": "photos/pexels/details-cafe/27164221_esra-afsar.jpg",
-  "legende": "C'est tout ce qu'on vous souhaite pour ce week-end.\n\nPhoto : Esra Afsar / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "Réseaux sociaux",
+  "texte": "Le post parfait\nn'existe pas.",
+  "chute": "Le post publié, si.",
+  "photo": "photos/pexels/design-croquis/7257235_anete-lusina.jpg",
+  "ton": "clair",
+  "legende": "Beaucoup d'entreprises repoussent leurs publications en attendant la bonne photo, la bonne formule, le bon moment. Le compte reste vide, et personne ne voit le travail accompli.\n\nUn post correct publié aujourd'hui vaut mieux qu'un post parfait publié jamais.\n\nPhoto : Anete Lusina / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

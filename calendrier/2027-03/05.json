@@ -1,7 +1,9 @@
 {
-  "template": "plein",
-  "lieu": "Bretagne",
-  "phrase": "La côte se réveille.\n*Vos réservations aussi.*",
-  "photo": "photos/pexels/region-bretagne/20763189_clement-proust.jpg",
-  "legende": "Les premières réservations de printemps arrivent. Bon week-end.\n\nPhoto : Clement Proust / Pexels\n\n#bretagne #france"
+  "template": "constat",
+  "label": "Réseaux sociaux",
+  "texte": "Vos concurrents n'ont pas\nplus de temps que vous.",
+  "chute": "Ils ont un système.",
+  "photo": "photos/pexels/strategie-echecs/7265842_ann-h.jpg",
+  "ton": "sombre",
+  "legende": "Quand un concurrent publie chaque semaine, on imagine une équipe dédiée ou des soirées sacrifiées. C'est rarement le cas.\n\nLa différence tient presque toujours à une organisation : des contenus préparés d'avance, et une publication qui ne dépend pas de l'humeur du jour.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ann H / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

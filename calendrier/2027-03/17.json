@@ -1,9 +1,9 @@
 {
-  "template": "terrain",
-  "label": "Note de terrain",
-  "titre": "Un test qui ne couvre pas un cas *ne prouve rien sur ce cas.*",
-  "texte": "Voyageur qui se renseigne, voyageur qui a réservé, propriétaire qui écrit : chaque situation se teste avant la mise en route.",
-  "chute": "La plupart des pannes viennent du cas qu'on n'avait pas imaginé.",
-  "numero": "11",
-  "legende": "Une leçon d'ingénieur, réapprise sur le terrain.\n\nTester avec une seule situation, même dix fois, ne dit rien des autres. Avant chaque mise en route, je liste tous les cas possibles d'une conversation et je vérifie qu'au moins un test couvre chacun.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #pme #automatisation #entrepreneur #france"
+  "template": "constat",
+  "label": "Réseaux sociaux",
+  "texte": "Avant de vous appeler,\non regarde votre compte.",
+  "chute": "Qu'y trouve-t-on ?",
+  "photo": "photos/pexels/commerce-vitrine/13532888_mathias-reding.jpg",
+  "ton": "clair",
+  "legende": "Un compte Instagram est devenu une seconde vitrine. Beaucoup de clients y jettent un œil avant de vous contacter, pour voir si vous êtes actif, sérieux, et si votre travail leur plaît.\n\nUn compte vivant rassure. Un compte abandonné fait douter.\n\nPhoto : Mathias Reding / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

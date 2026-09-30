@@ -1,23 +1,13 @@
 {
-  "template": "edito",
-  "label": "Exemple · Maintenance",
-  "titre": "Le rapport d'intervention, *rédigé avant de repartir.*",
-  "texte": "Quelques notes prises sur place, un rapport mis en forme automatiquement, envoyé au client après votre relecture.",
-  "pictos": [
-    {
-      "icone": "mobile",
-      "texte": "Notes\nsur place"
-    },
-    {
-      "icone": "document",
-      "texte": "Rapport\nmis en forme"
-    },
-    {
-      "icone": "check",
-      "texte": "Relu\npar vous"
-    }
+  "template": "service",
+  "label": "Pour les conciergeries",
+  "titre": "Ce que l'assistant\n*vous transmet.*",
+  "points": [
+    "Un vrai problème signalé par un voyageur",
+    "Une question dont il n'a pas la réponse",
+    "Un intérêt pour l'un de vos services"
   ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-industrie/12951632_alex-urezkov.jpg",
-  "legende": "Un exemple de ce qui est possible pour une entreprise de maintenance.\n\nLe rapport d'intervention se rédige souvent le soir, de mémoire. Il peut se préparer à partir de quelques notes prises sur place, dans un format propre et identique à chaque fois.\n\nPhoto : Alex Urezkov / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "photo": "photos/pexels/accueil-sonnette/28744939_sahin-dogdu.jpg",
+  "ton": "clair",
+  "legende": "Un bon assistant ne répond pas à tout. Il sait quand vous passer la main.\n\nTrois situations déclenchent une alerte avec le détail de la conversation : un problème réel, une information qu'il n'a pas, et un voyageur intéressé par un service. Le reste, il le traite seul.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Sahin Dogdu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

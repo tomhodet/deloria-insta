@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Les appareils compliqués *méritent une étiquette.*",
-  "texte": "Plaque de cuisson, machine à café, chauffage : une petite étiquette évite les appels au mauvais moment.",
-  "photo": "photos/pexels/astuce-machine-cafe/4816264_maksim-goncharenok.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Un modèle de devis,\n*et on ne retape plus rien.*",
+  "texte": "Mentions, conditions, mise en page : ce qui ne change jamais ne devrait jamais se retaper.",
+  "photo": "photos/pexels/pme-dossiers/8371710_cottonbro-studio.jpg",
+  "ton": "sombre",
   "numero": "17",
-  "legende": "Ce qui est évident pour vous ne l'est pas pour quelqu'un qui découvre le logement. Une étiquette discrète, et le mode d'emploi est là où on en a besoin.\n\nPhoto : Maksim Goncharenok / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté organisation.\n\nUn bon modèle de devis contient déjà tout ce qui ne change pas : vos mentions, vos conditions, votre mise en page, votre logo. Il ne reste qu'à remplir ce qui change.\n\nC'est aussi la première brique d'un devis qui se prépare tout seul.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

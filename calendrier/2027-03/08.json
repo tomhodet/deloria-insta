@@ -1,10 +1,13 @@
 {
-  "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Un outil sans surveillance *tombe en panne en silence.*",
-  "texte": "Alerte en cas d'erreur, journal de chaque échange, test automatique chaque matin : si quelque chose casse, je le sais avant vous.",
-  "chute": "La confiance se construit sur ce qu'on ne voit pas.",
-  "photo": "photos/pexels/details-carnet/6623901_cottonbro-studio.jpg",
-  "numero": "10",
-  "legende": "Installer un assistant, c'est la moitié du travail. L'autre moitié, c'est de savoir quand il ne fonctionne pas.\n\nChaque système que j'installe est surveillé : une alerte dès qu'une erreur survient, un journal de tous les échanges, et un test automatique chaque matin. Pas de panne silencieuse.\n\nPhoto : Cottonbro Studio / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "service",
+  "label": "Site internet",
+  "titre": "Ce que votre site\n*doit dire d'emblée.*",
+  "points": [
+    "Ce que vous faites, en une phrase",
+    "Pour qui vous le faites",
+    "Comment vous joindre, en un geste"
+  ],
+  "photo": "photos/pexels/secteur-bureau/8092313_https-kaboompics-com.jpg",
+  "ton": "clair",
+  "legende": "Un visiteur décide très vite s'il reste ou s'il repart. Pendant ces premières secondes, votre page d'accueil doit répondre à trois questions, sans qu'il ait à chercher.\n\nTout le reste, l'histoire, l'équipe, les détails, peut venir après.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

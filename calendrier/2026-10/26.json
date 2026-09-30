@@ -1,9 +1,11 @@
 {
-  "template": "terrain",
-  "label": "Note de terrain",
-  "titre": "Le prix affiché par l'outil *n'est pas celui que paie le voyageur.*",
-  "texte": "Frais de ménage, frais de service, suppléments selon le nombre de voyageurs : le total final change tout.",
-  "chute": "L'assistant ne donne jamais de prix. Il renvoie vers l'annonce.",
-  "numero": "03",
-  "legende": "Une leçon apprise en conditions réelles.\n\nLe prix par nuit qu'un logiciel de location transmet n'est pas le montant que le voyageur verra au moment de payer. Entre les deux : ménage, frais de service, suppléments.\n\nUn assistant qui annonce un prix finit donc par se tromper, et un voyageur qui se sent trompé au paiement, c'est un litige. La règle est simple : aucun prix, jamais. Le total exact s'affiche sur l'annonce.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "terrain_photo",
+  "label": "Note d'ingénieur",
+  "titre": "Automatiser un processus flou,\n*c'est automatiser le désordre.*",
+  "texte": "Avant d'écrire une ligne, on décrit le processus tel qu'il est vraiment, avec ses exceptions.",
+  "chute": "La moitié du travail se fait sur papier.",
+  "photo": "photos/pexels/design-croquis/9849318_ron-lach.jpg",
+  "ton": "sombre",
+  "numero": "01",
+  "legende": "Nouvelle série : des notes d'ingénieur sur l'automatisation en entreprise.\n\nUn outil ne rend pas un processus plus clair. Il le rend plus rapide. Si le processus est confus, il devient confus plus vite.\n\nOn commence donc toujours par le décrire, cas particuliers compris.\n\nPhoto : Ron Lach / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
 }

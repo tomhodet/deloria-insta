@@ -1,0 +1,10 @@
+{
+  "template": "slide",
+  "ton": "clair",
+  "label": "Coulisses",
+  "compteur": "04 / 06",
+  "numero": "03",
+  "titre": "Publié\n*à 17h30.*",
+  "texte": "Le jour venu, un programme récupère le post et le publie. Il vérifie d'abord qu'il ne l'a pas déjà fait.",
+  "photo": "photos/pexels/texture-lin/15679399_lisett-kruusimae.jpg"
+}

@@ -1,23 +1,9 @@
 {
-  "template": "edito",
-  "label": "Exemple · Artisan",
-  "titre": "Le soir, *le devis est déjà parti.*",
-  "texte": "Quelques informations saisies sur le chantier, un devis mis en forme automatiquement, envoyé au client après votre relecture.",
-  "pictos": [
-    {
-      "icone": "mobile",
-      "texte": "Saisie sur\nle chantier"
-    },
-    {
-      "icone": "document",
-      "texte": "Devis mis\nen forme"
-    },
-    {
-      "icone": "check",
-      "texte": "Relu\npar vous"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-artisan/10894122_lokman-sevim.jpg",
-  "legende": "Un exemple de ce qui est possible pour un artisan.\n\nLe devis, c'est souvent ce qui se fait le soir, fatigué, après la journée. Une partie peut se préparer automatiquement à partir de quelques informations saisies sur place. Vous vérifiez, vous envoyez.\n\nChaque métier a ses tâches répétitives. Parlons des vôtres.\n\nPhoto : Lokman Sevim / Pexels\n\n#pme #automatisation #entrepreneur #france #artisan"
+  "template": "constat",
+  "label": "Pour les conciergeries",
+  "texte": "Un voyageur allemand\nvous écrit à minuit.",
+  "chute": "Il aura sa réponse\nen allemand.",
+  "photo": "photos/pexels/region-alpes/36310287_gabin-cobret.jpg",
+  "ton": "clair",
+  "legende": "Répondre à un voyageur étranger en pleine nuit, dans sa langue, avec les bonnes informations : pour une petite équipe, ce n'est pas tenable. Pour un assistant bien configuré, c'est la base.\n\nIl détecte la langue du message et répond dans la même, avec votre ton et les informations du logement.\n\nPhoto : Gabin Cobret / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

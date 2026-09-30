@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Le stationnement *se décrit avec précision.*",
-  "texte": "Gratuit ou payant, à quelle distance, dans quelle rue. C'est souvent la toute première question.",
-  "photo": "photos/pexels/astuce-rue/34405085_photogramary.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Une photo de vous\n*vaut dix logos.*",
+  "texte": "Sur les réseaux, on suit plus volontiers une personne qu'une marque. Montrez qui travaille derrière.",
+  "photo": "photos/pexels/reseaux-appareil/5208774_https-kaboompics-com.jpg",
+  "ton": "clair",
   "numero": "16",
-  "legende": "« Où est-ce que je peux me garer ? » arrive souvent avant même « bonjour ». Une réponse précise dans l'annonce et dans le livret évite ce message.\n\nPhoto : Photogramary / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté réseaux.\n\nUn visage inspire confiance plus vite qu'un logo. Une photo de vous au travail, de temps en temps, rappelle qu'il y a une personne derrière le compte.\n\nPas besoin d'en faire trop. Une fois par mois suffit.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Le départ *se prépare dès l'arrivée.*",
-  "texte": "Heure de départ, clés, poubelles, volets : une liste courte près de la porte. Moins de questions le dernier jour.",
-  "photo": "photos/pexels/astuce-porte/14750384_mahmurekoseogluu.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Un bon séjour\n*se termine par un au revoir.*",
+  "texte": "Un message le jour du départ, un merci, une invitation à revenir. C'est souvent ce qui déclenche un bel avis.",
+  "photo": "photos/pexels/porte-lumiere/31751178_taha-el-oihaj.jpg",
+  "ton": "clair",
   "numero": "12",
-  "legende": "Les questions du dernier jour se ressemblent toutes. Une liste de départ affichée près de la porte y répond d'avance.\n\nPhoto : Mahmurekoseogluu / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté accueil.\n\nOn soigne l'arrivée, on oublie souvent le départ. Pourtant c'est le dernier souvenir du séjour, juste avant que le voyageur ouvre l'application pour laisser son avis.\n\nPhoto : Taha El Oihaj / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
 }

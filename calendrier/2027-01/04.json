@@ -1,23 +1,9 @@
 {
-  "template": "edito",
+  "template": "constat",
   "label": "Réseaux sociaux",
-  "titre": "Vos publications, *à vos couleurs, prêtes à l'avance.*",
-  "texte": "Des modèles créés une fois dans votre charte, remplis automatiquement à chaque publication. Le rendu reste le même, post après post.",
-  "pictos": [
-    {
-      "icone": "pinceau",
-      "texte": "Vos\nmodèles"
-    },
-    {
-      "icone": "calendrier",
-      "texte": "Prêts à\nl'avance"
-    },
-    {
-      "icone": "check",
-      "texte": "Rendu\nconstant"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/astuce-lampe/28703872_orhan-pergel.jpg",
-  "legende": "Nouvelle année, bonne résolution : publier régulièrement.\n\nLe plus dur n'est pas de publier une fois, c'est de tenir. Avec des modèles à vos couleurs et un calendrier préparé, la régularité ne dépend plus de votre emploi du temps.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Orhan Pergel / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
+  "texte": "Bonne résolution :\npublier chaque semaine.",
+  "chute": "Elle tient\njusqu'à février.",
+  "photo": "photos/pexels/temps-sablier/4397906_https-kaboompics-com.jpg",
+  "ton": "marron",
+  "legende": "Chaque janvier, beaucoup d'entreprises décident de publier régulièrement. En février, le rythme s'essouffle. En mars, le compte se tait.\n\nCe n'est pas un manque de volonté. C'est un manque de système. Un calendrier préparé d'avance tient la résolution pour vous.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

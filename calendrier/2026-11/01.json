@@ -1,7 +1,7 @@
 {
-  "template": "constat",
-  "label": "Fin des vacances",
-  "texte": "Les vacances se terminent.\nLes derniers voyageurs repartent.",
-  "chute": "Les avis arrivent.",
-  "legende": "Après les départs, les avis. Pensez à remercier ceux qui en laissent, même quand tout s'est bien passé.\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "plein",
+  "phrase": "Les vacances finissent.\n*Les avis commencent.*",
+  "photo": "photos/pexels/region-bretagne/29944737_clement-proust.jpg",
+  "ton": "sombre",
+  "legende": "Fin des vacances de la Toussaint. Les derniers voyageurs repartent, et les avis arrivent.\n\nUn avis se joue rarement sur un seul détail. Il se joue sur l'ensemble : l'arrivée, la propreté, et la sensation d'avoir été pris en charge du premier message au dernier.\n\nPhoto : Clement Proust / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

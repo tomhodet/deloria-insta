@@ -1,23 +1,25 @@
 {
   "template": "edito",
-  "label": "Sites internet",
-  "titre": "Un site qui inspire confiance *dès la première seconde.*",
-  "texte": "Des pages claires, vos vraies photos, un contact en un geste. Pensé d'abord pour le téléphone, là où l'on vous découvre.",
+  "cadrage": "30% center",
+  "label": "Pour les conciergeries",
+  "titre": "Un assistant qui répond *comme vous le feriez.*",
+  "texte": "Il connaît le logement, le calendrier et votre façon de parler aux voyageurs. S'il ne sait pas, il vous passe la main.",
   "pictos": [
     {
-      "icone": "mobile",
-      "texte": "Pensé pour\nle mobile"
+      "icone": "globe",
+      "texte": "Langue du\nvoyageur"
     },
     {
-      "icone": "pinceau",
-      "texte": "À vos\ncouleurs"
+      "icone": "lune",
+      "texte": "Jour\net nuit"
     },
     {
-      "icone": "message",
-      "texte": "Contact\nen un geste"
+      "icone": "cloche",
+      "texte": "Alerte si\nproblème"
     }
   ],
   "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-bureau/8092469_https-kaboompics-com.jpg",
-  "legende": "Je conçois aussi des sites internet.\n\nPas de modèle générique : une présentation qui vous ressemble, lisible sur téléphone, avec un moyen simple de vous contacter. Pour une conciergerie, une PME ou un indépendant.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #siteinternet #design"
+  "photo": "photos/pexels/interieur-chambre/29435313_yunus-tug.jpg",
+  "ton": "clair",
+  "legende": "Ce que je construis pour les conciergeries : un assistant branché sur votre messagerie de location, qui répond aux voyageurs avec les vraies informations de chaque logement.\n\nIl répond dans la langue du voyageur, à toute heure. Et quand il ne sait pas, il ne devine pas : il vous prévient.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Yunus Tug / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

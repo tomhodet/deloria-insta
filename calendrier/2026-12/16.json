@@ -1,7 +1,9 @@
 {
   "template": "constat",
-  "label": "En entreprise",
-  "texte": "L'information existe quelque part.",
-  "chute": "Le problème, c'est de la retrouver.",
-  "legende": "Une procédure, une fiche technique, la bonne version d'un devis : tout est là, mais dans quel dossier ?\n\nUn assistant interne peut répondre à partir de vos propres documents, en citant la source.\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "label": "Automatisation",
+  "texte": "Automatiser\nvotre entreprise ?",
+  "chute": "Commencez par\nune seule tâche.",
+  "photo": "photos/pexels/strategie-echecs/29041833_konat-umut-budak.jpg",
+  "ton": "sombre",
+  "legende": "Les projets d'automatisation qui échouent ont souvent un point commun : ils voulaient tout changer d'un coup.\n\nCeux qui réussissent commencent petit. Une tâche, un résultat visible, puis la suivante.\n\nVoici la méthode que j'applique.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Konat Umut Budak, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
 }

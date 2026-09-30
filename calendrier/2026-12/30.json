@@ -1,12 +1,9 @@
 {
-  "template": "service",
-  "label": "Sites internet",
-  "titre": "Un site en trois étapes, *sans jargon.*",
-  "points": [
-    "Un échange pour comprendre votre activité",
-    "Une maquette à valider ensemble",
-    "La mise en ligne et les réglages"
-  ],
-  "signature": "PARTOUT EN FRANCE",
-  "legende": "Pour l'année qui vient, peut-être un nouveau site ?\n\nJe travaille simplement : on parle de votre activité, je vous montre une maquette, on ajuste, puis je m'occupe de la mise en ligne.\n\nUne question ? Écrivez-moi en message privé.\n\n#identitevisuelle #chartegraphique #siteinternet #design"
+  "template": "constat",
+  "label": "Bilan",
+  "texte": "Ce que 2026\nm'a appris.",
+  "chute": "Quatre leçons,\nsans filtre.",
+  "photo": "photos/pexels/temps-sablier/35215486_nihar-manyalli.jpg",
+  "ton": "marron",
+  "legende": "Première année de DelorIA. Quelques réussites, quelques incidents, et beaucoup d'apprentissages.\n\nVoici les quatre leçons que je garde, celles qui ont changé ma façon de travailler.\n\nMerci à celles et ceux qui m'ont fait confiance cette année.\n\nPhotos : Nihar Manyalli, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#entrepreneur #automatisation #conciergerie #bilan"
 }

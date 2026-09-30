@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "Un bon accueil commence\n*avant l'arrivée.*",
-  "photo": "photos/pexels/interieur-lit/15792533_yelena-from-pexels.jpg",
-  "legende": "Où se garer, à quelle heure arriver, comment récupérer les clés : la plupart des questions tombent dans les jours qui précèdent le séjour.\n\nUne réponse claire à ce moment-là, c'est un voyageur qui arrive serein. Et un séjour qui commence bien.\n\nPhoto : Yelena From Pexels / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "Site internet",
+  "texte": "Votre site est beau.",
+  "chute": "Mais où est le bouton\npour vous appeler ?",
+  "photo": "photos/pexels/site-bureau-clair/8532637_hanna-pad.jpg",
+  "ton": "clair",
+  "legende": "Un visiteur sur téléphone vous accorde quelques secondes. S'il doit chercher votre numéro, il ne le cherchera pas longtemps.\n\nUn bon site n'est pas seulement beau. Il dit en une phrase ce que vous faites, pour qui, et comment vous joindre, en un geste.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Hanna Pad / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

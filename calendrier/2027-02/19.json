@@ -1,7 +1,9 @@
 {
-  "template": "plein",
-  "lieu": "Mont-Saint-Michel",
-  "phrase": "Chaque marée\n*apporte ses voyageurs.*",
-  "photo": "photos/pexels/normandie-mont/38876809_efrem-efre.jpg",
-  "legende": "La baie, entre deux saisons. Bon week-end.\n\nPhoto : Efrem Efre / Pexels\n\n#montsaintmichel #normandie"
+  "template": "constat",
+  "label": "En entreprise",
+  "texte": "Le même tableau,\nrempli trois fois.",
+  "chute": "Par trois personnes\ndifférentes.",
+  "photo": "photos/pexels/secteur-atelier/5582599_thirdman.jpg",
+  "ton": "marron",
+  "legende": "Une commande arrive par mail. Quelqu'un la note dans un tableau. Quelqu'un d'autre la recopie dans le logiciel de facturation. Un troisième la reporte dans le planning.\n\nTrois saisies, trois risques d'erreur, pour une seule information. Une seule saisie, reprise automatiquement partout ailleurs, suffit.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Thirdman / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

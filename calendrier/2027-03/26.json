@@ -1,6 +1,9 @@
 {
-  "template": "plein",
-  "phrase": "Les beaux jours reviennent.\n*Vos voyageurs aussi.*",
-  "photo": "photos/pexels/saison-printemps/32244224_tivasee.jpg",
-  "legende": "Bon week-end, et bonne saison à toutes les conciergeries.\n\nPhoto : Tivasee / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "constat",
+  "label": "Réseaux sociaux",
+  "texte": "Cet été, votre compte\nva-t-il se taire ?",
+  "chute": "Il peut publier sans vous.",
+  "photo": "photos/pexels/region-corse/34104016_anastasia-haritonov.jpg",
+  "ton": "clair",
+  "legende": "L'été, c'est souvent le moment où les comptes des entreprises s'arrêtent : trop de travail, puis les congés. C'est aussi le moment où beaucoup de clients ont le temps de regarder.\n\nUn calendrier préparé au printemps publie tout l'été, même pendant vos vacances.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Anastasia Haritonov / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

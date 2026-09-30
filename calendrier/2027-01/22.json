@@ -1,7 +1,11 @@
 {
-  "template": "plein",
-  "lieu": "Lyon",
-  "phrase": "Où que vous soyez,\n*tout se fait à distance.*",
-  "photo": "photos/pexels/region-lyon/5472752_adrien-olichon.jpg",
-  "legende": "Je travaille avec des conciergeries et des entreprises dans toute la France.\n\nUn premier appel en visio suffit pour comprendre votre activité. La configuration, les tests et le suivi se font ensuite à distance, sans que vous ayez à vous déplacer.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Adrien Olichon / Pexels\n\n#lyon #france"
+  "template": "terrain_photo",
+  "label": "Note d'ingénieur",
+  "titre": "Une automatisation sans alerte\n*est une panne qui attend.*",
+  "texte": "Chaque système que je livre prévient dès qu'une étape échoue, et un test vérifie chaque matin que tout répond.",
+  "chute": "Le jour où ça casse, on le sait.",
+  "photo": "photos/pexels/bureau-nuit/39513030_abinav-kareethara-sunikuttan.jpg",
+  "ton": "marron",
+  "numero": "04",
+  "legende": "Une note d'ingénieur, sur ce qu'on ne voit jamais en démonstration.\n\nUn système automatique qui tombe en panne en silence est pire qu'aucun système : tout le monde croit que le travail est fait. Chaque automatisation que je livre prévient donc dès qu'une étape échoue.\n\nLe jour où ça casse, on le sait. Le reste du temps, on n'y pense pas.\n\nPhoto : Abinav Kareethara Sunikuttan / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
 }

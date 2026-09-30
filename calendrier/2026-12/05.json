@@ -1,9 +1,10 @@
 {
   "template": "carte",
-  "label": "Astuce d'accueil",
-  "titre": "Un café prêt *pour le premier matin.*",
-  "texte": "Quelques dosettes, du sucre, deux tasses propres. Le premier réveil dans un logement devient un bon souvenir.",
-  "photo": "photos/pexels/astuce-machine-cafe/5825347_charlotte-may.jpg",
+  "label": "Astuce du samedi",
+  "titre": "Une adresse e-mail\n*par type de demande.*",
+  "texte": "Devis, facturation, support : séparer les entrées, c'est déjà trier. Et c'est la base de toute automatisation.",
+  "photo": "photos/pexels/pme-courrier/4968667_https-kaboompics-com.jpg",
+  "ton": "sombre",
   "numero": "09",
-  "legende": "Le premier matin, personne n'a envie de chercher une boulangerie ouverte. Un café à disposition, c'est une attention simple et très appréciée.\n\nPhoto : Charlotte May / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb"
+  "legende": "L'astuce du samedi, côté organisation.\n\nQuand tout arrive dans la même boîte, tout se mélange : un devis urgent entre deux publicités, une réclamation sous une facture. Des adresses séparées, ou au moins des règles de tri, rendent chaque demande visible.\n\nEt une demande bien triée est une demande qu'on peut traiter automatiquement.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

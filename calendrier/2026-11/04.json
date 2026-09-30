@@ -1,7 +1,9 @@
 {
   "template": "constat",
-  "label": "En entreprise",
-  "texte": "Combien de fois par semaine recopiez-vous la même information ?",
-  "chute": "Une fois suffirait.",
-  "legende": "D'un mail vers un tableau, d'un tableau vers un devis, d'un devis vers une facture. Chaque recopie prend du temps et laisse passer des erreurs.\n\nC'est typiquement ce qu'on automatise en premier.\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "label": "Site internet",
+  "texte": "Cinq signes\nque votre site date.",
+  "chute": "Vos visiteurs les voient\navant vous.",
+  "photo": "photos/pexels/site-bureau-sombre/14528636_fatih-dogrul.jpg",
+  "ton": "marron",
+  "legende": "Cinq signes qu'un site a fait son temps, à vérifier sur le vôtre en deux minutes, depuis votre téléphone.\n\nSi vous en cochez deux ou plus, votre site vous coûte probablement des contacts sans que vous le sachiez.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Fatih Dogrul, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Mike Murray, Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

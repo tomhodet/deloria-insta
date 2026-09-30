@@ -1,23 +1,13 @@
 {
-  "template": "edito",
-  "label": "Exemple · Restaurant",
-  "titre": "Les questions du soir, *répondues pendant le service.*",
-  "texte": "Horaires, accès, réservations de groupe : les messages arrivent quand vous êtes en cuisine. Un assistant peut répondre avec vos informations.",
-  "pictos": [
-    {
-      "icone": "horloge",
-      "texte": "Horaires"
-    },
-    {
-      "icone": "message",
-      "texte": "Messages"
-    },
-    {
-      "icone": "cloche",
-      "texte": "Vous alerte\nsi besoin"
-    }
+  "template": "service",
+  "label": "Coulisses",
+  "titre": "Ce compte\n*en trois chiffres.*",
+  "points": [
+    "5 publications par semaine",
+    "17h30, chaque jour de publication",
+    "6 mois préparés à l'avance"
   ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/secteur-restaurant/10545412_kristina-paukshtite.jpg",
-  "legende": "Un exemple de ce qui est possible pour un restaurant.\n\nPendant le service, personne n'a le temps de répondre aux messages. Un assistant peut prendre en charge les questions simples et vous transmettre les demandes qui méritent votre attention, comme une réservation de groupe.\n\nPhoto : Kristina Paukshtite / Pexels\n\n#pme #automatisation #entrepreneur #france #restaurant"
+  "photo": "photos/pexels/auto-engrenages/31327936_marta-branco.jpg",
+  "ton": "marron",
+  "legende": "Quelques chiffres sur ce compte, pour ceux qui se demandent comment il tient le rythme.\n\nCinq publications par semaine, toujours à la même heure, préparées six mois à l'avance. Les posts du calendrier partent tout seuls.\n\nLe même système peut fonctionner pour votre entreprise.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Marta Branco / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

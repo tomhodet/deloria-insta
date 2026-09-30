@@ -1,7 +1,24 @@
 {
-  "template": "plein",
-  "lieu": "Paris",
-  "phrase": "Paris s'éveille.\n*Vos messages aussi.*",
-  "photo": "photos/pexels/region-paris/28688862_sergey-guk.jpg",
-  "legende": "Les premiers messages de la journée arrivent souvent avant le premier café : une heure d'arrivée, une question sur le petit-déjeuner, un train en retard.\n\nUn peu de Paris pour commencer le week-end.\n\nPhoto : Sergey Guk / Pexels\n\n#paris #conciergerie #locationcourteduree"
+  "template": "edito",
+  "label": "Réseaux sociaux",
+  "titre": "Un compte qui publie *sans vous.*",
+  "texte": "Je prépare vos posts des mois à l'avance, à vos couleurs, avec votre ton. Ils partent seuls, au jour prévu.",
+  "pictos": [
+    {
+      "icone": "calendrier",
+      "texte": "Planifié\nd'avance"
+    },
+    {
+      "icone": "pinceau",
+      "texte": "À vos\ncouleurs"
+    },
+    {
+      "icone": "horloge",
+      "texte": "Publié\nà l'heure"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/site-bureau-clair/5942722_https-kaboompics-com.jpg",
+  "ton": "clair",
+  "legende": "Ce que je propose aux entreprises et aux indépendants : un compte Instagram qui vit toute l'année, sans que vous ayez à y penser chaque semaine.\n\nOn valide ensemble une ligne éditoriale et un calendrier. Ensuite, les publications partent seules, au jour et à l'heure prévus. Ce compte en est la démonstration.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication"
 }

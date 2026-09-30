@@ -1,23 +1,9 @@
 {
-  "template": "edito",
-  "label": "Réseaux sociaux",
-  "titre": "Vos logements méritent *d'être vus.*",
-  "texte": "Des publications régulières, à vos couleurs, qui mettent en avant vos biens et votre région. Vous validez, le reste se fait seul.",
-  "pictos": [
-    {
-      "icone": "calendrier",
-      "texte": "Rythme\nrégulier"
-    },
-    {
-      "icone": "pinceau",
-      "texte": "À vos\ncouleurs"
-    },
-    {
-      "icone": "check",
-      "texte": "Validé\npar vous"
-    }
-  ],
-  "cta": "Écrivez-moi en privé",
-  "photo": "photos/pexels/interieur-salon/36962663_luk-sauvage.jpg",
-  "legende": "Publier régulièrement sur Instagram prend un temps que peu de conciergeries ont.\n\nJe prépare des publications à vos couleurs, avec vos photos, publiées automatiquement après votre validation. Vous gardez la main sur ce qui sort, sans y passer vos soirées.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Luk Sauvage / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication #conciergerie"
+  "template": "constat",
+  "label": "Site internet",
+  "texte": "Un client vous cherche à 22h.",
+  "chute": "Votre site est\nle seul à répondre.",
+  "photo": "photos/pexels/bureau-nuit/35967725_thedollasyn.jpg",
+  "ton": "clair",
+  "legende": "Beaucoup de clients cherchent un prestataire le soir, une fois leur journée finie. À cette heure-là, vous ne répondez pas au téléphone. Votre site, si.\n\nIl doit dire clairement ce que vous faites, rassurer, et permettre de vous écrire en un geste. Le lendemain matin, la demande vous attend.\n\nPhoto : Thedollasyn / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

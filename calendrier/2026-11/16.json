@@ -1,10 +1,13 @@
 {
-  "template": "terrain_photo",
-  "label": "Note de terrain",
-  "titre": "Le silence *est le pire des échecs.*",
-  "texte": "Un voyageur sans réponse réécrit, s'inquiète, puis se plaint. Une réponse imparfaite vaut mieux que pas de réponse.",
-  "chute": "Quand l'assistant hésite, il fait patienter et vous prévient.",
-  "photo": "photos/pexels/interieur-fenetre/16577844_esra-erdem.jpg",
-  "numero": "04",
-  "legende": "Une conviction forgée en production : ne rien envoyer est pire qu'envoyer une réponse imparfaite.\n\nC'est pour ça que, lorsque l'assistant n'a pas l'information, il ne se tait pas. Il répond au voyageur qu'on revient vers lui très vite, et il vous alerte avec le détail de la demande.\n\nPhoto : Esra Erdem / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
+  "template": "service",
+  "label": "Pour les PME",
+  "titre": "Trois tâches\n*à confier à une machine.*",
+  "points": [
+    "Les relances de devis sans réponse",
+    "La recopie d'un mail vers un tableau",
+    "Les réponses aux questions fréquentes"
+  ],
+  "photo": "photos/pexels/pme-courrier/10202989_cottonbro-studio.jpg",
+  "ton": "clair",
+  "legende": "Si vous ne deviez automatiser que trois choses, commencez par celles-là. Elles reviennent chaque semaine, elles ne demandent aucune créativité, et elles se perdent facilement.\n\nUne relance oubliée, c'est un devis qui dort. Une recopie, c'est une erreur qui attend son heure.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france"
 }

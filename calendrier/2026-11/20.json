@@ -1,7 +1,24 @@
 {
-  "template": "plein",
-  "lieu": "Baie du Mont-Saint-Michel",
-  "phrase": "Tout le monde veut voir la baie.\n*Tout le monde a une question.*",
-  "photo": "photos/pexels/normandie-mont/12240836_bingqian-li.jpg",
-  "legende": "Horaires des marées, accès, parkings, restaurants : autour des lieux très visités, les voyageurs posent beaucoup de questions. Les mêmes, souvent.\n\nC'est exactement là qu'un assistant bien renseigné fait gagner du temps.\n\nPhoto : Bingqian Li / Pexels\n\n#montsaintmichel #normandie #conciergerie"
+  "template": "edito",
+  "label": "Sites internet",
+  "titre": "Un site qui inspire confiance *dès la première seconde.*",
+  "texte": "Des pages claires, vos vraies photos, un contact en un geste. Et vos textes, vous les modifiez vous-même.",
+  "pictos": [
+    {
+      "icone": "mobile",
+      "texte": "Pensé\nmobile"
+    },
+    {
+      "icone": "pinceau",
+      "texte": "À votre\nimage"
+    },
+    {
+      "icone": "document",
+      "texte": "Modifiable\npar vous"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/site-bureau-clair/10655906_adrian-regeci.jpg",
+  "ton": "clair",
+  "legende": "Un site n'a qu'une mission : donner envie de vous contacter.\n\nJe construis des sites sur mesure, rapides sur téléphone, fidèles à votre identité, et que vous pouvez mettre à jour sans toucher au code.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Adrian Regeci / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur"
 }

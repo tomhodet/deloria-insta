@@ -1,10 +1,9 @@
 {
-  "template": "terrain_photo",
-  "label": "Note d'ingénieur",
-  "titre": "Garder l'humain *au moment de la décision.*",
-  "texte": "L'outil prépare, trie, rédige. La validation d'un devis ou d'une réponse importante reste chez vous.",
-  "chute": "Automatiser n'est pas abdiquer.",
-  "photo": "photos/pexels/secteur-artisan/10414793_jean-daniel-francoeur.jpg",
-  "numero": "02",
-  "legende": "Une règle que j'applique à chaque projet : l'automatisme fait le travail répétitif, la personne garde la décision.\n\nC'est plus sûr, et c'est aussi ce qui permet aux équipes d'adopter l'outil sans méfiance.\n\nPhoto : Jean Daniel Francoeur / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+  "template": "constat",
+  "label": "Pour les conciergeries",
+  "texte": "Quatre questions\nreviennent sans cesse.",
+  "chute": "Elles ont toutes\nune réponse prête.",
+  "photo": "photos/pexels/details-cles/15863798_coppertist-wu.jpg",
+  "ton": "sombre",
+  "legende": "Quatre questions reviennent dans presque toutes les conversations avec les voyageurs. Aucune n'est difficile. Toutes arrivent au mauvais moment.\n\nVoici comment l'assistant que je configure y répond, et où il s'arrête.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Coppertist Wu, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }
