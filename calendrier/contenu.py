@@ -1,8 +1,9 @@
 """Contenu éditorial DelorIA, du mercredi 30 septembre 2026 au dimanche 4 avril 2027.
 
-CALENDRIER : un post par jour de publication (lundi, mercredi, vendredi, samedi, dimanche),
-dans l'ordre. construire.py attribue les dates, le ton (clair, sombre, marron) selon la
-position dans le fil, la numérotation des séries et les crédits photo.
+Un post par jour. CALENDRIER couvre le lundi, le mercredi, le vendredi, le samedi et le
+dimanche ; MARDIS (développement d'entreprise) et JEUDIS (l'automatisation du jeudi)
+complètent la semaine. construire.py attribue les dates, le ton (clair, sombre, marron)
+selon la position dans le fil, la numérotation des séries et les crédits photo.
 
 Quatre piliers, en alternance : la messagerie voyageur des conciergeries, les réseaux
 sociaux qui publient seuls, le site internet et l'identité visuelle, l'automatisation
@@ -218,7 +219,7 @@ La régularité ne demande pas de talent. Elle demande un système.
     # 16 · mer 21/10 · carrousel
     dict(template="carrousel", label="Coulisses",
          couverture=dict(template="constat", photo_fichier="site-bureau-sombre#4", label="Coulisses",
-                         texte="Ce compte publie\ncinq fois par semaine.", chute="Je n'y touche pas."),
+                         texte="Ce compte publie\nchaque jour.", chute="Je n'y touche pas."),
          pages=pages(
              ("Six mois\n*écrits d'avance.*", "Chaque post a sa date, son visuel et sa légende avant même d'être publié."),
              ("Des visuels\n*à mes couleurs.*", "Mes typographies, ma palette, des photos libres de droits. Chaque image est générée à partir de mes gabarits."),
@@ -228,7 +229,7 @@ La régularité ne demande pas de talent. Elle demande un système.
          fin=dict(titre="Le même système\n*peut tourner\npour votre compte.*", fond=FIN),
          legende=f"""Petit aveu : ce compte tourne tout seul.
 
-Le calendrier est écrit des mois à l'avance. Les visuels sont générés à mes couleurs. Et chaque lundi, mercredi, vendredi, samedi et dimanche, un programme publie le post du jour à 17h30.
+Le calendrier est écrit des mois à l'avance. Les visuels sont générés à mes couleurs. Et chaque jour à 17h30, un programme publie le post du jour.
 
 Je n'ai pas moins de choses à dire. J'ai juste arrêté de les publier à la main.
 
@@ -760,7 +761,7 @@ Automatiser, ce n'est pas disparaître. C'est être prévenu au bon moment.
     # 61 · mer 23/12
     dict(template="constat", photo_fichier="design-sceau#2", label="Coulisses",
          texte="Ce post a été écrit\nen septembre.", chute="Il arrive pile pour Noël.",
-         legende=f"""Oui, ce post a été préparé il y a trois mois, comme tous ceux de ce compte jusqu'au printemps.
+         legende=f"""Oui, ce post a été préparé il y a trois mois, comme tout le calendrier de ce compte jusqu'au printemps.
 
 C'est ce qui permet de publier régulièrement pendant les semaines chargées, les fêtes et les vacances. Le compte continue de vivre pendant que vous vivez aussi.
 
@@ -1098,12 +1099,12 @@ Chaque réponse préparée maintenant, c'est une soirée de libre en février.
     # 90 · lun 01/02
     dict(template="service", photo_fichier="auto-engrenages#2", label="Coulisses",
          titre="Ce compte\n*en trois chiffres.*",
-         points=["5 publications par semaine",
-                 "17h30, chaque jour de publication",
-                 "6 mois préparés à l'avance"],
+         points=["7 publications par semaine",
+                 "17h30, tous les jours",
+                 "187 posts préparés d'avance"],
          legende=f"""Quelques chiffres sur ce compte, pour ceux qui se demandent comment il tient le rythme.
 
-Cinq publications par semaine, toujours à la même heure, préparées six mois à l'avance. Les posts du calendrier partent tout seuls.
+Sept publications par semaine, toujours à la même heure, préparées des mois à l'avance. Les posts du calendrier partent tout seuls.
 
 Le même système peut fonctionner pour votre entreprise.
 
@@ -1470,7 +1471,7 @@ Un compte vivant rassure. Un compte abandonné fait douter.
 {H_RESEAUX}"""),
 
     # 122 · ven 19/03
-    dict(template="constat", photo_fichier="pme-courrier#5", label="En entreprise",
+    dict(template="constat", photo_fichier="design-sceau#5", label="En entreprise",
          texte="Un devis sans réponse\nn'est pas un non.", chute="C'est souvent un oubli.",
          legende=f"""Un client qui ne répond pas a souvent simplement été pris par autre chose. Sans relance, le devis dort, et le client finit par signer ailleurs, parfois par simple commodité.
 
@@ -1618,6 +1619,521 @@ Vous connaissez votre logement par cœur, et c'est justement le problème. Une n
          legende=f"""Les beaux jours sont là, les voyageurs arrivent. Cette année, les réponses partent à l'heure, les annonces sont à jour et vos soirées vous appartiennent.
 
 Bonne saison à toutes les conciergeries.
+
+{H_CONC}"""),
+]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Publication quotidienne : deux séries ajoutées le mardi et le jeudi.
+# MARDIS : développement d'entreprise. JEUDIS : « L'automatisation du jeudi »,
+# une tâche concrète par semaine, avant et après. Dans l'ordre des dates.
+# ─────────────────────────────────────────────────────────────────────────────
+
+H_DEV = "#developpement #entrepreneur #pme #strategie"
+JEUDI = "L'automatisation du jeudi"
+
+
+def jeudi(photo, titre, avant, apres, chute, legende):
+    return dict(template="terrain_photo", serie="jeudi", label=JEUDI, photo_fichier=photo,
+                titre=titre, avant=avant, apres=apres, chute=chute, legende=legende)
+
+
+MARDIS = [
+    # 06/10
+    dict(template="constat", photo_fichier="dev-boussole#3", label="Développement",
+         texte="Vos meilleurs clients\nvous ont trouvé par hasard ?", chute="Le hasard n'est pas\nune stratégie.",
+         legende=f"""Un ami qui recommande, une recherche tombée au bon moment, un passage devant la vitrine. Beaucoup d'entreprises doivent leurs meilleurs clients à la chance.
+
+La chance ne se planifie pas. Une présence régulière, un site clair et des réponses rapides, si.
+
+{CONTACT}
+
+{H_DEV}"""),
+    # 13/10
+    dict(template="constat", photo_fichier="dev-poignee#2", label="Développement",
+         texte="Le bouche-à-oreille\nest votre meilleur canal.", chute="Jusqu'au jour\noù il s'arrête.",
+         legende=f"""Le bouche-à-oreille est précieux : il amène des clients qui ont déjà confiance. Mais il ne se commande pas, il ne se prévoit pas, et il s'arrête sans prévenir.
+
+Les entreprises qui durent le complètent par une présence visible et régulière, qui travaille même quand personne ne parle d'elles.
+
+{H_DEV}"""),
+    # 20/10
+    dict(template="constat", photo_fichier="dev-telephone#4", label="Développement",
+         texte="Le premier qui répond\npart avec une longueur d'avance.", chute="Souvent, c'est lui\nqui signe.",
+         legende=f"""Quand un client demande plusieurs devis, il les compare. Mais il compare aussi, sans le dire, la rapidité, la clarté et le soin de chaque réponse.
+
+Une réponse rapide dit : ici, on s'occupe de vous. C'est souvent ce qui fait pencher la balance.
+
+{CONTACT}
+
+{H_DEV}"""),
+    # 27/10
+    dict(template="constat", photo_fichier="dev-escalier#3", label="Développement", voile=0.72,
+         texte="Dire oui à tout le monde,", chute="c'est ne parler à personne.",
+         legende=f"""Une entreprise qui fait tout pour tout le monde a du mal à dire ce qu'elle fait de mieux. Et un client qui hésite choisit celui qui semble fait pour lui.
+
+Choisir pour qui vous travaillez, c'est rendre votre message évident pour ceux-là.
+
+{H_DEV}"""),
+    # 03/11
+    dict(template="constat", photo_fichier="dev-calcul#3", label="Développement",
+         texte="Baisser votre prix\nne règle pas le problème.", chute="Le client ne voyait\npas la valeur.",
+         legende=f"""Quand un devis ne se signe pas, le premier réflexe est souvent de baisser le prix. Parfois c'est justifié. Souvent, le vrai problème est ailleurs : le client n'a pas compris ce qu'il obtenait.
+
+Une offre mieux expliquée se vend mieux qu'une offre moins chère.
+
+{H_DEV}"""),
+    # 10/11
+    dict(template="constat", photo_fichier="dev-matin#6", label="Développement",
+         texte="Un client satisfait\nne revient pas tout seul.", chute="Il revient quand\non pense à lui.",
+         legende=f"""Un client content vous oublie rarement par déception. Il vous oublie parce qu'il a autre chose à faire.
+
+Un message au bon moment, une nouvelle utile, une attention un an après : garder le lien ne demande pas beaucoup, à condition d'y penser. Ou de laisser un système y penser.
+
+{H_DEV}"""),
+    # 17/11
+    dict(template="constat", photo_fichier="dev-signature#5", label="Développement",
+         texte="Vos clients contents\nne laissent pas d'avis.", chute="Sauf si on\nle leur demande.",
+         legende=f"""Les clients mécontents écrivent spontanément. Les clients satisfaits, rarement. Résultat : vos avis ne reflètent pas vraiment votre travail.
+
+Une demande simple, envoyée au bon moment après la prestation, change l'équilibre. Et elle peut partir toute seule.
+
+{H_DEV}"""),
+    # 24/11
+    dict(template="plein", photo_fichier="details-cafe#2",
+         phrase="Vous travaillez dans votre entreprise.\n*Quand travaillez-vous dessus ?*",
+         legende=f"""Répondre, produire, livrer, facturer : le quotidien remplit toutes les heures. Et il ne reste plus de temps pour ce qui ferait grandir l'entreprise.
+
+Chaque tâche répétitive confiée à une machine, c'est du temps rendu pour réfléchir, prospecter, améliorer.
+
+{H_DEV}"""),
+    # 01/12
+    dict(template="constat", photo_fichier="dev-salle#1", label="Développement",
+         texte="Tout passe par vous ?", chute="Alors tout vous attend.",
+         legende=f"""Les devis, les questions, les validations, les imprévus : dans beaucoup de petites entreprises, tout remonte au dirigeant. C'est rassurant, jusqu'au jour où il n'est pas disponible.
+
+Déléguer, à une personne ou à un système, commence par une question : qu'est-ce qui pourrait se faire sans moi ?
+
+{H_DEV}"""),
+    # 08/12
+    dict(template="constat", photo_fichier="dev-signature#1", label="Développement",
+         texte="Si ce n'est écrit nulle part,", chute="ça n'existe pas.",
+         legende=f"""Une procédure qui n'existe que dans une tête se perd au premier départ, au premier congé, au premier nouveau salarié.
+
+L'écrire, c'est la rendre transmissible. Et une procédure écrite est aussi la première étape pour l'automatiser.
+
+{H_PME}"""),
+    # 15/12
+    dict(template="service", photo_fichier="dev-calcul#5", label="Développement",
+         titre="Trois chiffres\n*à suivre chaque mois.*",
+         points=["Le nombre de demandes reçues",
+                 "Le délai moyen de réponse",
+                 "Le nombre de devis signés"],
+         legende=f"""Pas besoin d'un tableau de bord compliqué pour piloter une petite entreprise. Trois chiffres suffisent pour voir si les choses avancent : ce qui arrive, la vitesse à laquelle vous répondez, et ce qui se signe.
+
+Et ces trois chiffres peuvent se calculer tout seuls.
+
+{CONTACT}
+
+{H_DEV}"""),
+    # 22/12
+    dict(template="plein", photo_fichier="interieur-cheminee#3",
+         phrase="Janvier se prépare\n*en décembre.*",
+         legende=f"""Les semaines de fin d'année sont souvent plus calmes. C'est le bon moment pour poser ce qui fera gagner du temps toute l'année prochaine : une offre plus claire, un site à jour, une première tâche automatisée.
+
+En janvier, il sera déjà temps d'en profiter.
+
+{H_DEV}"""),
+    # 29/12
+    dict(template="constat", photo_fichier="auto-colis#3", label="Développement",
+         texte="Qu'avez-vous refait\ncinquante fois cette année ?", chute="Voilà votre première\nautomatisation de 2027.",
+         legende=f"""Avant de fermer l'année, une question simple : quelle tâche avez-vous répétée le plus souvent ? Un mail, une relance, une recopie, un document à préparer.
+
+C'est presque toujours la meilleure candidate pour une première automatisation.
+
+{CONTACT}
+
+{H_PME}"""),
+    # 05/01
+    dict(template="constat", photo_fichier="dev-matin#1", label="Développement",
+         texte="Un objectif sans système", chute="reste une bonne intention.",
+         legende=f"""Publier chaque semaine, relancer chaque devis, répondre dans l'heure : les résolutions de janvier sont souvent les bonnes. Ce qui manque, c'est le moyen de les tenir quand le quotidien reprend le dessus.
+
+Un système ne remplace pas la volonté. Il la rend inutile.
+
+{H_DEV}"""),
+    # 12/01
+    dict(template="constat", photo_fichier="dev-telephone#2", label="Développement",
+         texte="Vos clients ne veulent pas\nun outil de plus.", chute="Ils veulent une réponse.",
+         legende=f"""Une application à télécharger, un espace client à créer, un formulaire de plus : ce qui simplifie votre travail complique parfois celui de vos clients.
+
+La bonne automatisation est invisible pour eux. Ils posent une question, ils obtiennent une réponse.
+
+{H_DEV}"""),
+    # 19/01
+    dict(template="constat", photo_fichier="auto-machine#2", label="Développement",
+         texte="Grandir sans s'organiser,", chute="c'est multiplier les urgences.",
+         legende=f"""Plus de clients, c'est plus de demandes, plus de devis, plus de relances. Si tout se fait encore à la main, chaque nouveau client ajoute du désordre autant que du chiffre d'affaires.
+
+S'organiser avant de grandir, c'est grandir sans s'épuiser.
+
+{H_DEV}"""),
+    # 26/01
+    dict(template="constat", photo_fichier="commerce-vitrine#5", label="Développement",
+         texte="Vous vendez de la qualité ?", chute="Votre image doit\nle montrer d'abord.",
+         legende=f"""Un client juge la qualité de votre travail avant de l'avoir vu : sur votre site, vos réseaux, vos documents. Une image négligée fait douter d'un travail soigné.
+
+L'image n'est pas un luxe. C'est la première preuve.
+
+{H_DESIGN}"""),
+    # 02/02
+    dict(template="constat", photo_fichier="dev-phare#4", label="Développement",
+         texte="On oublie vite\nune entreprise silencieuse.", chute="Même quand elle\ntravaille bien.",
+         legende=f"""Entre deux commandes, beaucoup d'entreprises disparaissent de l'esprit de leurs clients. Non pas parce qu'ils sont déçus, mais parce qu'ils n'y pensent plus.
+
+Une présence régulière, même discrète, suffit à rester la première idée quand le besoin revient.
+
+{H_RESEAUX}"""),
+    # 09/02
+    dict(template="constat", photo_fichier="dev-telephone#3", label="Développement",
+         texte="Vos clients sont\ndans votre téléphone ?", chute="Ils devraient être\ndans un fichier.",
+         legende=f"""Les coordonnées dans le téléphone, l'historique dans les mails, les devis dans un dossier : l'information existe, mais elle est éparpillée. Et elle part avec le téléphone.
+
+Un fichier clients, même simple, est la mémoire de l'entreprise. C'est aussi lui qui rend possibles les relances et les suivis automatiques.
+
+{H_PME}"""),
+    # 16/02
+    dict(template="constat", photo_fichier="dev-poignee#4", label="Développement",
+         texte="Un nouveau client,\nce sont toujours les mêmes étapes.", chute="Pourquoi les refaire\nà la main ?",
+         legende=f"""Message de bienvenue, documents à envoyer, informations à demander, rendez-vous à fixer : l'arrivée d'un client suit presque toujours le même chemin.
+
+Ce chemin peut se dérouler tout seul, étape par étape, avec votre ton. Vous n'intervenez que là où vous êtes utile.
+
+{CONTACT}
+
+{H_PME}"""),
+    # 23/02
+    dict(template="constat", photo_fichier="auto-colis#2", label="Développement",
+         texte="Promettez moins.", chute="Livrez plus tôt.",
+         legende=f"""Un délai tenu rassure. Un délai battu marque. À l'inverse, une promesse trop ambitieuse transforme un bon travail en déception.
+
+Mieux vaut annoncer un délai réaliste et surprendre que l'inverse.
+
+{H_DEV}"""),
+    # 02/03
+    dict(template="service", photo_fichier="dev-escalier#1", label="Développement",
+         titre="Trois questions\n*avant de grandir.*",
+         points=["Qu'est-ce qui dépend encore de vous seul ?",
+                 "Qu'est-ce qui se répète chaque semaine ?",
+                 "Qu'est-ce qui se perd entre deux outils ?"],
+         legende=f"""Avant de chercher plus de clients, il vaut la peine de vérifier que l'entreprise peut les absorber. Trois questions suffisent à repérer ce qui craquera en premier.
+
+Les réponses donnent souvent la liste des premières choses à organiser, ou à automatiser.
+
+{CONTACT}
+
+{H_DEV}"""),
+    # 09/03
+    dict(template="constat", photo_fichier="auto-clavier#2", label="Développement",
+         texte="Répondre vite", chute="ne veut pas dire répondre mal.",
+         legende=f"""La vitesse compte, mais une réponse rapide et approximative coûte plus cher qu'une réponse juste arrivée un peu plus tard.
+
+L'objectif n'est pas de répondre à tout, tout de suite. C'est de répondre juste, vite, et de savoir quand passer la main.
+
+{H_DEV}"""),
+    # 16/03
+    dict(template="constat", photo_fichier="details-cafe#4", label="Développement",
+         texte="Un client qui vous recommande", chute="est votre meilleur commercial.",
+         legende=f"""Aucune publicité n'a la force d'une recommandation. Encore faut-il la faciliter : un client satisfait recommande plus volontiers quand on le lui demande, au bon moment, simplement.
+
+C'est un geste commercial. Et un geste qui peut se programmer.
+
+{H_DEV}"""),
+    # 23/03
+    dict(template="edito", photo_fichier="dev-salle#6", label="Développement",
+         titre="Une entreprise *qui tourne sans vous.*",
+         texte="Des réponses qui partent, des relances qui se font, des publications qui sortent. Vous gardez les décisions.",
+         pictos=[dict(icone="message", texte="Réponses\nautomatiques"), dict(icone="fleche", texte="Relances\nprogrammées"),
+                 dict(icone="calendrier", texte="Publications\nplanifiées")],
+         cta="Écrivez-moi en privé",
+         legende=f"""C'est l'objectif de tout ce que je construis : une entreprise où le répétitif avance sans vous, et où votre temps va aux décisions, aux clients et au métier.
+
+Pas en une fois. Une tâche après l'autre.
+
+{CONTACT}
+
+{H_PME}"""),
+    # 30/03
+    dict(template="constat", photo_fichier="dev-phare#6", label="Développement",
+         texte="Votre prochain client\nvous cherche peut-être déjà.", chute="Êtes-vous facile\nà trouver ?",
+         legende=f"""Au printemps, les projets reprennent et les recherches aussi. Un site clair, un compte actif, une réponse rapide : trois conditions pour être trouvé, et choisi.
+
+{CONTACT}
+
+{H_DEV}"""),
+]
+
+JEUDIS = [
+    # 01/10
+    jeudi("dev-signature#6", "La relance d'un devis\n*sans réponse.*",
+          "on y pense trop tard, ou jamais.", "elle part seule au bon moment, et s'arrête dès que le client répond.",
+          "Un devis qui dort n'est pas un refus.",
+          f"""Nouvelle série : chaque jeudi, une tâche concrète qu'on peut confier à une machine.
+
+Première de la liste, la relance de devis. Elle rapporte, elle est simple à mettre en place, et c'est pourtant l'une des tâches les plus souvent oubliées.
+
+{CONTACT}
+
+{H_PME}"""),
+    # 08/10
+    jeudi("temps-horloge#4", "La confirmation\n*de rendez-vous.*",
+          "un appel pour confirmer, un oubli de temps en temps.", "une confirmation immédiate, puis un rappel la veille.",
+          "Moins d'oublis, moins de créneaux perdus.",
+          f"""L'automatisation du jeudi.
+
+Un rendez-vous oublié, c'est un créneau perdu pour vous et un client gêné. Une confirmation au moment de la prise de rendez-vous, puis un rappel la veille, règlent la question sans que personne n'ait à y penser.
+
+{H_PME}"""),
+    # 15/10
+    jeudi("design-sceau#6", "La demande\n*d'avis client.*",
+          "on n'ose pas, ou on oublie.", "un message poli part quelques jours après la prestation, avec le lien direct.",
+          "Les clients contents écrivent quand on le leur demande.",
+          f"""L'automatisation du jeudi.
+
+Un avis se demande au bon moment : assez tôt pour que le souvenir soit frais, assez tard pour que le client ait profité du résultat. Ce moment se programme une fois pour toutes.
+
+{H_PME}"""),
+    # 22/10
+    jeudi("auto-clavier#1", "Le formulaire\n*de contact.*",
+          "un mail à recopier dans un tableau.", "la demande rejoint le tableau, et le client reçoit un accusé de réception immédiat.",
+          "Rien ne se perd, personne n'attend.",
+          f"""L'automatisation du jeudi.
+
+Chaque demande qui arrive par votre site mérite deux choses : être notée quelque part, et rassurer celui qui l'a envoyée. Les deux peuvent se faire à la seconde, sans vous.
+
+{H_PME}"""),
+    # 29/10
+    jeudi("dev-calcul#6", "La facture\n*après le devis signé.*",
+          "on retape les mêmes lignes.", "la facture se prépare à partir du devis, il ne reste qu'à vérifier et envoyer.",
+          "Une seule saisie, aucune recopie.",
+          f"""L'automatisation du jeudi.
+
+Tout ce qui figure sur la facture existe déjà dans le devis. Le retaper, c'est perdre du temps et risquer une erreur. Une seule saisie suffit.
+
+{H_PME}"""),
+    # 05/11
+    jeudi("auto-colis#5", "Le tri\n*des e-mails entrants.*",
+          "tout arrive au même endroit, l'urgent se noie.", "chaque demande est classée, et la bonne personne est prévenue.",
+          "L'urgent reste visible.",
+          f"""L'automatisation du jeudi.
+
+Devis, réclamations, factures, publicités : quand tout arrive pêle-mêle, ce qui compte se perd. Un tri automatique range chaque message au bon endroit, dès son arrivée.
+
+{H_PME}"""),
+    # 12/11
+    jeudi("auto-dominos#4", "Les questions\n*qui reviennent.*",
+          "la même réponse écrite vingt fois.", "une réponse juste part aussitôt, et vous êtes prévenu pour ce qui sort du cadre.",
+          "Vous ne répondez plus qu'à l'inédit.",
+          f"""L'automatisation du jeudi.
+
+Horaires, délais, documents à fournir, modalités : une grande partie des questions reçues ont toujours la même réponse. Elle peut partir tout de suite, à toute heure.
+
+{CONTACT}
+
+{H_PME}"""),
+    # 19/11
+    jeudi("dev-matin#2", "Le point\n*du lundi matin.*",
+          "on ouvre cinq outils pour savoir où on en est.", "un résumé de la semaine arrive dans votre boîte mail.",
+          "Les chiffres viennent à vous.",
+          f"""L'automatisation du jeudi.
+
+Demandes reçues, devis envoyés, factures en attente : les chiffres de la semaine peuvent se rassembler seuls et vous attendre le lundi matin, dans un seul message.
+
+{H_PME}"""),
+    # 26/11
+    jeudi("dev-matin#4", "Les publications\n*sur les réseaux.*",
+          "on publie quand on y pense.", "un calendrier préparé d'avance, et chaque post part seul, au jour prévu.",
+          "Ce compte en est la preuve.",
+          f"""L'automatisation du jeudi.
+
+Ce post est parti tout seul. Le calendrier de ce compte est écrit des mois à l'avance, et un programme publie chaque jour à 17h30.
+
+{CONTACT}
+
+{H_RESEAUX}"""),
+    # 03/12
+    jeudi("dev-poignee#3", "L'accueil\n*d'un nouveau client.*",
+          "les mêmes mails et documents renvoyés à chaque fois.", "un parcours de bienvenue qui se déroule tout seul.",
+          "Un bon départ, à chaque fois.",
+          f"""L'automatisation du jeudi.
+
+Les premiers jours d'une relation client donnent le ton. Un parcours d'accueil prévu une fois, avec votre ton, assure que personne n'est oublié et que rien ne manque.
+
+{H_PME}"""),
+    # 10/12
+    jeudi("dev-calcul#1", "La relance\n*d'une facture impayée.*",
+          "on hésite, on attend, on oublie.", "un rappel courtois part à l'échéance, puis un second si besoin.",
+          "Votre trésorerie ne dépend plus de votre mémoire.",
+          f"""L'automatisation du jeudi.
+
+Relancer un client pour un paiement n'est agréable pour personne. Un rappel automatique, poli et à la bonne date, enlève la gêne et accélère les règlements.
+
+{H_PME}"""),
+    # 17/12
+    jeudi("dev-salle#4", "Le compte rendu\n*de réunion.*",
+          "des notes éparpillées, rarement envoyées.", "un résumé clair et les actions de chacun, envoyés à tous.",
+          "Ce qui a été décidé ne se perd plus.",
+          f"""L'automatisation du jeudi.
+
+Une réunion sans compte rendu est souvent une réunion à refaire. Un résumé préparé automatiquement, avec qui fait quoi, garde la trace de chaque décision.
+
+{H_PME}"""),
+    # 24/12
+    jeudi("astuce-deux-verres#2", "Le message d'absence\n*pendant les fêtes.*",
+          "on oublie, les clients attendent sans savoir.", "une réponse avec votre date de retour et un contact en cas d'urgence.",
+          "Vous fermez, vos clients savent.",
+          f"""L'automatisation du jeudi, version fêtes.
+
+Un message d'absence bien écrit rassure vos clients pendant que vous êtes à table. Il se prépare en cinq minutes, et il peut s'activer et se désactiver tout seul.
+
+Joyeux réveillon.
+
+{H_PME}"""),
+    # 31/12
+    jeudi("temps-horloge#5", "Le bilan\n*de l'année.*",
+          "des heures à rassembler les chiffres.", "les demandes, devis et ventes de l'année, déjà réunis.",
+          "Le 31 décembre, tout est prêt.",
+          f"""L'automatisation du jeudi, dernier jour de l'année.
+
+Quand les informations sont rangées au fil de l'eau, le bilan annuel n'est plus une corvée. Il se prépare tout seul.
+
+Belle fin d'année à toutes et à tous.
+
+{H_PME}"""),
+    # 07/01
+    jeudi("dev-signature#3", "Le devis\n*préparé à partir d'un formulaire.*",
+          "chaque devis recommence de zéro.", "le client renseigne ses besoins, le devis se prépare, vous le relisez.",
+          "Vous validez, vous ne retapez plus.",
+          f"""L'automatisation du jeudi.
+
+Pour les entreprises qui vendent des produits ou des prestations sur mesure, un formulaire bien pensé peut préparer le devis, le descriptif et le mail d'envoi. Il ne reste qu'à vérifier.
+
+{CONTACT}
+
+{H_PME2}"""),
+    # 14/01
+    jeudi("auto-entrepot#3", "L'alerte\n*de stock bas.*",
+          "on découvre la rupture le jour où il faut la pièce.", "un seuil atteint déclenche une alerte et une commande à valider.",
+          "Plus de mauvaise surprise.",
+          f"""L'automatisation du jeudi.
+
+Une rupture de stock coûte rarement le prix de la pièce. Elle coûte l'attente, le chantier arrêté, le client déçu. Un seuil surveillé en continu évite tout ça.
+
+{H_PME2}"""),
+    # 21/01
+    jeudi("astuce-lampe#5", "Les messages\n*des voyageurs.*",
+          "les mêmes questions, à toute heure, sur votre téléphone.", "une réponse juste, dans leur langue, et vous êtes prévenu pour le reste.",
+          "Vos soirées redeviennent les vôtres.",
+          f"""L'automatisation du jeudi, côté conciergerie.
+
+Parking, arrivée, wifi : la plupart des messages de voyageurs ont une réponse connue. Un assistant bien configuré y répond avec les informations du logement, et vous alerte dès qu'il faut une décision.
+
+{CONTACT}
+
+{H_CONC}"""),
+    # 28/01
+    jeudi("details-linge#3", "Le planning\n*des équipes de ménage.*",
+          "on recopie les réservations pour prévenir l'équipe.", "chaque arrivée et chaque départ mettent leur planning à jour.",
+          "Personne n'apprend un départ au dernier moment.",
+          f"""L'automatisation du jeudi, côté conciergerie.
+
+Les réservations existent déjà dans votre logiciel de location. Les recopier pour l'équipe de ménage, c'est une source d'oubli. Le planning peut se mettre à jour tout seul.
+
+{H_CONC}"""),
+    # 04/02
+    jeudi("auto-entrepot#2", "La recherche\n*d'un document interne.*",
+          "on fouille les dossiers ou on demande au collègue.", "on pose la question, l'outil répond avec le bon document.",
+          "Le savoir de l'entreprise, accessible à tous.",
+          f"""L'automatisation du jeudi.
+
+Procédures, fiches techniques, modèles : le savoir d'une entreprise est souvent là, mais introuvable. Un outil qui répond aux questions à partir de vos propres documents le rend accessible à toute l'équipe.
+
+{CONTACT}
+
+{H_PME2}"""),
+    # 11/02
+    jeudi("dev-boussole#4", "La veille\n*des appels d'offres.*",
+          "on consulte les plateformes quand on y pense.", "chaque nouvelle offre qui vous correspond arrive dans votre boîte mail.",
+          "Vous ne ratez plus les bonnes occasions.",
+          f"""L'automatisation du jeudi.
+
+Les marchés intéressants existent, mais ils se perdent parmi des centaines d'annonces. Une veille automatique filtre selon vos critères et vous prévient dès qu'une offre correspond.
+
+{H_PME2}"""),
+    # 18/02
+    jeudi("dev-escalier#4", "Les nouveaux avis\n*en ligne.*",
+          "on découvre un avis des semaines plus tard.", "chaque nouvel avis est signalé, avec une proposition de réponse à relire.",
+          "Chaque client a sa réponse.",
+          f"""L'automatisation du jeudi.
+
+Répondre à un avis montre qu'il y a quelqu'un derrière l'entreprise. Encore faut-il le voir passer. Une alerte, et une réponse préparée à relire, et c'est fait en une minute.
+
+{H_DEV}"""),
+    # 25/02
+    jeudi("auto-machine#1", "Le rappel\n*d'entretien annuel.*",
+          "le client oublie, vous aussi.", "un an après l'intervention, un message propose un rendez-vous.",
+          "Un client fidèle, ça se garde.",
+          f"""L'automatisation du jeudi.
+
+Chaudière, machine, installation, contrôle : beaucoup d'interventions reviennent chaque année. Un rappel au bon moment fait revenir le client, sans démarchage.
+
+{H_PME2}"""),
+    # 04/03
+    jeudi("details-carnet#3", "Les pièces\n*pour le comptable.*",
+          "une course aux justificatifs en fin de mois.", "factures et reçus rangés au fil de l'eau, envoyés chaque mois.",
+          "La fin de mois devient une formalité.",
+          f"""L'automatisation du jeudi.
+
+Chaque facture reçue peut être rangée et transmise au moment où elle arrive. En fin de mois, il n'y a plus rien à chercher.
+
+{H_PME}"""),
+    # 11/03
+    jeudi("dev-salle#5", "L'arrivée\n*d'un nouveau salarié.*",
+          "on oublie un accès, un document, une présentation.", "une liste qui se déroule seule, étape par étape.",
+          "Le premier jour se passe bien, à chaque fois.",
+          f"""L'automatisation du jeudi.
+
+Comptes à créer, documents à signer, personnes à présenter : l'arrivée d'un salarié suit toujours les mêmes étapes. Une liste automatique s'assure que rien n'est oublié.
+
+{H_PME}"""),
+    # 18/03
+    jeudi("dev-matin#5", "Le récapitulatif\n*du matin.*",
+          "on découvre les demandes de la veille une par une.", "un seul message résume ce qui est arrivé et ce qui attend.",
+          "Vous commencez la journée en sachant tout.",
+          f"""L'automatisation du jeudi.
+
+Plutôt que dix notifications dispersées, un seul message chaque matin : les demandes reçues, celles qui attendent une réponse, et ce qui est urgent.
+
+{H_PME}"""),
+    # 25/03
+    jeudi("auto-colis#1", "Le suivi\n*après une prestation.*",
+          "une fois le travail livré, on n'a plus de nouvelles.", "une semaine plus tard, un message vérifie que tout va bien.",
+          "Le service continue après la facture.",
+          f"""L'automatisation du jeudi.
+
+Un message une semaine après la livraison montre que vous vous souciez du résultat, pas seulement de la vente. Et il ouvre souvent la porte à la suite.
+
+{H_DEV}"""),
+    # 01/04
+    jeudi("interieur-salon#1", "Le rapport\n*aux propriétaires.*",
+          "chaque mois, des heures à compiler réservations et revenus.", "un rapport clair, préparé automatiquement pour chaque propriétaire.",
+          "Vos propriétaires savent, sans vous appeler.",
+          f"""L'automatisation du jeudi, côté conciergerie.
+
+Vos propriétaires veulent savoir comment se porte leur logement. Un rapport mensuel préparé automatiquement répond à leurs questions avant qu'ils ne les posent.
+
+{CONTACT}
 
 {H_CONC}"""),
 ]

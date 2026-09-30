@@ -5,7 +5,7 @@
   "texte": "La même question peut produire deux réponses différentes. Chaque sortie est contrôlée et complétée avant de partir.",
   "chute": "Ce n'est pas de la méfiance. C'est de l'ingénierie.",
   "photo": "photos/pexels/auto-engrenages/8327817_tima-miroshnichenko.jpg",
-  "ton": "marron",
+  "ton": "clair",
   "numero": "03",
   "legende": "Une note d'ingénieur, tirée de la production.\n\nUn modèle de langage ne répond pas toujours de la même façon à la même question. La plupart du temps, c'est sans conséquence. Parfois, un champ manque, et l'envoi casse.\n\nChaque réponse est donc vérifiée, et complétée si besoin, avant de partir. Un système fiable ne suppose jamais que tout ira bien.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
 }

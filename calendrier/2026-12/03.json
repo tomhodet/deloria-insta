@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "L'accueil\n*d'un nouveau client.*",
+  "avant": "les mêmes mails et documents renvoyés à chaque fois.",
+  "apres": "un parcours de bienvenue qui se déroule tout seul.",
+  "chute": "Un bon départ, à chaque fois.",
+  "photo": "photos/pexels/dev-poignee/7693144_yan-krukau.jpg",
+  "ton": "clair",
+  "numero": "10",
+  "legende": "L'automatisation du jeudi.\n\nLes premiers jours d'une relation client donnent le ton. Un parcours d'accueil prévu une fois, avec votre ton, assure que personne n'est oublié et que rien ne manque.\n\nPhoto : Yan Krukau / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Les nouveaux avis\n*en ligne.*",
+  "avant": "on découvre un avis des semaines plus tard.",
+  "apres": "chaque nouvel avis est signalé, avec une proposition de réponse à relire.",
+  "chute": "Chaque client a sa réponse.",
+  "photo": "photos/pexels/dev-escalier/30380818_mukhtar-shuaib-mukhtar.jpg",
+  "ton": "marron",
+  "numero": "21",
+  "legende": "L'automatisation du jeudi.\n\nRépondre à un avis montre qu'il y a quelqu'un derrière l'entreprise. Encore faut-il le voir passer. Une alerte, et une réponse préparée à relire, et c'est fait en une minute.\n\nPhoto : Mukhtar Shuaib Mukhtar / Pexels\n\n#developpement #entrepreneur #pme #strategie"
+}

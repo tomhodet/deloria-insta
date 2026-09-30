@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "L'alerte\n*de stock bas.*",
+  "avant": "on découvre la rupture le jour où il faut la pièce.",
+  "apres": "un seuil atteint déclenche une alerte et une commande à valider.",
+  "chute": "Plus de mauvaise surprise.",
+  "photo": "photos/pexels/auto-entrepot/30341205_othmane-ettalbi.jpg",
+  "ton": "clair",
+  "numero": "16",
+  "legende": "L'automatisation du jeudi.\n\nUne rupture de stock coûte rarement le prix de la pièce. Elle coûte l'attente, le chantier arrêté, le client déçu. Un seuil surveillé en continu évite tout ça.\n\nPhoto : Othmane Ettalbi / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+}

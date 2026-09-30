@@ -5,7 +5,7 @@
   "texte": "Avant la réservation, la conversation vit à une adresse. Après, à une autre. Le bug n'apparaissait qu'avec une vraie réservation.",
   "chute": "Tester chaque cas, pas seulement le plus simple.",
   "photo": "photos/pexels/details-cles/16262613_coppertist-wu.jpg",
-  "ton": "sombre",
+  "ton": "clair",
   "numero": "06",
   "legende": "Une note de terrain, la plus coûteuse de l'année.\n\nPour un logiciel de location, une demande d'information et une réservation confirmée ne vivent pas au même endroit. Tant qu'un voyageur se renseigne, tout fonctionne. Dès qu'il réserve, l'ancienne adresse ne répond plus.\n\nEn test, aucune réservation réelle n'existait. Le bug est apparu en production. Depuis, chaque état possible d'une conversation a son test.\n\nPhoto : Coppertist Wu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes"
 }

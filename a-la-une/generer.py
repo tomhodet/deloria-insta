@@ -68,7 +68,7 @@ SERIES = {
                         "Une publication automatique, à heure fixe"]},
             {"type": "texte", "label": "La preuve",
              "texte": "Ce compte fonctionne\nexactement comme ça.",
-             "chute": "Cinq publications par semaine,\nprêtes pour six mois."},
+             "chute": "Un post chaque jour,\nsix mois préparés d'avance."},
             {"type": "cta", "titre": "Vous validez une fois.\n*Votre compte vit toute l'année.*"},
         ],
         "legende": (

@@ -47,6 +47,10 @@ body {{ font-family: 'Montserrat', sans-serif; font-weight: 300; -webkit-font-sm
 .foot {{ margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; }}
 .handle {{ font-family: 'Montserrat'; font-weight: 400; font-size: 19px; letter-spacing: 0.3em; }}
 .grade {{ filter: saturate(.86) sepia(.08) contrast(1.02); }}
+/* Coupures de ligne : lignes équilibrées pour les grands textes, jamais un mot seul en fin de paragraphe. */
+.texte, .chute, .titre, .phrase {{ text-wrap: balance; }}
+.txt, .item, .l1, .pl, .v {{ text-wrap: pretty; }}
+.ln {{ display: block; }}
 """
 
 # Trois tons, un par famille de la grille. bg : fond ; txt : texte ; acc : italique d'accent ;
@@ -82,6 +86,20 @@ def esc(s: str) -> str:
         out.append(("<em>" if italic else "") + part + ("</em>" if italic else ""))
         italic = not italic
     return "".join(out).replace("\n", "<br>")
+
+
+def par_ligne(s: str) -> str:
+    """Comme esc(), mais chaque ligne voulue devient un bloc. Les coupures automatiques
+    s'équilibrent alors ligne par ligne, sans qu'une ligne voisine plus courte ne les bloque."""
+    out, ouvert = [], False
+    for l in esc(s).split("<br>"):
+        if ouvert:
+            l = "<em>" + l
+        ouvert = l.count("<em>") > l.count("</em>")
+        if ouvert:
+            l += "</em>"
+        out.append(f'<span class="ln">{l or "<br>"}</span>')
+    return "".join(out)
 
 
 def check_text(spec: dict) -> None:
@@ -141,6 +159,31 @@ def photo_uri(p: dict) -> str:
     return chemin.as_uri()
 
 
+def luminance(p: dict) -> float:
+    """Luminosité (0 à 1) de la bande centrale de la photo, là où se pose le texte, après
+    recadrage au format du post. On retient le 3e quartile : les zones claires gênent la lecture
+    même quand la moyenne est sombre."""
+    from PIL import Image
+    im = Image.open(REPO / p["photo"]).convert("L")
+    w, h = im.size
+    if w / h > W / H:
+        nw = int(h * W / H)
+        im = im.crop(((w - nw) // 2, 0, (w + nw) // 2, h))
+    else:
+        nh = int(w * H / W)
+        im = im.crop((0, (h - nh) // 2, w, (h + nh) // 2))
+    valeurs = sorted(im.resize((54, 68)).crop((5, 24, 49, 44)).tobytes())
+    return valeurs[int(len(valeurs) * .75)] / 255
+
+
+def voile_auto(p: dict, base: float, maxi: float = 0.75, cible: float = 0.3) -> float:
+    """Voile noir assez dense pour que le texte clair reste lisible, même sur une photo lumineuse.
+    Un voile fixé dans la spec reste prioritaire."""
+    if "voile" in p:
+        return p["voile"]
+    return round(min(maxi, max(base, 1 - cible / max(luminance(p), 0.01))), 2)
+
+
 def fond_photo(p: dict, t: str, voile: float) -> str:
     """Photo pleine page derrière le texte, voile uni, jamais de dégradé.
     sombre : noir et blanc assombri. marron : noir et blanc teinté marron de la charte."""
@@ -175,7 +218,7 @@ def tpl_constat(p: dict) -> str:
     """Un constat du quotidien, une chute en italique or. Fond photo noir et blanc (sombre) ou teinté (marron)."""
     t = ton(p)
     pal = PAL[t]
-    fond = fond_photo(p, t, 0.6 if t == "sombre" else 0.76)
+    fond = fond_photo(p, t, voile_auto(p, 0.6) if t == "sombre" else 0.76) if p.get("photo") else ""
     anneaux = "" if fond else ('<div class="ring r1"></div><div class="ring r2"></div>')
     return f"""
 <style>
@@ -191,8 +234,8 @@ body {{ background: {pal['bg']}; color: var(--blanc); }}
   {fond or anneaux}
   <div class="label" style="color:{pal['lab']}; position:relative">{esc(p['label'])}</div>
   <div class="body">
-    <div class="texte">{esc(p['texte'])}</div>
-    <div class="chute">{esc(p['chute'])}</div>
+    <div class="texte">{par_ligne(p['texte'])}</div>
+    <div class="chute">{par_ligne(p['chute'])}</div>
   </div>
   {pied(pal)}
 </div>"""
@@ -216,9 +259,9 @@ body {{ background: {pal['bg']}; color: var(--blanc); }}
 .item .d {{ flex: none; width: 10px; height: 10px; background: var(--or); transform: rotate(45deg) translateY(-6px); }}
 </style>
 <div class="frame">
-  {fond_photo(p, t, 0.84 if t == "marron" else 0.66)}
+  {fond_photo(p, t, 0.84 if t == "marron" else voile_auto(p, 0.66)) if p.get("photo") else ""}
   <div class="label" style="color:var(--beige); opacity:.75">{esc(p['label'])}</div>
-  <div class="titre">{esc(p['titre'])}</div>
+  <div class="titre">{par_ligne(p['titre'])}</div>
   <div class="items">{items}</div>
   <div class="foot">
     <div style="display:flex; flex-direction:column; gap:22px">
@@ -239,7 +282,7 @@ def tpl_plein(p: dict) -> str:
         em = "var(--or)"
     else:
         fond = (f'<img class="bg grade" src="{photo_uri(p)}">'
-                f'<div class="voile" style="background: rgba(13,13,13,{p.get("voile", 0.42)})"></div>')
+                f'<div class="voile" style="background: rgba(13,13,13,{voile_auto(p, 0.42, 0.62)})"></div>')
         em = "var(--beige)"
     return f"""
 <style>
@@ -257,7 +300,7 @@ body {{ background: var(--noir); }}
 <div class="filet"></div>
 <div class="centre">
   {f'<div class="lieu">{esc(p["lieu"])}</div>' if p.get('lieu') else ''}
-  <div class="phrase">{esc(p['phrase'])}</div>
+  <div class="phrase">{par_ligne(p['phrase'])}</div>
 </div>
 <div class="bas">
   {ornament('--beige')}
@@ -277,7 +320,7 @@ def tpl_arche(p: dict) -> str:
 <div class="liste">
   <div class="gauche">
     <div class="label" style="color:{pal['lab']}; opacity:.8">{esc(label)}</div>
-    <div class="titre">{esc(p['titre'])}</div>
+    <div class="titre">{par_ligne(p['titre'])}</div>
     <div class="items">{items}</div>
   </div>
   {photo}
@@ -295,10 +338,10 @@ def tpl_arche(p: dict) -> str:
     else:
         if p.get("phrase"):
             lignes = p["phrase"]
-            texte = f'<div class="texte">{esc(lignes)}</div>'
+            texte = f'<div class="texte">{par_ligne(lignes)}</div>'
             n = len(lignes.replace("*", ""))
         else:
-            texte = f'<div class="texte">{esc(p["texte"])}</div><div class="chute">{esc(p["chute"])}</div>'
+            texte = f'<div class="texte">{par_ligne(p["texte"])}</div><div class="chute">{par_ligne(p["chute"])}</div>'
             n = len(p["texte"]) + len(p["chute"])
         taille = 66 if n <= 48 else 58 if n <= 78 else 50
         corps = f"""
@@ -358,9 +401,9 @@ body {{ background: {pal['bg']}; color: {pal['txt']}; }}
 <div class="g">
   {wordmark(*pal['wm'])}
   <div class="lab">{esc(p['label'])}</div>
-  <div class="titre">{esc(p['titre'])}</div>
+  <div class="titre">{par_ligne(p['titre'])}</div>
   <div class="sep"></div>
-  <div class="txt">{esc(p['texte'])}</div>
+  <div class="txt">{par_ligne(p['texte'])}</div>
   <div class="pictos">{pictos}</div>
   {cta}
 </div>
@@ -372,7 +415,13 @@ def bandeau(p: dict, hauteur: int, t: str, titre_px: int, txt_px: int, num_px: i
     pal = PAL[t]
     cadrage = p.get("cadrage", "center")
     em = "var(--marron)" if t == "clair" else "var(--or)"
-    ch = (f'<div class="chute">{esc(p["chute"])}</div>' if chute and p.get("chute") else "")
+    ch = (f'<div class="chute">{par_ligne(p["chute"])}</div>' if chute and p.get("chute") else "")
+    if p.get("avant") and p.get("apres"):
+        maj = lambda x: x[:1].upper() + x[1:]
+        corps = (f'<div class="aa"><div class="k">Avant</div><div class="v av">{par_ligne(maj(p["avant"]))}</div>'
+                 f'<div class="k">Après</div><div class="v ap">{par_ligne(maj(p["apres"]))}</div></div>')
+    else:
+        corps = f'<div class="txt">{par_ligne(p["texte"])}</div>'
     return f"""
 <style>
 body {{ background: {pal['bg']}; color: {pal['txt']}; }}
@@ -384,12 +433,20 @@ body {{ background: {pal['bg']}; color: {pal['txt']}; }}
 .titre em {{ color: {em}; font-weight: 400; }}
 .txt {{ font-family: 'Montserrat'; font-weight: 300; font-size: {txt_px}px; line-height: 1.6; color: {pal['doux']}; opacity: .85; margin-top: 26px; }}
 .chute {{ font-family: 'Cormorant'; font-style: italic; font-weight: 500; font-size: 38px; line-height: 1.25; color: {em}; margin-top: 26px; }}
+.aa {{ display: grid; grid-template-columns: auto 1fr; column-gap: 30px; row-gap: 16px; align-items: baseline;
+       margin-top: 34px; padding-top: 30px; border-top: 1px solid {pal['trait']}; }}
+.aa .k {{ font-family: 'Montserrat'; font-weight: 500; font-size: 17px; letter-spacing: .34em; text-transform: uppercase;
+          color: {'var(--marron)' if t == 'clair' else 'var(--or)'}; }}
+.aa .v {{ font-family: 'Cormorant'; font-weight: 400; font-size: 40px; line-height: 1.18; }}
+.aa .av {{ color: {pal['doux']}; opacity: .68; }}
+.aa .ap {{ color: {pal['txt']}; }}
+.aa + .chute {{ margin-top: 30px; }}
 </style>
 <img class="ph grade" src="{photo_uri(p)}">
 <div class="bloc">
   <div class="haut"><div class="num">{esc(p['numero'])}</div><div class="label" style="color:{pal['lab'] if t != 'sombre' else 'var(--or)'}; opacity:.85">{esc(p['label'])}</div></div>
-  <div class="titre">{esc(p['titre'])}</div>
-  <div class="txt">{esc(p['texte'])}</div>
+  <div class="titre">{par_ligne(p['titre'])}</div>
+  {corps}
   {ch}
   {pied(pal, 'static')}
 </div>"""
@@ -434,9 +491,9 @@ body {{ background: {pal['bg']}; color: {pal['txt']}; }}
   <div class="tete"><div class="label" style="color:{pal['lab']}; opacity:.8">{esc(p['label'])}</div><div class="compteur">{esc(p['compteur'])}</div></div>
   <div class="milieu">
     <div class="num">{esc(p['numero'])}</div>
-    <div class="titre">{esc(p['titre'])}</div>
+    <div class="titre">{par_ligne(p['titre'])}</div>
     <div class="sep"></div>
-    <div class="txt">{esc(p['texte'])}</div>
+    <div class="txt">{par_ligne(p['texte'])}</div>
   </div>
   {pied(pal)}
 </div>"""
@@ -465,7 +522,7 @@ body {{ background: {pal['bg']}; color: var(--blanc); }}
   {fond}
   <div class="tete"><div class="label" style="color:var(--beige); opacity:.75">{esc(p['label'])}</div><div class="compteur">{esc(p['compteur'])}</div></div>
   <div class="milieu">
-    <div class="titre">{esc(p['titre'])}</div>
+    <div class="titre">{par_ligne(p['titre'])}</div>
     <div class="contact">
       {ornament('--or')}
       <div class="l1">Écrivez-moi en message privé, ou appelez-moi.</div>

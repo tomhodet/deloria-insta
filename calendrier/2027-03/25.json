@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Le suivi\n*après une prestation.*",
+  "avant": "une fois le travail livré, on n'a plus de nouvelles.",
+  "apres": "une semaine plus tard, un message vérifie que tout va bien.",
+  "chute": "Le service continue après la facture.",
+  "photo": "photos/pexels/auto-colis/17260157_harper-sunday.jpg",
+  "ton": "clair",
+  "numero": "26",
+  "legende": "L'automatisation du jeudi.\n\nUn message une semaine après la livraison montre que vous vous souciez du résultat, pas seulement de la vente. Et il ouvre souvent la porte à la suite.\n\nPhoto : Harper Sunday / Pexels\n\n#developpement #entrepreneur #pme #strategie"
+}

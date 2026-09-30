@@ -3,6 +3,7 @@
 Usage :
     python3 calendrier/construire.py                      # écrit les specs JSON et calendrier.json
     python3 templates/render.py calendrier/20*/*.json     # génère les visuels
+    python3 templates/verifier.py calendrier/20*/*.json   # contrôle cadrage, débordements, mots seuls
 
 Chaque post devient calendrier/AAAA-MM/JJ.json (spec de rendu + légende).
 Un carrousel ajoute JJ-02.json, JJ-03.json... pour ses pages intérieures.
@@ -25,10 +26,11 @@ from pathlib import Path
 ICI = Path(__file__).resolve().parent
 REPO = ICI.parent
 sys.path.insert(0, str(ICI))
-from contenu import CALENDRIER  # noqa: E402
+from contenu import CALENDRIER, MARDIS, JEUDIS  # noqa: E402
 
 DEBUT = dt.date(2026, 9, 30)          # mercredi, position 1 dans le fil
-JOURS = {0, 2, 4, 5, 6}               # lundi, mercredi, vendredi, samedi, dimanche
+JOURS = {0, 2, 4, 5, 6}               # CALENDRIER : lundi, mercredi, vendredi, samedi, dimanche
+# MARDIS et JEUDIS complètent la semaine : un post chaque jour.
 RAW = "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/"
 
 # Photos écartées après revue visuelle : visages reconnaissables, logos de marques,
@@ -50,6 +52,9 @@ EXCLUES = {
     "reseaux-appareil": [3, 5, 6], "reseaux-planning": [2, 3, 4, 5, 6], "design-nuancier": [2],
     "design-papeterie": [5], "design-sceau": [3], "temps-sablier": [6], "temps-horlogerie": [1, 2, 4, 5],
     "pme-dossiers": [6], "commerce-vitrine": [4], "porte-lumiere": [5, 6],
+    "dev-poignee": [1], "dev-boussole": [6], "dev-croissance": [4, 5], "dev-telephone": [1, 5, 6],
+    "dev-calcul": [4], "auto-colis": [4, 6], "auto-robot": [4, 5, 6], "auto-clavier": [4, 6],
+    "auto-dominos": [3, 5, 6], "temps-horloge": [2],
 }
 
 # Photos déjà visibles ailleurs sur le compte : post de bienvenue publié, carrousels à la une.
@@ -62,13 +67,25 @@ def ton(position: int) -> str:
     return "sombre" if position % 4 == 0 else "marron"
 
 
-def dates(n: int) -> list[dt.date]:
+def dates(n: int, jours: set = JOURS) -> list[dt.date]:
     out, d = [], DEBUT
     while len(out) < n:
-        if d.weekday() in JOURS:
+        if d.weekday() in jours:
             out.append(d)
         d += dt.timedelta(days=1)
     return out
+
+
+def planning() -> list[tuple[dt.date, dict]]:
+    """Fusionne les trois listes et vérifie qu'il y a exactement un post par jour."""
+    plan = (list(zip(dates(len(CALENDRIER)), CALENDRIER))
+            + list(zip(dates(len(MARDIS), {1}), MARDIS))
+            + list(zip(dates(len(JEUDIS), {3}), JEUDIS)))
+    plan.sort(key=lambda x: x[0])
+    jours = [j for j, _ in plan]
+    attendu = [DEBUT + dt.timedelta(days=i) for i in range((jours[-1] - DEBUT).days + 1)]
+    assert jours == attendu, "Le calendrier doit compter exactement un post par jour, sans trou ni doublon"
+    return plan
 
 
 def resoudre(ref: str, controle: bool = True) -> str:
@@ -111,7 +128,7 @@ def controles_texte(date: dt.date, spec: dict, avertissements: list) -> None:
     for bad in ("—", "–"):
         if bad in blob:
             raise ValueError(f"{date} : tiret interdit")
-    lim = {"texte": 62, "chute": 48, "phrase": 70, "titre": 72}
+    lim = {"texte": 62, "chute": 48, "phrase": 70, "titre": 72, "avant": 80, "apres": 90}
     for champ, maxi in lim.items():
         v = spec.get(champ)
         if spec["template"] in ("terrain_photo", "carte", "slide") and champ == "texte":
@@ -121,7 +138,7 @@ def controles_texte(date: dt.date, spec: dict, avertissements: list) -> None:
 
 
 def main() -> None:
-    slots = dates(len(CALENDRIER))
+    plan = planning()
     index, numeros, vus = [], Counter(), {}
     avertissements = []
 
@@ -129,7 +146,7 @@ def main() -> None:
     for f in list(ICI.glob("20*/*.json")) + list(ICI.glob("20*/*.jpg")):
         f.unlink()
 
-    for position, (jour, post) in enumerate(zip(slots, CALENDRIER), start=1):
+    for position, (jour, post) in enumerate(plan, start=1):
         t = ton(position)
         dossier = ICI / jour.strftime("%Y-%m")
         dossier.mkdir(exist_ok=True)

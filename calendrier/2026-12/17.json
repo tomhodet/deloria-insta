@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Le compte rendu\n*de réunion.*",
+  "avant": "des notes éparpillées, rarement envoyées.",
+  "apres": "un résumé clair et les actions de chacun, envoyés à tous.",
+  "chute": "Ce qui a été décidé ne se perd plus.",
+  "photo": "photos/pexels/dev-salle/37697628_li-chunyu.jpg",
+  "ton": "clair",
+  "numero": "12",
+  "legende": "L'automatisation du jeudi.\n\nUne réunion sans compte rendu est souvent une réunion à refaire. Un résumé préparé automatiquement, avec qui fait quoi, garde la trace de chaque décision.\n\nPhoto : Li Chunyu / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

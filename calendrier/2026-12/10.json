@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "La relance\n*d'une facture impayée.*",
+  "avant": "on hésite, on attend, on oublie.",
+  "apres": "un rappel courtois part à l'échéance, puis un second si besoin.",
+  "chute": "Votre trésorerie ne dépend plus de votre mémoire.",
+  "photo": "photos/pexels/dev-calcul/16282306_mohamed-hamdi.jpg",
+  "ton": "sombre",
+  "numero": "11",
+  "legende": "L'automatisation du jeudi.\n\nRelancer un client pour un paiement n'est agréable pour personne. Un rappel automatique, poli et à la bonne date, enlève la gêne et accélère les règlements.\n\nPhoto : Mohamed Hamdi / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

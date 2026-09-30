@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Le devis\n*préparé à partir d'un formulaire.*",
+  "avant": "chaque devis recommence de zéro.",
+  "apres": "le client renseigne ses besoins, le devis se prépare, vous le relisez.",
+  "chute": "Vous validez, vous ne retapez plus.",
+  "photo": "photos/pexels/dev-signature/8453825_cottonbro-studio.jpg",
+  "ton": "sombre",
+  "numero": "15",
+  "legende": "L'automatisation du jeudi.\n\nPour les entreprises qui vendent des produits ou des prestations sur mesure, un formulaire bien pensé peut préparer le devis, le descriptif et le mail d'envoi. Il ne reste qu'à vérifier.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+}

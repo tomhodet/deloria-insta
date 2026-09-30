@@ -1,0 +1,13 @@
+{
+  "template": "service",
+  "label": "Développement",
+  "titre": "Trois chiffres\n*à suivre chaque mois.*",
+  "points": [
+    "Le nombre de demandes reçues",
+    "Le délai moyen de réponse",
+    "Le nombre de devis signés"
+  ],
+  "photo": "photos/pexels/dev-calcul/8296969_mikhail-nilov.jpg",
+  "ton": "clair",
+  "legende": "Pas besoin d'un tableau de bord compliqué pour piloter une petite entreprise. Trois chiffres suffisent pour voir si les choses avancent : ce qui arrive, la vitesse à laquelle vous répondez, et ce qui se signe.\n\nEt ces trois chiffres peuvent se calculer tout seuls.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Mikhail Nilov / Pexels\n\n#developpement #entrepreneur #pme #strategie"
+}

@@ -1,0 +1,24 @@
+{
+  "template": "edito",
+  "label": "Développement",
+  "titre": "Une entreprise *qui tourne sans vous.*",
+  "texte": "Des réponses qui partent, des relances qui se font, des publications qui sortent. Vous gardez les décisions.",
+  "pictos": [
+    {
+      "icone": "message",
+      "texte": "Réponses\nautomatiques"
+    },
+    {
+      "icone": "fleche",
+      "texte": "Relances\nprogrammées"
+    },
+    {
+      "icone": "calendrier",
+      "texte": "Publications\nplanifiées"
+    }
+  ],
+  "cta": "Écrivez-moi en privé",
+  "photo": "photos/pexels/dev-salle/8574469_jeff-vinluan.jpg",
+  "ton": "clair",
+  "legende": "C'est l'objectif de tout ce que je construis : une entreprise où le répétitif avance sans vous, et où votre temps va aux décisions, aux clients et au métier.\n\nPas en une fois. Une tâche après l'autre.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Jeff Vinluan / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

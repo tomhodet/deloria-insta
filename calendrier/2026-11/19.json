@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Le point\n*du lundi matin.*",
+  "avant": "on ouvre cinq outils pour savoir où on en est.",
+  "apres": "un résumé de la semaine arrive dans votre boîte mail.",
+  "chute": "Les chiffres viennent à vous.",
+  "photo": "photos/pexels/dev-matin/7657971_cup-of-couple.jpg",
+  "ton": "clair",
+  "numero": "08",
+  "legende": "L'automatisation du jeudi.\n\nDemandes reçues, devis envoyés, factures en attente : les chiffres de la semaine peuvent se rassembler seuls et vous attendre le lundi matin, dans un seul message.\n\nPhoto : Cup Of Couple / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

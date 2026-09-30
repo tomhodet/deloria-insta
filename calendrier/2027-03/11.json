@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "L'arrivée\n*d'un nouveau salarié.*",
+  "avant": "on oublie un accès, un document, une présentation.",
+  "apres": "une liste qui se déroule seule, étape par étape.",
+  "chute": "Le premier jour se passe bien, à chaque fois.",
+  "photo": "photos/pexels/dev-salle/6949365_werner-pfennig.jpg",
+  "ton": "clair",
+  "numero": "24",
+  "legende": "L'automatisation du jeudi.\n\nComptes à créer, documents à signer, personnes à présenter : l'arrivée d'un salarié suit toujours les mêmes étapes. Une liste automatique s'assure que rien n'est oublié.\n\nPhoto : Werner Pfennig / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

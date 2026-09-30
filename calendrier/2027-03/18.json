@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Le récapitulatif\n*du matin.*",
+  "avant": "on découvre les demandes de la veille une par une.",
+  "apres": "un seul message résume ce qui est arrivé et ce qui attend.",
+  "chute": "Vous commencez la journée en sachant tout.",
+  "photo": "photos/pexels/dev-matin/7657980_cup-of-couple.jpg",
+  "ton": "marron",
+  "numero": "25",
+  "legende": "L'automatisation du jeudi.\n\nPlutôt que dix notifications dispersées, un seul message chaque matin : les demandes reçues, celles qui attendent une réponse, et ce qui est urgent.\n\nPhoto : Cup Of Couple / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}

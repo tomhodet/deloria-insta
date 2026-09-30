@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "Le rappel\n*d'entretien annuel.*",
+  "avant": "le client oublie, vous aussi.",
+  "apres": "un an après l'intervention, un message propose un rendez-vous.",
+  "chute": "Un client fidèle, ça se garde.",
+  "photo": "photos/pexels/auto-machine/12951623_alex-urezkov.jpg",
+  "ton": "clair",
+  "numero": "22",
+  "legende": "L'automatisation du jeudi.\n\nChaudière, machine, installation, contrôle : beaucoup d'interventions reviennent chaque année. Un rappel au bon moment fait revenir le client, sans démarchage.\n\nPhoto : Alex Urezkov / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france"
+}

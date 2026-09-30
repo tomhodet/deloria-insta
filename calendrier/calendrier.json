@@ -7,30 +7,44 @@
     "ton": "clair"
   },
   {
+    "date": "2026-10-01",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/01.jpg",
+    "legende": "Nouvelle série : chaque jeudi, une tâche concrète qu'on peut confier à une machine.\n\nPremière de la liste, la relance de devis. Elle rapporte, elle est simple à mettre en place, et c'est pourtant l'une des tâches les plus souvent oubliées.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Kampus Production / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "marron"
+  },
+  {
     "date": "2026-10-02",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/02.jpg",
     "legende": "Même quartier, mêmes prestations, souvent le même prix. La différence se joue ailleurs.\n\nUne réponse qui arrive tout de suite. Un ton qui ressemble à une personne. Le détail prévu avant qu'on le demande.\n\nC'est là que naît le souvenir. Et l'avis qui va avec.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Bryan Dijkhuizen / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #lyon",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-10-03",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/03.jpg",
     "legende": "Jour de rotation. Pendant que les équipes font les lits, les messages continuent d'arriver : l'heure d'arrivée, le parking, le code du wifi.\n\nToujours les mêmes. C'est exactement ce qui se délègue.\n\nCourage à toutes les équipes sur le terrain aujourd'hui.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-10-04",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/04.jpg",
     "legende": "Pour ceux qui découvrent ce compte.\n\nAux conciergeries, un assistant qui répond aux voyageurs avec les informations de chaque logement. Aux entreprises et aux indépendants, des publications prêtes des mois à l'avance. À tous, des sites et des identités visuelles sur mesure.\n\nUne règle pour tout : ce qui fait votre style ne s'automatise pas.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cup Of Couple / Pexels\n\n#automatisation #conciergerie #siteinternet #reseauxsociaux #pme #entrepreneur",
     "template": "service",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-10-05",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/05.jpg",
     "legende": "Je m'appelle Tom. Ingénieur de formation, je conçois des systèmes qui prennent en charge le travail répétitif des entreprises et des conciergeries.\n\nPas de sous-traitance, pas d'intermédiaire : je configure avec vous, je surveille ce que j'installe, et vous savez à qui écrire quand vous avez une question.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ron Lach / Pexels\n\n#automatisation #entrepreneur #pme #conciergerie",
+    "template": "constat",
+    "ton": "marron"
+  },
+  {
+    "date": "2026-10-06",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/06.jpg",
+    "legende": "Un ami qui recommande, une recherche tombée au bon moment, un passage devant la vitrine. Beaucoup d'entreprises doivent leurs meilleurs clients à la chance.\n\nLa chance ne se planifie pas. Une présence régulière, un site clair et des réponses rapides, si.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#developpement #entrepreneur #pme #strategie",
     "template": "constat",
     "ton": "clair"
   },
@@ -39,33 +53,47 @@
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/07.jpg",
     "legende": "Le voyageur n'attend pas le lendemain. Il écrit maintenant, et il attend une réponse maintenant.\n\nDans beaucoup de conciergeries, cette réponse part du téléphone personnel du gérant, en plein dîner.\n\nCe n'est pas un problème d'organisation. C'est un problème de disponibilité. Et la disponibilité, ça se délègue.\n\nPhoto : Mathilde Langevin / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-10-08",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/08.jpg",
+    "legende": "L'automatisation du jeudi.\n\nUn rendez-vous oublié, c'est un créneau perdu pour vous et un client gêné. Une confirmation au moment de la prise de rendez-vous, puis un rappel la veille, règlent la question sans que personne n'ait à y penser.\n\nPhoto : Muca / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2026-10-09",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/09.jpg",
     "legende": "Je l'ai appris en conditions réelles. Une bonne réponse sur les pharmacies de garde, avec le nom d'un site. Airbnb a refusé le message entier. Le voyageur n'a rien reçu.\n\nQuand vous écrivez vous-même, l'application vous prévient. Un outil automatique, non.\n\nDepuis, l'assistant que je configure n'écrit aucune coordonnée. Pour une adresse précise, il vous passe la main.\n\nPhoto : Merve / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "terrain_photo",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-10-10",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/10.jpg",
     "legende": "Nouvelle série du samedi : une astuce par semaine, applicable dès ce week-end. Côté accueil pour commencer.\n\nArriver de nuit dans un logement inconnu, c'est chercher l'interrupteur à tâtons, les valises à la main. Arriver dans une pièce éclairée, c'est se sentir attendu.\n\nPhoto : Denis Gvozdov / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-10-11",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/11.jpg",
     "legende": "Si la réponse est vous, ce n'est pas vraiment un dimanche.\n\nBon dimanche à toutes les conciergeries.\n\nPhoto : Alexander Mass / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-10-12",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/12.jpg",
     "legende": "Une confirmation de rendez-vous, une demande de pièces, une relance : dans beaucoup d'entreprises, les mêmes messages s'écrivent à la main, chaque semaine.\n\nCe qui se répète à l'identique peut partir seul, au bon moment, avec les bonnes informations. Vous gardez votre temps pour les messages qui en valent la peine.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "constat",
+    "ton": "clair"
+  },
+  {
+    "date": "2026-10-13",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/13.jpg",
+    "legende": "Le bouche-à-oreille est précieux : il amène des clients qui ont déjà confiance. Mais il ne se commande pas, il ne se prévoit pas, et il s'arrête sans prévenir.\n\nLes entreprises qui durent le complètent par une présence visible et régulière, qui travaille même quand personne ne parle d'elles.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#developpement #entrepreneur #pme #strategie",
     "template": "constat",
     "ton": "marron"
   },
@@ -77,30 +105,44 @@
     "ton": "clair"
   },
   {
+    "date": "2026-10-15",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/15.jpg",
+    "legende": "L'automatisation du jeudi.\n\nUn avis se demande au bon moment : assez tôt pour que le souvenir soit frais, assez tard pour que le client ait profité du résultat. Ce moment se programme une fois pour toutes.\n\nPhoto : Raymond Petrik / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2026-10-16",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/16.jpg",
     "legende": "On pourrait laisser l'assistant donner le code d'accès. C'est l'information la plus sensible d'un logement, et un code périmé envoyé à un voyageur, c'est une porte fermée à 23h.\n\nLe logiciel de gestion locative l'envoie déjà, la veille de l'arrivée. L'assistant, lui, explique simplement quand il arrive.\n\nAutomatiser, c'est aussi savoir ce qu'on n'automatise pas.\n\nPhoto : Esra Erdem / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "terrain_photo",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-10-17",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/17.jpg",
     "legende": "L'astuce du samedi, côté réseaux.\n\nUn compte qui publie par à-coups donne une impression d'abandon entre deux rafales. Un rythme modeste mais tenu inspire confiance.\n\nChoisissez un rythme que vous pouvez tenir toute l'année. Ou confiez-le à un système qui le tiendra.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-10-18",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/18.jpg",
     "legende": "Les départs du week-end sont faits. Les questions de la semaine arrivent déjà : les arrivées de lundi, les demandes de dernière minute, les avis à lire.\n\nSi votre dimanche soir ressemble à un lundi matin, c'est qu'une partie de votre travail n'attend pas que vous soyez disponible.\n\nPhoto : Hello Aesthe / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-10-19",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/19.jpg",
     "legende": "Un compte Instagram qui ne bouge plus, c'est souvent la première chose qu'un client potentiel remarque. Il ne se demande pas si vous êtes occupé. Il se demande si vous êtes encore là.\n\nLa régularité ne demande pas de talent. Elle demande un système.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "template": "constat",
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-10-20",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/20.jpg",
+    "legende": "Quand un client demande plusieurs devis, il les compare. Mais il compare aussi, sans le dire, la rapidité, la clarté et le soin de chaque réponse.\n\nUne réponse rapide dit : ici, on s'occupe de vous. C'est souvent ce qui fait pencher la balance.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Rickie Tom Schunemann / Pexels\n\n#developpement #entrepreneur #pme #strategie",
     "template": "constat",
     "ton": "clair"
   },
@@ -116,36 +158,50 @@
       "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/21-06.jpg"
     ],
     "type": "carrousel",
-    "legende": "Petit aveu : ce compte tourne tout seul.\n\nLe calendrier est écrit des mois à l'avance. Les visuels sont générés à mes couleurs. Et chaque lundi, mercredi, vendredi, samedi et dimanche, un programme publie le post du jour à 17h30.\n\nJe n'ai pas moins de choses à dire. J'ai juste arrêté de les publier à la main.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Toni Ferreira, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "legende": "Petit aveu : ce compte tourne tout seul.\n\nLe calendrier est écrit des mois à l'avance. Les visuels sont générés à mes couleurs. Et chaque jour à 17h30, un programme publie le post du jour.\n\nJe n'ai pas moins de choses à dire. J'ai juste arrêté de les publier à la main.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Toni Ferreira, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "marron"
+  },
+  {
+    "date": "2026-10-22",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/22.jpg",
+    "legende": "L'automatisation du jeudi.\n\nChaque demande qui arrive par votre site mérite deux choses : être notée quelque part, et rassurer celui qui l'a envoyée. Les deux peuvent se faire à la seconde, sans vous.\n\nPhoto : Burak Evlivan / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2026-10-23",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/23.jpg",
     "legende": "Ce que je propose aux entreprises et aux indépendants : un compte Instagram qui vit toute l'année, sans que vous ayez à y penser chaque semaine.\n\nOn valide ensemble une ligne éditoriale et un calendrier. Ensuite, les publications partent seules, au jour et à l'heure prévus. Ce compte en est la démonstration.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "edito",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-10-24",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/24.jpg",
     "legende": "L'astuce du samedi, côté site.\n\nSur téléphone, un numéro affiché en simple texte oblige le visiteur à le retenir ou à le recopier. Beaucoup ne le font pas.\n\nUn numéro qui lance l'appel, un e-mail qui ouvre la messagerie, une adresse qui ouvre la carte. Trois détails, et votre site travaille pour vous.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "carte",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-10-25",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/25.jpg",
     "legende": "Vous avez créé votre activité pour un métier. Pas pour recopier des informations, relancer des clients ou répondre dix fois à la même question.\n\nCe temps-là se récupère. Bon dimanche.\n\nPhoto : Simon Ridder / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-10-26",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/26.jpg",
     "legende": "Nouvelle série : des notes d'ingénieur sur l'automatisation en entreprise.\n\nUn outil ne rend pas un processus plus clair. Il le rend plus rapide. Si le processus est confus, il devient confus plus vite.\n\nOn commence donc toujours par le décrire, cas particuliers compris.\n\nPhoto : Ron Lach / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2026-10-27",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/27.jpg",
+    "legende": "Une entreprise qui fait tout pour tout le monde a du mal à dire ce qu'elle fait de mieux. Et un client qui hésite choisit celui qui semble fait pour lui.\n\nChoisir pour qui vous travaillez, c'est rendre votre message évident pour ceux-là.\n\nPhoto : Wolfgang Weiser / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "sombre"
   },
   {
@@ -156,31 +212,45 @@
     "ton": "clair"
   },
   {
+    "date": "2026-10-29",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/29.jpg",
+    "legende": "L'automatisation du jeudi.\n\nTout ce qui figure sur la facture existe déjà dans le devis. Le retaper, c'est perdre du temps et risquer une erreur. Une seule saisie suffit.\n\nPhoto : Mikhail Nilov / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "marron"
+  },
+  {
     "date": "2026-10-30",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/30.jpg",
     "legende": "Une leçon apprise en conditions réelles.\n\nLe prix par nuit qu'un logiciel de location transmet est un prix de base. Le voyageur, lui, paie un total avec les frais de ménage, les frais de service et les suppléments. Annoncer le premier, c'est préparer une mauvaise surprise au moment de payer.\n\nDepuis, l'assistant ne donne jamais de montant. Il renvoie vers l'annonce, où le total s'affiche tout compris.\n\nPhoto : Cottonbro Studio / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "terrain_photo",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-10-31",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-10/31.jpg",
     "legende": "L'astuce du samedi, côté organisation.\n\nOn pense connaître ses tâches répétitives. On les sous-estime presque toujours. Une semaine de notes suffit pour voir apparaître les mêmes lignes : les mêmes mails, les mêmes relances, les mêmes recopies.\n\nCette liste vaut de l'or. C'est par elle qu'on commence.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "carte",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-11-01",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/01.jpg",
     "legende": "Fin des vacances de la Toussaint. Les derniers voyageurs repartent, et les avis arrivent.\n\nUn avis se joue rarement sur un seul détail. Il se joue sur l'ensemble : l'arrivée, la propreté, et la sensation d'avoir été pris en charge du premier message au dernier.\n\nPhoto : Clement Proust / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-11-02",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/02.jpg",
     "legende": "Ce que je construis pour les conciergeries : un assistant branché sur votre messagerie de location, qui répond aux voyageurs avec les vraies informations de chaque logement.\n\nIl répond dans la langue du voyageur, à toute heure. Et quand il ne sait pas, il ne devine pas : il vous prévient.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Yunus Tug / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "edito",
+    "ton": "marron"
+  },
+  {
+    "date": "2026-11-03",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/03.jpg",
+    "legende": "Quand un devis ne se signe pas, le premier réflexe est souvent de baisser le prix. Parfois c'est justifié. Souvent, le vrai problème est ailleurs : le client n'a pas compris ce qu'il obtenait.\n\nUne offre mieux expliquée se vend mieux qu'une offre moins chère.\n\nPhoto : Tara Winstead / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "clair"
   },
   {
@@ -198,34 +268,48 @@
     "type": "carrousel",
     "legende": "Cinq signes qu'un site a fait son temps, à vérifier sur le vôtre en deux minutes, depuis votre téléphone.\n\nSi vous en cochez deux ou plus, votre site vous coûte probablement des contacts sans que vous le sachiez.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Fatih Dogrul, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Mike Murray, Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-11-05",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/05.jpg",
+    "legende": "L'automatisation du jeudi.\n\nDevis, réclamations, factures, publicités : quand tout arrive pêle-mêle, ce qui compte se perd. Un tri automatique range chaque message au bon endroit, dès son arrivée.\n\nPhoto : Shvets Production / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2026-11-06",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/06.jpg",
     "legende": "Un compte qui ne publie que ses produits ou ses prestations ressemble à une vitrine. On la regarde une fois.\n\nCe qui fait revenir, c'est un point de vue : ce que vous avez appris, ce que vous refusez, ce que vous voyez que les autres ne voient pas.\n\nPhoto : Sami Abdullah / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-11-07",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/07.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nChaque commune a ses règles, et aucun voyageur ne les connaît. Trois lignes claires dans le livret d'accueil, et la question ne se pose plus.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-11-08",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/08.jpg",
     "legende": "Les logements se vident, les agendas respirent. C'est le bon moment pour préparer ce qui vous a manqué cet été : un site à jour, des réponses prêtes, un compte qui publie sans vous.\n\nAu printemps, il sera trop tard pour s'en occuper sereinement.\n\nPhoto : Mathilde Langevin / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-11-09",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/09.jpg",
     "legende": "On a souvent envie d'automatiser ce qui impressionne. Ce qui rapporte, c'est l'inverse : la tâche ennuyeuse, répétitive, que personne ne veut faire et qui revient toutes les semaines.\n\nC'est là que quelques heures de mise en place libèrent du temps chaque semaine, durablement.\n\nPhoto : Pavel Danilyuk / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2026-11-10",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/10.jpg",
+    "legende": "Un client content vous oublie rarement par déception. Il vous oublie parce qu'il a autre chose à faire.\n\nUn message au bon moment, une nouvelle utile, une attention un an après : garder le lien ne demande pas beaucoup, à condition d'y penser. Ou de laisser un système y penser.\n\nPhoto : Mike Jones / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "marron"
   },
   {
@@ -236,31 +320,45 @@
     "ton": "clair"
   },
   {
+    "date": "2026-11-12",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/12.jpg",
+    "legende": "L'automatisation du jeudi.\n\nHoraires, délais, documents à fournir, modalités : une grande partie des questions reçues ont toujours la même réponse. Elle peut partir tout de suite, à toute heure.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ron Lach / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2026-11-13",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/13.jpg",
     "legende": "Beaucoup de sites ont été faits au lancement, avec les moyens du moment. L'entreprise a grandi depuis : nouveaux services, nouveaux clients, nouvelles réalisations. Le site, lui, raconte encore les débuts.\n\nVotre vitrine en ligne devrait montrer ce que vous êtes aujourd'hui.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Tahir Osman / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-11-14",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/14.jpg",
     "legende": "L'astuce du samedi, côté réseaux.\n\nLa bio d'un profil est lue en deux secondes par quelqu'un qui ne vous connaît pas. Elle doit répondre à une seule question : est-ce que c'est pour moi ?\n\nLe reste peut attendre vos publications.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-11-15",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/15.jpg",
     "legende": "Une règle simple pour la semaine qui vient : notez ce que vous faites plus de trois fois. C'est la première liste de ce qui peut partir sans vous.\n\nBon dimanche.\n\nPhoto : Towfiqu Barbhuiya / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-11-16",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/16.jpg",
     "legende": "Si vous ne deviez automatiser que trois choses, commencez par celles-là. Elles reviennent chaque semaine, elles ne demandent aucune créativité, et elles se perdent facilement.\n\nUne relance oubliée, c'est un devis qui dort. Une recopie, c'est une erreur qui attend son heure.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "service",
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-11-17",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/17.jpg",
+    "legende": "Les clients mécontents écrivent spontanément. Les clients satisfaits, rarement. Résultat : vos avis ne reflètent pas vraiment votre travail.\n\nUne demande simple, envoyée au bon moment après la prestation, change l'équilibre. Et elle peut partir toute seule.\n\nPhoto : Mikhail Nilov / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "clair"
   },
   {
@@ -277,34 +375,48 @@
     "type": "carrousel",
     "legende": "Une question revient souvent : jusqu'où peut-on automatiser ?\n\nMa réponse tient en une règle. Tout ce qui se répète à l'identique peut partir seul. Tout ce qui engage votre responsabilité, votre sécurité ou votre relation avec un client reste entre vos mains.\n\nVoici quatre choses que je n'automatise jamais.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Konat Umut Budak, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #automatisation",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "marron"
+  },
+  {
+    "date": "2026-11-19",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/19.jpg",
+    "legende": "L'automatisation du jeudi.\n\nDemandes reçues, devis envoyés, factures en attente : les chiffres de la semaine peuvent se rassembler seuls et vous attendre le lundi matin, dans un seul message.\n\nPhoto : Cup Of Couple / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2026-11-20",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/20.jpg",
     "legende": "Un site n'a qu'une mission : donner envie de vous contacter.\n\nJe construis des sites sur mesure, rapides sur téléphone, fidèles à votre identité, et que vous pouvez mettre à jour sans toucher au code.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Adrian Regeci / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "edito",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-11-21",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/21.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nDans un monde de messages automatiques, un mot manuscrit se remarque. C'est même tout l'intérêt d'automatiser le reste : garder du temps pour ce qui ne s'automatise pas.\n\nPhoto : Esmanur Guler / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-11-22",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/22.jpg",
     "legende": "Un logement réussi répond aux questions avant qu'on les pose : le wifi est affiché, la lumière est allumée, le livret dit où se garer.\n\nChaque question évitée, c'est un message en moins pour vous et un voyageur plus serein.\n\nPhoto : Vladislav Murashko / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-11-23",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/23.jpg",
     "legende": "Répondre vite est devenu la norme. Les voyageurs s'y attendent, et les plateformes affichent votre délai de réponse.\n\nLe problème, ce n'est pas la vitesse. C'est qu'elle repose souvent sur une seule personne, son téléphone et ses soirées.\n\nUne réactivité qui dépend de votre sommeil n'est pas un système. C'est un sacrifice.\n\nPhoto : Willbone Gallery / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
+    "ton": "clair"
+  },
+  {
+    "date": "2026-11-24",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/24.jpg",
+    "legende": "Répondre, produire, livrer, facturer : le quotidien remplit toutes les heures. Et il ne reste plus de temps pour ce qui ferait grandir l'entreprise.\n\nChaque tâche répétitive confiée à une machine, c'est du temps rendu pour réfléchir, prospecter, améliorer.\n\nPhoto : Esra Afsar / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "plein",
     "ton": "sombre"
   },
   {
@@ -315,30 +427,44 @@
     "ton": "clair"
   },
   {
+    "date": "2026-11-26",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/26.jpg",
+    "legende": "L'automatisation du jeudi.\n\nCe post est parti tout seul. Le calendrier de ce compte est écrit des mois à l'avance, et un programme publie chaque jour à 17h30.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cup Of Couple / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "template": "terrain_photo",
+    "ton": "marron"
+  },
+  {
     "date": "2026-11-27",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/27.jpg",
     "legende": "Une version sur le site, une autre sur la vitrine, une troisième étirée sur les devis, une quatrième floue sur les réseaux. Personne ne l'a décidé, et pourtant c'est courant.\n\nUne charte graphique règle ça une fois pour toutes : un logo, ses déclinaisons, et des fichiers propres pour chaque usage.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "constat",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-11-28",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/28.jpg",
     "legende": "L'astuce du samedi, côté identité.\n\nUn logo passe l'essentiel de sa vie en petit : photo de profil, onglet de navigateur, signature de mail. Beaucoup de logos sont dessinés en grand et ne survivent pas à la réduction.\n\nLe test prend dix secondes.\n\nPhoto : Anete Lusina / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "carte",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-11-29",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/29.jpg",
     "legende": "La saison d'hiver commence dans les stations. Les mêmes questions vont revenir chaque semaine : l'accès en voiture, les équipements, le local à skis, l'heure d'arrivée.\n\nUne réponse préparée une fois peut servir tout l'hiver.\n\nPhoto : Flick N Blink / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #montagne",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-11-30",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-11/30.jpg",
     "legende": "Publier quand on a le temps revient à publier pendant les semaines creuses, puis plus du tout quand l'activité reprend. Exactement quand votre compte aurait le plus d'impact.\n\nUn calendrier préparé d'avance supprime la question du temps.\n\nPhoto : Viridiana Rivera / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "template": "constat",
+    "ton": "marron"
+  },
+  {
+    "date": "2026-12-01",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/01.jpg",
+    "legende": "Les devis, les questions, les validations, les imprévus : dans beaucoup de petites entreprises, tout remonte au dirigeant. C'est rassurant, jusqu'au jour où il n'est pas disponible.\n\nDéléguer, à une personne ou à un système, commence par une question : qu'est-ce qui pourrait se faire sans moi ?\n\nPhoto : Burak The Weekender / Pexels\n\n#developpement #entrepreneur #pme #strategie",
     "template": "constat",
     "ton": "clair"
   },
@@ -356,34 +482,48 @@
     "type": "carrousel",
     "legende": "Une charte graphique fait souvent peur : on imagine un document épais, cher, que personne ne lit.\n\nEn réalité, l'essentiel tient en quatre décisions. Prises une fois, elles rendent cohérents votre site, vos réseaux, vos devis et vos cartes de visite.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Cottonbro Studio, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-12-03",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/03.jpg",
+    "legende": "L'automatisation du jeudi.\n\nLes premiers jours d'une relation client donnent le ton. Un parcours d'accueil prévu une fois, avec votre ton, assure que personne n'est oublié et que rien ne manque.\n\nPhoto : Yan Krukau / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2026-12-04",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/04.jpg",
     "legende": "Vélos, petit-déjeuner, ménage supplémentaire, transfert : beaucoup de conciergeries proposent des services en plus du logement. Et beaucoup de demandes se perdent dans une conversation, faute d'avoir été repérées.\n\nL'assistant que je configure les repère. Dès qu'un voyageur montre un intérêt réel, il vous prévient avec le détail de la demande.\n\nCe n'est plus un coût. C'est une vente.\n\nPhoto : Chickenbunny / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-12-05",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/05.jpg",
     "legende": "L'astuce du samedi, côté organisation.\n\nQuand tout arrive dans la même boîte, tout se mélange : un devis urgent entre deux publicités, une réclamation sous une facture. Des adresses séparées, ou au moins des règles de tri, rendent chaque demande visible.\n\nEt une demande bien triée est une demande qu'on peut traiter automatiquement.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-12-06",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/06.jpg",
     "legende": "Le wifi, l'heure d'arrivée, le parking : ces réponses-là peuvent partir sans vous, à toute heure, dans la langue du voyageur.\n\nGardez vos soirées pour ce qui mérite vraiment votre attention.\n\nPhoto : Daniil Kondrashin / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-12-07",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/07.jpg",
     "legende": "Une note d'ingénieur, tirée de la production.\n\nUn modèle de langage ne répond pas toujours de la même façon à la même question. La plupart du temps, c'est sans conséquence. Parfois, un champ manque, et l'envoi casse.\n\nChaque réponse est donc vérifiée, et complétée si besoin, avant de partir. Un système fiable ne suppose jamais que tout ira bien.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2026-12-08",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/08.jpg",
+    "legende": "Une procédure qui n'existe que dans une tête se perd au premier départ, au premier congé, au premier nouveau salarié.\n\nL'écrire, c'est la rendre transmissible. Et une procédure écrite est aussi la première étape pour l'automatiser.\n\nPhoto : Kampus Production / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "constat",
     "ton": "marron"
   },
   {
@@ -394,31 +534,45 @@
     "ton": "clair"
   },
   {
+    "date": "2026-12-10",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/10.jpg",
+    "legende": "L'automatisation du jeudi.\n\nRelancer un client pour un paiement n'est agréable pour personne. Un rappel automatique, poli et à la bonne date, enlève la gêne et accélère les règlements.\n\nPhoto : Mohamed Hamdi / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2026-12-11",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/11.jpg",
     "legende": "On attend souvent l'idée parfaite, la photo parfaite, le bon moment. Pendant ce temps, le compte se tait.\n\nVos clients remarquent surtout une chose : que vous êtes là, semaine après semaine. Mieux vaut un post simple chaque semaine qu'un chef-d'œuvre par trimestre.\n\nPhoto : Mizuno K / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-12-12",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/12.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nLe wifi fait partie des toutes premières questions, et c'est la plus simple à éviter. Une carte élégante, bien placée, avec le nom du réseau et le mot de passe.\n\nUn message de moins pour vous, une première minute plus fluide pour le voyageur.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-12-13",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/13.jpg",
     "legende": "Arrivées pendant les fêtes, horaires modifiés, questions sur les commerces ouverts : décembre concentre les demandes au moment où tout le monde voudrait souffler.\n\nPréparez les réponses maintenant. Elles serviront pendant que vous serez à table.\n\nPhoto : Mariya Muschard / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-12-14",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/14.jpg",
     "legende": "Une découverte faite en conditions réelles.\n\nUn même compte gère souvent plusieurs logements, et les messages de tous les voyageurs arrivent par la même porte. Sans filtre, un assistant pourrait répondre à un voyageur de la maison A avec les informations de l'appartement B.\n\nChaque logement a donc son filtre, vérifié avant chaque réponse. Ce détail ne se voit jamais en démonstration. Il se voit le jour où il manque.\n\nPhoto : Coppertist Wu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-12-15",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/15.jpg",
+    "legende": "Pas besoin d'un tableau de bord compliqué pour piloter une petite entreprise. Trois chiffres suffisent pour voir si les choses avancent : ce qui arrive, la vitesse à laquelle vous répondez, et ce qui se signe.\n\nEt ces trois chiffres peuvent se calculer tout seuls.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Mikhail Nilov / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "service",
     "ton": "clair"
   },
   {
@@ -435,68 +589,96 @@
     "type": "carrousel",
     "legende": "Les projets d'automatisation qui échouent ont souvent un point commun : ils voulaient tout changer d'un coup.\n\nCeux qui réussissent commencent petit. Une tâche, un résultat visible, puis la suivante.\n\nVoici la méthode que j'applique.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Konat Umut Budak, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "marron"
+  },
+  {
+    "date": "2026-12-17",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/17.jpg",
+    "legende": "L'automatisation du jeudi.\n\nUne réunion sans compte rendu est souvent une réunion à refaire. Un résumé préparé automatiquement, avec qui fait quoi, garde la trace de chaque décision.\n\nPhoto : Li Chunyu / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2026-12-18",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/18.jpg",
     "legende": "Note de design numéro deux.\n\nUne identité forte se reconnaît de loin, avant même de lire le nom. Ce n'est pas une question de talent, c'est une question de discipline : peu de couleurs, toujours les mêmes, avec leurs codes exacts.\n\nPhoto : Cottonbro Studio / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "terrain_photo",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-12-19",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/19.jpg",
     "legende": "L'astuce du samedi, côté réseaux.\n\nLes annonces de fin d'année s'écrivent souvent le 24 au soir, dans l'urgence. Écrites dès maintenant et programmées, elles partent au bon moment sans vous.\n\nPhoto : Nati / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "carte",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-12-20",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/20.jpg",
     "legende": "Arrivées tardives, marchés de Noël, restaurants ouverts le 25 : les questions de décembre ne ressemblent à aucune autre.\n\nLe bon moment pour y penser, c'est avant qu'elles arrivent.\n\nPhoto : Quang Vinh / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2026-12-21",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/21.jpg",
     "legende": "Certains messages peuvent attendre le lendemain. Celui-là, non.\n\nDans ce cas, l'assistant que je configure ne cherche pas à régler le problème seul. Il rassure le voyageur immédiatement et vous alerte, avec le détail de la situation.\n\nAutomatiser, ce n'est pas disparaître. C'est être prévenu au bon moment.\n\nPhoto : Kemal Can Acarturk / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
+    "ton": "clair"
+  },
+  {
+    "date": "2026-12-22",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/22.jpg",
+    "legende": "Les semaines de fin d'année sont souvent plus calmes. C'est le bon moment pour poser ce qui fera gagner du temps toute l'année prochaine : une offre plus claire, un site à jour, une première tâche automatisée.\n\nEn janvier, il sera déjà temps d'en profiter.\n\nPhoto : Vale Bocchi / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "plein",
     "ton": "sombre"
   },
   {
     "date": "2026-12-23",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/23.jpg",
-    "legende": "Oui, ce post a été préparé il y a trois mois, comme tous ceux de ce compte jusqu'au printemps.\n\nC'est ce qui permet de publier régulièrement pendant les semaines chargées, les fêtes et les vacances. Le compte continue de vivre pendant que vous vivez aussi.\n\nJoyeuses fêtes.\n\nPhoto : Jonathan Borba / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "legende": "Oui, ce post a été préparé il y a trois mois, comme tout le calendrier de ce compte jusqu'au printemps.\n\nC'est ce qui permet de publier régulièrement pendant les semaines chargées, les fêtes et les vacances. Le compte continue de vivre pendant que vous vivez aussi.\n\nJoyeuses fêtes.\n\nPhoto : Jonathan Borba / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
     "ton": "clair"
+  },
+  {
+    "date": "2026-12-24",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/24.jpg",
+    "legende": "L'automatisation du jeudi, version fêtes.\n\nUn message d'absence bien écrit rassure vos clients pendant que vous êtes à table. Il se prépare en cinq minutes, et il peut s'activer et se désactiver tout seul.\n\nJoyeux réveillon.\n\nPhoto : Casper Somia / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "marron"
   },
   {
     "date": "2026-12-25",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/25.jpg",
     "legende": "Joyeux Noël à toutes les équipes, sur le terrain ou à table.\n\nAujourd'hui, rien n'est plus urgent que ceux qui sont autour de vous.\n\nPhoto : Anna Alexes / Pexels\n\n#joyeuxnoel #conciergerie #entrepreneur",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2026-12-26",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/26.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nOn soigne l'arrivée, on oublie souvent le départ. Pourtant c'est le dernier souvenir du séjour, juste avant que le voyageur ouvre l'application pour laisser son avis.\n\nPhoto : Taha El Oihaj / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2026-12-27",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/27.jpg",
     "legende": "La semaine entre Noël et le Nouvel An est souvent la plus calme de l'année. C'est le moment idéal pour regarder ce qui vous a pris le plus de temps en 2026.\n\nIl y a de bonnes chances que ce soit la même chose l'an prochain. Sauf si on s'en occupe.\n\nPhoto : Khaled Ameur / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2026-12-28",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/28.jpg",
     "legende": "Changer de logo n'est pas toujours nécessaire. Souvent, le problème n'est pas le logo lui-même, mais la façon dont il est utilisé : étiré, recoloré, remplacé selon les supports.\n\nUne charte graphique remet de l'ordre sans tout jeter. Et vos clients vous reconnaissent toujours.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
+    "template": "constat",
+    "ton": "marron"
+  },
+  {
+    "date": "2026-12-29",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/29.jpg",
+    "legende": "Avant de fermer l'année, une question simple : quelle tâche avez-vous répétée le plus souvent ? Un mail, une relance, une recopie, un document à préparer.\n\nC'est presque toujours la meilleure candidate pour une première automatisation.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "constat",
     "ton": "clair"
   },
@@ -514,33 +696,47 @@
     "type": "carrousel",
     "legende": "Première année de DelorIA. Quelques réussites, quelques incidents, et beaucoup d'apprentissages.\n\nVoici les quatre leçons que je garde, celles qui ont changé ma façon de travailler.\n\nMerci à celles et ceux qui m'ont fait confiance cette année.\n\nPhotos : Nihar Manyalli, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#entrepreneur #automatisation #conciergerie #bilan",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2026-12-31",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2026-12/31.jpg",
+    "legende": "L'automatisation du jeudi, dernier jour de l'année.\n\nQuand les informations sont rangées au fil de l'eau, le bilan annuel n'est plus une corvée. Il se prépare tout seul.\n\nBelle fin d'année à toutes et à tous.\n\nPhoto : Nothing Ahead / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-01-01",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/01.jpg",
     "legende": "Bonne année à toutes et à tous.\n\nUn vœu simple pour 2027 : que votre temps aille à ce que vous faites de mieux, et que le reste parte tout seul.\n\nPhoto : Marian Villa / Pexels\n\n#bonneannee #entrepreneur #automatisation",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-01-02",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/02.jpg",
     "legende": "L'astuce du samedi, côté organisation.\n\nDix versions d'un même fichier, ce sont dix vérités différentes. Un seul tableau partagé, tenu à jour, devient la mémoire de l'entreprise.\n\nC'est aussi le point de départ de presque toutes les automatisations : on n'automatise que ce qui est rangé quelque part.\n\nPhoto : Elif / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-01-03",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/03.jpg",
     "legende": "Pendant que l'hiver s'installe, beaucoup de voyageurs réservent déjà leurs vacances d'été. Les premières questions arrivent : disponibilités, équipements, accès.\n\nUne annonce claire et des réponses rapides, dès maintenant, font la différence.\n\nPhoto : Dark Astraal / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-01-04",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/04.jpg",
     "legende": "Chaque janvier, beaucoup d'entreprises décident de publier régulièrement. En février, le rythme s'essouffle. En mars, le compte se tait.\n\nCe n'est pas un manque de volonté. C'est un manque de système. Un calendrier préparé d'avance tient la résolution pour vous.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "template": "constat",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-01-05",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/05.jpg",
+    "legende": "Publier chaque semaine, relancer chaque devis, répondre dans l'heure : les résolutions de janvier sont souvent les bonnes. Ce qui manque, c'est le moyen de les tenir quand le quotidien reprend le dessus.\n\nUn système ne remplace pas la volonté. Il la rend inutile.\n\nPhoto : Cup Of Couple / Pexels\n\n#developpement #entrepreneur #pme #strategie",
     "template": "constat",
     "ton": "marron"
   },
@@ -552,31 +748,45 @@
     "ton": "clair"
   },
   {
+    "date": "2027-01-07",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/07.jpg",
+    "legende": "L'automatisation du jeudi.\n\nPour les entreprises qui vendent des produits ou des prestations sur mesure, un formulaire bien pensé peut préparer le devis, le descriptif et le mail d'envoi. Il ne reste qu'à vérifier.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2027-01-08",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/08.jpg",
     "legende": "Dans beaucoup d'entreprises, les personnes les plus précieuses passent une partie de leur semaine sur des tâches sans valeur : recopier un mail dans un tableau, mettre à jour un fichier, relancer à la main.\n\nChaque heure rendue à ces personnes retourne à ce qu'elles font de mieux : vendre, conseiller, fabriquer.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-01-09",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/09.jpg",
     "legende": "L'astuce du samedi, côté site.\n\nUne page qui propose dix choses n'en fait faire aucune. Décidez ce que le visiteur doit faire en arrivant, et placez ce bouton partout où son regard passe.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-01-10",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/10.jpg",
     "legende": "Une heure par jour passée sur des tâches répétitives, sur une année de travail, représente plus de six semaines à temps plein.\n\nSix semaines de mails, de recopies et de relances. Six semaines qui pourraient aller à votre métier.\n\nPhoto : Alexander Mass / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-01-11",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/11.jpg",
     "legende": "Un compte qui vit toute l'année ne demande pas d'y passer ses soirées. Il demande une préparation sérieuse, une fois, puis un système qui tient le rythme.\n\nC'est exactement ce que je mets en place, à vos couleurs et avec votre ton.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "service",
+    "ton": "sombre"
+  },
+  {
+    "date": "2027-01-12",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/12.jpg",
+    "legende": "Une application à télécharger, un espace client à créer, un formulaire de plus : ce qui simplifie votre travail complique parfois celui de vos clients.\n\nLa bonne automatisation est invisible pour eux. Ils posent une question, ils obtiennent une réponse.\n\nPhoto : Coppertist Wu / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "clair"
   },
   {
@@ -593,34 +803,48 @@
     "type": "carrousel",
     "legende": "Quatre questions reviennent dans presque toutes les conversations avec les voyageurs. Aucune n'est difficile. Toutes arrivent au mauvais moment.\n\nVoici comment l'assistant que je configure y répond, et où il s'arrête.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Coppertist Wu, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "marron"
+  },
+  {
+    "date": "2027-01-14",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/14.jpg",
+    "legende": "L'automatisation du jeudi.\n\nUne rupture de stock coûte rarement le prix de la pièce. Elle coûte l'attente, le chantier arrêté, le client déçu. Un seuil surveillé en continu évite tout ça.\n\nPhoto : Othmane Ettalbi / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-01-15",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/15.jpg",
     "legende": "La relance est l'une des tâches les plus rentables et les plus oubliées d'une entreprise. Un devis sans réponse n'est pas un refus : c'est souvent un client qui a oublié.\n\nUne relance qui part seule, au bon moment, poliment, et qui s'arrête dès que le client répond. C'est simple à mettre en place, et ça se voit vite.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "constat",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-01-16",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/16.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nUne annonce qui promet un équipement disparu, c'est un voyageur déçu et un avis moyen. Une relecture par saison suffit à l'éviter.\n\nC'est aussi ce qui garantit des réponses justes : l'assistant répond avec les informations que vous lui donnez.\n\nPhoto : Vladimir Lila / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-01-17",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/17.jpg",
     "legende": "Un bon outil ne demande pas d'attention. Il fait son travail, toujours de la même façon, et ne se rappelle à vous que lorsqu'il le faut.\n\nC'est la seule définition de l'automatisation qui compte.\n\nPhoto : Alan Wang / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-01-18",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/18.jpg",
     "legende": "Note de design numéro trois.\n\nUn logo qui ne fonctionne qu'en couleur est fragile. Imprimé en noir sur un devis, gravé, brodé, il doit rester lisible et reconnaissable.\n\nLe test : imprimez-le en noir et blanc, en petit. Ce qui reste, c'est votre vrai logo.\n\nPhoto : Antoni Shkraba / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-01-19",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/19.jpg",
+    "legende": "Plus de clients, c'est plus de demandes, plus de devis, plus de relances. Si tout se fait encore à la main, chaque nouveau client ajoute du désordre autant que du chiffre d'affaires.\n\nS'organiser avant de grandir, c'est grandir sans s'épuiser.\n\nPhoto : Sueda Gln / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "sombre"
   },
   {
@@ -631,31 +855,45 @@
     "ton": "clair"
   },
   {
+    "date": "2027-01-21",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/21.jpg",
+    "legende": "L'automatisation du jeudi, côté conciergerie.\n\nParking, arrivée, wifi : la plupart des messages de voyageurs ont une réponse connue. Un assistant bien configuré y répond avec les informations du logement, et vous alerte dès qu'il faut une décision.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Viet Anh Nguyen / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "terrain_photo",
+    "ton": "marron"
+  },
+  {
     "date": "2027-01-22",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/22.jpg",
     "legende": "Une note d'ingénieur, sur ce qu'on ne voit jamais en démonstration.\n\nUn système automatique qui tombe en panne en silence est pire qu'aucun système : tout le monde croit que le travail est fait. Chaque automatisation que je livre prévient donc dès qu'une étape échoue.\n\nLe jour où ça casse, on le sait. Le reste du temps, on n'y pense pas.\n\nPhoto : Abinav Kareethara Sunikuttan / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "terrain_photo",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-01-23",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/23.jpg",
     "legende": "L'astuce du samedi, côté réseaux.\n\nUn visage inspire confiance plus vite qu'un logo. Une photo de vous au travail, de temps en temps, rappelle qu'il y a une personne derrière le compte.\n\nPas besoin d'en faire trop. Une fois par mois suffit.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "carte",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-01-24",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/24.jpg",
     "legende": "Déléguer fait peur au début : peur de perdre le contrôle, peur que ce soit moins bien fait. Puis on découvre le temps retrouvé, et on se demande pourquoi on a attendu.\n\nCommencez par une seule tâche. Celle qui vous agace le plus.\n\nPhoto : Clement Proust / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-01-25",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/25.jpg",
     "legende": "Une identité visuelle, ce n'est pas seulement un logo. C'est un ensemble de règles simples qui font que votre site, vos réseaux, vos devis et votre vitrine se ressemblent.\n\nJe la crée pour les entreprises qui démarrent, et je la remets en ordre pour celles qui ont grandi sans elle.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "edito",
+    "ton": "marron"
+  },
+  {
+    "date": "2027-01-26",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/26.jpg",
+    "legende": "Un client juge la qualité de votre travail avant de l'avoir vu : sur votre site, vos réseaux, vos documents. Une image négligée fait douter d'un travail soigné.\n\nL'image n'est pas un luxe. C'est la première preuve.\n\nPhoto : Mak Jp / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
+    "template": "constat",
     "ton": "clair"
   },
   {
@@ -672,34 +910,48 @@
     "type": "carrousel",
     "legende": "Un compte Instagram n'a pas besoin d'être spectaculaire pour attirer des clients. Il a surtout besoin d'éviter quatre erreurs, très courantes et faciles à corriger.\n\nFaites glisser, et regardez votre propre compte avec ces quatre questions en tête.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Cemrecan Yurtman, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2027-01-28",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/28.jpg",
+    "legende": "L'automatisation du jeudi, côté conciergerie.\n\nLes réservations existent déjà dans votre logiciel de location. Les recopier pour l'équipe de ménage, c'est une source d'oubli. Le planning peut se mettre à jour tout seul.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-01-29",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/29.jpg",
     "legende": "Dans beaucoup de conciergeries, tout converge vers un seul appareil : celui du gérant. Les voyageurs, les propriétaires, les équipes de ménage, les plateformes.\n\nCe n'est pas un problème de téléphone. C'est un goulot d'étranglement. Et chaque logement de plus le resserre.\n\nPhoto : Nvid Daar / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-01-30",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/30.jpg",
     "legende": "L'astuce du samedi, côté organisation.\n\nUn bon modèle de devis contient déjà tout ce qui ne change pas : vos mentions, vos conditions, votre mise en page, votre logo. Il ne reste qu'à remplir ce qui change.\n\nC'est aussi la première brique d'un devis qui se prépare tout seul.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-01-31",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-01/31.jpg",
     "legende": "Vacances d'hiver en vue. Dans les stations, les arrivées vont s'enchaîner chaque samedi, avec leur lot de questions : routes, équipements, local à skis, heure d'arrivée.\n\nChaque réponse préparée maintenant, c'est une soirée de libre en février.\n\nPhoto : Gabin Cobret / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes #montagne",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-02-01",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/01.jpg",
-    "legende": "Quelques chiffres sur ce compte, pour ceux qui se demandent comment il tient le rythme.\n\nCinq publications par semaine, toujours à la même heure, préparées six mois à l'avance. Les posts du calendrier partent tout seuls.\n\nLe même système peut fonctionner pour votre entreprise.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Marta Branco / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "legende": "Quelques chiffres sur ce compte, pour ceux qui se demandent comment il tient le rythme.\n\nSept publications par semaine, toujours à la même heure, préparées des mois à l'avance. Les posts du calendrier partent tout seuls.\n\nLe même système peut fonctionner pour votre entreprise.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Marta Branco / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "service",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-02-02",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/02.jpg",
+    "legende": "Entre deux commandes, beaucoup d'entreprises disparaissent de l'esprit de leurs clients. Non pas parce qu'ils sont déçus, mais parce qu'ils n'y pensent plus.\n\nUne présence régulière, même discrète, suffit à rester la première idée quand le besoin revient.\n\nPhoto : Tobias Scheuer / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
+    "template": "constat",
     "ton": "marron"
   },
   {
@@ -710,31 +962,45 @@
     "ton": "clair"
   },
   {
+    "date": "2027-02-04",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/04.jpg",
+    "legende": "L'automatisation du jeudi.\n\nProcédures, fiches techniques, modèles : le savoir d'une entreprise est souvent là, mais introuvable. Un outil qui répond aux questions à partir de vos propres documents le rend accessible à toute l'équipe.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Nina Zeynep Guler Zz / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2027-02-05",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/05.jpg",
     "legende": "Dans beaucoup de PME, une personne sait tout : comment traiter telle demande, où trouver tel document, quoi répondre à tel client. Tant qu'elle est là, tout va bien.\n\nDocumenter ces procédures, puis les rendre accessibles à toute l'équipe, parfois par une simple question posée à un outil, c'est protéger l'entreprise contre une absence ou un départ.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Nothing Ahead / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-02-06",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/06.jpg",
     "legende": "L'astuce du samedi, côté site.\n\nLe haut de la page d'accueil est le seul endroit que tous les visiteurs voient. Beaucoup n'iront pas plus loin.\n\nCe qui doit s'y trouver : ce que vous faites, votre plus belle preuve, et un moyen de vous contacter.\n\nPhoto : Ron Lach / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-02-07",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/07.jpg",
     "legende": "On attend souvent d'avoir du temps pour s'occuper de ce qui en ferait gagner. C'est un cercle qui ne se casse jamais tout seul.\n\nLibérer une heure par semaine, puis une autre. C'est comme ça que ça commence.\n\nPhoto : Towfiqu Barbhuiya / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-02-08",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/08.jpg",
     "legende": "Un bon assistant ne répond pas à tout. Il sait quand vous passer la main.\n\nTrois situations déclenchent une alerte avec le détail de la conversation : un problème réel, une information qu'il n'a pas, et un voyageur intéressé par un service. Le reste, il le traite seul.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Sahin Dogdu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "service",
+    "ton": "sombre"
+  },
+  {
+    "date": "2027-02-09",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/09.jpg",
+    "legende": "Les coordonnées dans le téléphone, l'historique dans les mails, les devis dans un dossier : l'information existe, mais elle est éparpillée. Et elle part avec le téléphone.\n\nUn fichier clients, même simple, est la mémoire de l'entreprise. C'est aussi lui qui rend possibles les relances et les suivis automatiques.\n\nPhoto : Nathan J Hilton / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "constat",
     "ton": "clair"
   },
   {
@@ -751,34 +1017,48 @@
     "type": "carrousel",
     "legende": "Pas besoin d'être graphiste pour évaluer un logo. Quatre tests simples suffisent à voir s'il tiendra sur tous vos supports.\n\nFaites-les sur le vôtre. Si deux échouent, il est temps d'en parler.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Ejov Igor, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "marron"
+  },
+  {
+    "date": "2027-02-11",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/11.jpg",
+    "legende": "L'automatisation du jeudi.\n\nLes marchés intéressants existent, mais ils se perdent parmi des centaines d'annonces. Une veille automatique filtre selon vos critères et vous prévient dès qu'une offre correspond.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-02-12",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/12.jpg",
     "legende": "Beaucoup d'entreprises repoussent leurs publications en attendant la bonne photo, la bonne formule, le bon moment. Le compte reste vide, et personne ne voit le travail accompli.\n\nUn post correct publié aujourd'hui vaut mieux qu'un post parfait publié jamais.\n\nPhoto : Anete Lusina / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-02-13",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/13.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nLes voyageurs demandent rarement le monument le plus proche. Ils demandent où acheter du pain demain matin et où dîner ce soir.\n\nVos adresses, notées une fois dans le livret, servent toute l'année. Et l'assistant peut les donner à son tour, parce que vous les lui avez confiées.\n\nPhoto : Anh Nguyen / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-02-14",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/14.jpg",
     "legende": "Bonne Saint-Valentin.\n\nSur les réseaux, on s'attache aux comptes qu'on retrouve régulièrement, avec la même voix, le même soin. La régularité est une forme d'attention.\n\nPhoto : Ann H / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-02-15",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/15.jpg",
     "legende": "Une note de terrain, la plus coûteuse de l'année.\n\nPour un logiciel de location, une demande d'information et une réservation confirmée ne vivent pas au même endroit. Tant qu'un voyageur se renseigne, tout fonctionne. Dès qu'il réserve, l'ancienne adresse ne répond plus.\n\nEn test, aucune réservation réelle n'existait. Le bug est apparu en production. Depuis, chaque état possible d'une conversation a son test.\n\nPhoto : Coppertist Wu / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-02-16",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/16.jpg",
+    "legende": "Message de bienvenue, documents à envoyer, informations à demander, rendez-vous à fixer : l'arrivée d'un client suit presque toujours le même chemin.\n\nCe chemin peut se dérouler tout seul, étape par étape, avec votre ton. Vous n'intervenez que là où vous êtes utile.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Anna Pou / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "constat",
     "ton": "sombre"
   },
   {
@@ -789,30 +1069,44 @@
     "ton": "clair"
   },
   {
+    "date": "2027-02-18",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/18.jpg",
+    "legende": "L'automatisation du jeudi.\n\nRépondre à un avis montre qu'il y a quelqu'un derrière l'entreprise. Encore faut-il le voir passer. Une alerte, et une réponse préparée à relire, et c'est fait en une minute.\n\nPhoto : Mukhtar Shuaib Mukhtar / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "terrain_photo",
+    "ton": "marron"
+  },
+  {
     "date": "2027-02-19",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/19.jpg",
     "legende": "Une commande arrive par mail. Quelqu'un la note dans un tableau. Quelqu'un d'autre la recopie dans le logiciel de facturation. Un troisième la reporte dans le planning.\n\nTrois saisies, trois risques d'erreur, pour une seule information. Une seule saisie, reprise automatiquement partout ailleurs, suffit.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Thirdman / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "constat",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-02-20",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/20.jpg",
     "legende": "L'astuce du samedi, côté réseaux.\n\nProduire du contenu prend du temps. Le publier une seule fois, c'est le gaspiller. Une bonne idée peut revivre sous plusieurs formes, à plusieurs moments, sans lasser personne.\n\nPhoto : Nam Mau / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "carte",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-02-21",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/21.jpg",
     "legende": "C'est toute la répartition du travail que je propose. Ce qui se répète à l'identique part à une machine. Ce qui demande un jugement, une relation ou une décision reste à vous.\n\nBon dimanche.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-02-22",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/22.jpg",
     "legende": "Chaque visuel de ce compte est produit par un programme à partir de mes gabarits : mes typographies, ma palette, mes règles de mise en page. Je n'ouvre aucun logiciel de dessin.\n\nRésultat : une cohérence parfaite d'un post à l'autre, et des visuels prêts en quelques secondes.\n\nPhoto : Tima Miroshnichenko / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication #design",
+    "template": "constat",
+    "ton": "marron"
+  },
+  {
+    "date": "2027-02-23",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/23.jpg",
+    "legende": "Un délai tenu rassure. Un délai battu marque. À l'inverse, une promesse trop ambitieuse transforme un bon travail en déception.\n\nMieux vaut annoncer un délai réaliste et surprendre que l'inverse.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#developpement #entrepreneur #pme #strategie",
     "template": "constat",
     "ton": "clair"
   },
@@ -830,34 +1124,48 @@
     "type": "carrousel",
     "legende": "Que se passe-t-il quand un voyageur écrit à 23h04 à une conciergerie équipée ? En quelques instants, quatre étapes s'enchaînent.\n\nRien de magique. Des règles précises, testées sur de vraies conversations.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Vladimir Gladkov, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2027-02-25",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/25.jpg",
+    "legende": "L'automatisation du jeudi.\n\nChaudière, machine, installation, contrôle : beaucoup d'interventions reviennent chaque année. Un rappel au bon moment fait revenir le client, sans démarchage.\n\nPhoto : Alex Urezkov / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-02-26",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/26.jpg",
     "legende": "Une couleur sur la carte de visite, une autre sur le site, une troisième sur les réseaux. Chaque support a été fait à un moment différent, par une personne différente.\n\nPour un client, ce sont trois entreprises. Une charte graphique les réunit.\n\nPhoto : Pnw Production / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "constat",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-02-27",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/27.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\n« Stationnement facile » ne veut rien dire pour quelqu'un qui arrive de nuit dans une ville inconnue. Le nom de la rue, la distance à pied, le prix s'il y en a un : trois informations qui évitent un appel depuis la voiture.\n\nPhoto : Photogramary / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-02-28",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-02/28.jpg",
     "legende": "Avec les beaux jours, les recherches reprennent : des voyageurs, des clients, des projets. Beaucoup commencent par regarder votre site.\n\nS'il date, c'est maintenant qu'il faut s'en occuper. Pas en juin.\n\nPhoto : Tugay Ekinci / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-03-01",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/01.jpg",
     "legende": "Une note d'ingénieur, sur ce qui fait durer un système.\n\nUne automatisation que seul son créateur comprend est une dépendance, pas un gain. Chaque étape doit pouvoir se dire simplement : quand ceci arrive, on fait cela.\n\nSi l'explication tient en une phrase, l'entreprise garde la main.\n\nPhoto : Marta Branco / Pexels\n\n#pme #automatisation #industrie #entrepreneur #france",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-03-02",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/02.jpg",
+    "legende": "Avant de chercher plus de clients, il vaut la peine de vérifier que l'entreprise peut les absorber. Trois questions suffisent à repérer ce qui craquera en premier.\n\nLes réponses donnent souvent la liste des premières choses à organiser, ou à automatiser.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Joaquin Carfagna / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "service",
     "ton": "marron"
   },
   {
@@ -868,31 +1176,45 @@
     "ton": "clair"
   },
   {
+    "date": "2027-03-04",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/04.jpg",
+    "legende": "L'automatisation du jeudi.\n\nChaque facture reçue peut être rangée et transmise au moment où elle arrive. En fin de mois, il n'y a plus rien à chercher.\n\nPhoto : Cottonbro Studio / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2027-03-05",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/05.jpg",
     "legende": "Quand un concurrent publie chaque semaine, on imagine une équipe dédiée ou des soirées sacrifiées. C'est rarement le cas.\n\nLa différence tient presque toujours à une organisation : des contenus préparés d'avance, et une publication qui ne dépend pas de l'humeur du jour.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ann H / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-03-06",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/06.jpg",
     "legende": "L'astuce du samedi, côté site.\n\nUne courte description sur chaque image rend votre site accessible aux personnes malvoyantes. Et elle aide les moteurs de recherche à comprendre ce que vous montrez.\n\nDeux raisons de le faire, pour quelques secondes par photo.\n\nPhoto : Michael Burrows / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-03-07",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/07.jpg",
     "legende": "Confier une partie du travail à un système ne vous éloigne pas de vos clients. Ça vous rend disponible pour ce qui compte vraiment : les décisions, les imprévus, la relation.\n\nBon dimanche.\n\nPhoto : Adrien Olichon / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-03-08",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/08.jpg",
     "legende": "Un visiteur décide très vite s'il reste ou s'il repart. Pendant ces premières secondes, votre page d'accueil doit répondre à trois questions, sans qu'il ait à chercher.\n\nTout le reste, l'histoire, l'équipe, les détails, peut venir après.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "service",
+    "ton": "sombre"
+  },
+  {
+    "date": "2027-03-09",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/09.jpg",
+    "legende": "La vitesse compte, mais une réponse rapide et approximative coûte plus cher qu'une réponse juste arrivée un peu plus tard.\n\nL'objectif n'est pas de répondre à tout, tout de suite. C'est de répondre juste, vite, et de savoir quand passer la main.\n\nPhoto : Abdulvahap Demir / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "clair"
   },
   {
@@ -909,34 +1231,48 @@
     "type": "carrousel",
     "legende": "Pas besoin d'un grand projet pour sentir la différence. Ces quatre automatisations, prises une par une, rendent déjà des heures chaque semaine.\n\nAucune ne remplace une personne. Toutes lui rendent du temps.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Tima Miroshnichenko, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "constat",
-    "ton": "sombre"
+    "ton": "marron"
+  },
+  {
+    "date": "2027-03-11",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/11.jpg",
+    "legende": "L'automatisation du jeudi.\n\nComptes à créer, documents à signer, personnes à présenter : l'arrivée d'un salarié suit toujours les mêmes étapes. Une liste automatique s'assure que rien n'est oublié.\n\nPhoto : Werner Pfennig / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-03-12",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/12.jpg",
     "legende": "Les réservations d'été arrivent. Dans quelques mois, les journées commenceront tôt et les messages finiront tard.\n\nCe qui se prépare en mars se ressent en août : des réponses justes, à toute heure, et des soirées qui redeviennent les vôtres.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Nicola Raviglione / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "constat",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-03-13",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/13.jpg",
     "legende": "L'astuce du samedi, côté organisation.\n\nTrouver un créneau par téléphone ou par mail prend souvent plus de temps que le rendez-vous lui-même. Un lien de réservation, relié à votre agenda, règle la question en quelques secondes.\n\nPhoto : Mizuno K / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "carte",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-03-14",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/14.jpg",
     "legende": "Accueillir, c'est anticiper, rassurer, faire plaisir. Répéter la même information vingt fois par semaine, ce n'est pas accueillir. C'est une tâche.\n\nEt une tâche qui se répète peut se confier.\n\nPhoto : Max Vakhtbovych / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-03-15",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/15.jpg",
     "legende": "Note de design numéro cinq.\n\nOn a souvent envie de tout montrer, et donc de tout serrer. L'effet est inverse : une page chargée paraît bon marché, une page aérée paraît soignée.\n\nRetirez un élément de chaque page. Vous verrez la différence.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#identitevisuelle #chartegraphique #logo #design",
     "template": "terrain_photo",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-03-16",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/16.jpg",
+    "legende": "Aucune publicité n'a la force d'une recommandation. Encore faut-il la faciliter : un client satisfait recommande plus volontiers quand on le lui demande, au bon moment, simplement.\n\nC'est un geste commercial. Et un geste qui peut se programmer.\n\nPhoto : Hubbugaye / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "sombre"
   },
   {
@@ -947,31 +1283,45 @@
     "ton": "clair"
   },
   {
+    "date": "2027-03-18",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/18.jpg",
+    "legende": "L'automatisation du jeudi.\n\nPlutôt que dix notifications dispersées, un seul message chaque matin : les demandes reçues, celles qui attendent une réponse, et ce qui est urgent.\n\nPhoto : Cup Of Couple / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "terrain_photo",
+    "ton": "marron"
+  },
+  {
     "date": "2027-03-19",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/19.jpg",
-    "legende": "Un client qui ne répond pas a souvent simplement été pris par autre chose. Sans relance, le devis dort, et le client finit par signer ailleurs, parfois par simple commodité.\n\nUne relance polie, au bon moment, ramène une partie de ces devis à la vie. Elle peut partir toute seule.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Https Kaboompics Com / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "legende": "Un client qui ne répond pas a souvent simplement été pris par autre chose. Sans relance, le devis dort, et le client finit par signer ailleurs, parfois par simple commodité.\n\nUne relance polie, au bon moment, ramène une partie de ces devis à la vie. Elle peut partir toute seule.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Raymond Petrik / Pexels\n\n#pme #automatisation #entrepreneur #france",
     "template": "constat",
-    "ton": "marron"
+    "ton": "clair"
   },
   {
     "date": "2027-03-20",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/20.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nOn répond volontiers aux avis négatifs, pour se défendre. On oublie les bons. Pourtant une réponse chaleureuse à un bel avis est lue par tous ceux qui hésitent encore à réserver.\n\nPhoto : Mikhail Nilov / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-03-21",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/21.jpg",
     "legende": "Premier week-end de printemps. Les demandes reprennent, les séjours courts se multiplient, les questions reviennent.\n\nC'est le moment de vérifier que tout est prêt pour la saison.\n\nPhoto : Ben Prater / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-03-22",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/22.jpg",
     "legende": "La saison se prépare maintenant, pas le premier samedi de juillet.\n\nDes annonces fidèles, des réponses vérifiées, et une solution pour les jours où vous ne serez pas joignable. Trois vérifications simples qui évitent les pires semaines de l'été.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Axp Photography / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "service",
+    "ton": "marron"
+  },
+  {
+    "date": "2027-03-23",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/23.jpg",
+    "legende": "C'est l'objectif de tout ce que je construis : une entreprise où le répétitif avance sans vous, et où votre temps va aux décisions, aux clients et au métier.\n\nPas en une fois. Une tâche après l'autre.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Jeff Vinluan / Pexels\n\n#pme #automatisation #entrepreneur #france",
+    "template": "edito",
     "ton": "clair"
   },
   {
@@ -988,34 +1338,48 @@
     "type": "carrousel",
     "legende": "Beaucoup de sites empilent les rubriques sans ordre précis. Ceux qui font réellement appeler suivent presque toujours la même logique.\n\nCe que vous faites, pour qui, la preuve, et comment vous joindre. Faites glisser pour le détail.\n\nUne question ? Écrivez-moi en message privé.\n\nPhotos : Merve, Resource Boy, Eva Bronzini, Lisett Kruusimae, Heather Green, Https Kaboompics Com / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "constat",
-    "ton": "marron"
+    "ton": "sombre"
+  },
+  {
+    "date": "2027-03-25",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/25.jpg",
+    "legende": "L'automatisation du jeudi.\n\nUn message une semaine après la livraison montre que vous vous souciez du résultat, pas seulement de la vente. Et il ouvre souvent la porte à la suite.\n\nPhoto : Harper Sunday / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "terrain_photo",
+    "ton": "clair"
   },
   {
     "date": "2027-03-26",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/26.jpg",
     "legende": "L'été, c'est souvent le moment où les comptes des entreprises s'arrêtent : trop de travail, puis les congés. C'est aussi le moment où beaucoup de clients ont le temps de regarder.\n\nUn calendrier préparé au printemps publie tout l'été, même pendant vos vacances.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Anastasia Haritonov / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "constat",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-03-27",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/27.jpg",
     "legende": "L'astuce du samedi, côté site.\n\nOn vérifie son site sur un grand écran, au bureau, avec une bonne connexion. Vos clients, eux, le découvrent souvent dans la rue, sur un petit écran, avec une main libre.\n\nFaites le test. Tout ce qui est difficile là est à corriger.\n\nPhoto : Cozy Tech Talk / Pexels\n\n#siteinternet #webdesign #pme #entrepreneur",
     "template": "carte",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-03-28",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/28.jpg",
     "legende": "Joyeuses Pâques à toutes et à tous.\n\nAujourd'hui, que les questions attendent et que le téléphone reste dans la poche.\n\nPhoto : Boys In Bristol Photography / Pexels\n\n#paques #entrepreneur #conciergerie",
     "template": "plein",
-    "ton": "clair"
+    "ton": "sombre"
   },
   {
     "date": "2027-03-29",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/29.jpg",
     "legende": "Une plateforme vous vend un abonnement et vous laisse seul avec les réglages. Je fais l'inverse : je comprends votre façon de travailler, je configure, je teste, et je reste joignable.\n\nDes conciergeries et des entreprises partout en France, un seul interlocuteur.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Thirdman / Pexels\n\n#automatisation #conciergerie #siteinternet #reseauxsociaux #pme",
     "template": "service",
+    "ton": "clair"
+  },
+  {
+    "date": "2027-03-30",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-03/30.jpg",
+    "legende": "Au printemps, les projets reprennent et les recherches aussi. Un site clair, un compte actif, une réponse rapide : trois conditions pour être trouvé, et choisi.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Rachel Claire / Pexels\n\n#developpement #entrepreneur #pme #strategie",
+    "template": "constat",
     "ton": "marron"
   },
   {
@@ -1026,24 +1390,31 @@
     "ton": "clair"
   },
   {
+    "date": "2027-04-01",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-04/01.jpg",
+    "legende": "L'automatisation du jeudi, côté conciergerie.\n\nVos propriétaires veulent savoir comment se porte leur logement. Un rapport mensuel préparé automatiquement répond à leurs questions avant qu'ils ne les posent.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Ushindi Namegabe / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "terrain_photo",
+    "ton": "sombre"
+  },
+  {
     "date": "2027-04-02",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-04/02.jpg",
     "legende": "Il y a six mois, j'ai préparé le calendrier de ce compte. Depuis, chaque publication prévue est partie seule, à l'heure, sans que j'y pense.\n\nCe n'est pas un exploit. C'est un système. Et il peut fonctionner pour votre entreprise.\n\nUne question ? Écrivez-moi en message privé.\n\nPhoto : Gianluca Pugliese / Pexels\n\n#reseauxsociaux #instagram #automatisation #communication",
     "template": "plein",
-    "ton": "sombre"
+    "ton": "clair"
   },
   {
     "date": "2027-04-03",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-04/03.jpg",
     "legende": "L'astuce du samedi, côté accueil.\n\nVous connaissez votre logement par cœur, et c'est justement le problème. Une nuit sur place, avec les yeux d'un voyageur, révèle ce qu'aucune visite rapide ne montre.\n\nPhoto : Lara / Pexels\n\n#astuceaccueil #hote #locationcourteduree #conciergerie #airbnb",
     "template": "carte",
-    "ton": "clair"
+    "ton": "marron"
   },
   {
     "date": "2027-04-04",
     "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/calendrier/2027-04/04.jpg",
     "legende": "Les beaux jours sont là, les voyageurs arrivent. Cette année, les réponses partent à l'heure, les annonces sont à jour et vos soirées vous appartiennent.\n\nBonne saison à toutes les conciergeries.\n\nPhoto : Domethilde / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
-    "ton": "marron"
+    "ton": "clair"
   }
 ]

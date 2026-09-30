@@ -1,0 +1,12 @@
+{
+  "template": "terrain_photo",
+  "label": "L'automatisation du jeudi",
+  "titre": "La facture\n*après le devis signé.*",
+  "avant": "on retape les mêmes lignes.",
+  "apres": "la facture se prépare à partir du devis, il ne reste qu'à vérifier et envoyer.",
+  "chute": "Une seule saisie, aucune recopie.",
+  "photo": "photos/pexels/dev-calcul/8297150_mikhail-nilov.jpg",
+  "ton": "marron",
+  "numero": "05",
+  "legende": "L'automatisation du jeudi.\n\nTout ce qui figure sur la facture existe déjà dans le devis. Le retaper, c'est perdre du temps et risquer une erreur. Une seule saisie suffit.\n\nPhoto : Mikhail Nilov / Pexels\n\n#pme #automatisation #entrepreneur #france"
+}
