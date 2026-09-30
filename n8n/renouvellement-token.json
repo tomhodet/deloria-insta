@@ -75,7 +75,7 @@
     {
       "parameters": {
         "method": "PATCH",
-        "url": "https://tomhodet.app.n8n.cloud/api/v1/credentials/ID_CREDENTIAL_REFRESH",
+        "url": "https://tomhodet.app.n8n.cloud/api/v1/credentials/laWLMTv3mbAIJAQ4",
         "authentication": "genericCredentialType",
         "genericAuthType": "httpHeaderAuth",
         "sendBody": true,
