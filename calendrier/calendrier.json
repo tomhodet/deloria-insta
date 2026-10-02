@@ -1416,5 +1416,80 @@
     "legende": "Les beaux jours sont là, les voyageurs arrivent. Cette année, les réponses partent à l'heure, les annonces sont à jour et vos soirées vous appartiennent.\n\nBonne saison à toutes les conciergeries.\n\nPhoto : Domethilde / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "plein",
     "ton": "clair"
+  },
+  {
+    "date": "demo-q1",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q1/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q1/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q1/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q1/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q1/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q1/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🤔 « Et si l'assistant se trompe ? »\n\nC'est la première question qu'on me pose. La réponse tient en trois règles.\n\n✅ Il n'invente jamais. Si une information lui manque, il fait patienter le voyageur et vous prévient.\n✅ Il n'annonce jamais de prix. Le total exact, frais compris, est sur l'annonce.\n✅ Un vrai problème ? Vous êtes alerté tout de suite, avec le motif.\n\nIl répond. Vous décidez.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Philippe Serrand, Elias Storm / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "questions",
+    "ton": "sombre"
+  },
+  {
+    "date": "demo-q2",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q2/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q2/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q2/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q2/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q2/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q2/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🗣️ « Ça se verra que ce n'est pas moi ? »\n\nLa crainte est légitime. Personne ne veut d'un message qui sonne comme un répondeur.\n\n✅ Il est réglé sur votre ton, sans formules toutes faites.\n✅ Il répond dans la langue du voyageur, quelle qu'elle soit.\n✅ Il connaît le logement : arrivée, wifi, règlement, disponibilités.\n\nVotre voix, même la nuit.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Philippe Serrand, Ron Lach / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "questions",
+    "ton": "sombre"
+  },
+  {
+    "date": "demo-q3",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q3/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q3/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q3/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q3/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q3/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q3/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🌙 « Un message à 23h, en août ? »\n\nAujourd'hui, c'est vous qui répondez. Pendant le dîner, entre deux arrivées, parfois déjà couché.\n\n✅ L'assistant répond à 23h comme à 9h.\n✅ Le voyageur a sa réponse en quelques minutes.\n✅ Un simple merci ? Il ne répond pas pour rien.\n\nVos soirées vous reviennent.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Philippe Serrand, Littlehampton Bricks / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "questions",
+    "ton": "sombre"
+  },
+  {
+    "date": "demo-q4",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q4/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q4/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q4/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q4/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q4/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q4/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🥐 « Il peut vendre mes services ? »\n\nPetit-déjeuner, vélos, ménage, sorties. Vos services existent, encore faut-il que le voyageur les découvre au bon moment.\n\n✅ Il les évoque quand la conversation s'y prête.\n✅ Une seule proposition à la fois, jamais d'insistance.\n✅ Le voyageur dit oui ? Vous êtes prévenu avec la date, l'heure et le nombre de personnes.\n\nChaque message peut rapporter.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Marie-Claude Vergne, Max Vakhtbovych / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "questions",
+    "ton": "sombre"
+  },
+  {
+    "date": "demo-q5",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q5/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q5/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q5/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q5/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q5/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q5/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🔑 « Je dois changer mes outils ? »\n\nNon. Et c'est voulu.\n\n✅ Vos comptes et vos annonces restent à votre nom.\n✅ Vos codes d'accès partent comme aujourd'hui, par vos messages programmés. L'assistant ne les connaît pas.\n✅ Il n'écrit jamais de lien ni de numéro : chaque message arrive bien au voyageur.\n\nVous gardez tout. Sauf la charge.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Wayne Evans, Pixabay / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
+    "template": "questions",
+    "ton": "sombre"
   }
 ]
