@@ -12,6 +12,7 @@ Les photos (Pexels) sont dans questions/photos/, le logo dans questions/logo-del
 """
 
 import html
+import re
 import json
 import sys
 from pathlib import Path
@@ -122,6 +123,44 @@ CARROUSELS = [
         "fin": "Vous gardez tout.\n*Sauf la charge.*",
         "mot": "DÉMO",
     },
+    {
+        "id": "q6",
+        "pano": {"photo": "27536617", "y": 0.55},
+        "fin_photo": {"photo": "7546599", "x": 0.5, "y": 0.5},
+        "question": "« Votre location,\nsur quel *outil* ? »",
+        "qr": [
+            ("« Un channel manager, c’est quoi ? »",
+             "Un seul calendrier pour toutes les plateformes. Node, par exemple, relie Airbnb, "
+             "Booking, Vrbo et Expedia au même endroit.", "haut"),
+            ("« Et les doubles réservations ? »",
+             "Une réservation tombe sur Airbnb : selon Node, les autres calendriers se mettent à jour "
+             "en moins de 30 secondes. C’est ce délai qui les évite.", "bas"),
+            ("« Et moi, propriétaire ? »",
+             "Un portail propriétaire vous laisse suivre vos réservations vous-même, "
+             "sans attendre qu’on vous envoie les chiffres.", "haut"),
+        ],
+        "fin": "L’outil synchronise.\n*Vous, vous accueillez.*",
+        "mot": "DÉMO",
+    },
+    {
+        "id": "q7",
+        "pano": {"photo": "7174113", "y": 0.5},
+        "fin_photo": {"photo": "8135118", "x": 0.5, "y": 0.5},
+        "question": "« Un voyageur *casse*\nquelque chose ? »",
+        "qr": [
+            ("« Que faire en premier ? »",
+             "Photographier tout de suite, avant le ménage suivant. Photos, vidéos, devis, factures : "
+             "ce sont les preuves qui comptent.", "haut"),
+            ("« Il y a un délai ? »",
+             "Oui. Sur Airbnb, la demande se fait dans les 14 jours qui suivent le départ du voyageur, "
+             "par le Centre de résolution.", "bas"),
+            ("« Et si le voyageur refuse ? »",
+             "Il a 24 heures pour répondre. S’il refuse, paie en partie ou se tait, "
+             "Airbnb peut intervenir.", "haut"),
+        ],
+        "fin": "Un dossier prêt,\n*avant d’en avoir besoin.*",
+        "mot": "DÉMO",
+    },
 ]
 
 CSS = f"""
@@ -175,6 +214,7 @@ def esc(s: str) -> str:
     for signe in ("?", "!", ":", ";", "»"):
         s = s.replace(" " + signe, " " + signe)
     s = s.replace("« ", "« ")
+    s = re.sub(r"(\d) (?=\w)", "\\1\u00a0", s)   # « 14 jours » ne se coupe jamais
     out, it = [], False
     for part in s.split("*"):
         out.append(("<em>" if it else "") + part + ("</em>" if it else ""))

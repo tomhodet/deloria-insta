@@ -1491,5 +1491,35 @@
     "legende": "🔑 « Je dois changer mes outils ? »\n\nNon. Et c'est voulu.\n\n✅ Vos comptes et vos annonces restent à votre nom.\n✅ Vos codes d'accès partent comme aujourd'hui, par vos messages programmés. L'assistant ne les connaît pas.\n✅ Il n'écrit jamais de lien ni de numéro : chaque message arrive bien au voyageur.\n\nVous gardez tout. Sauf la charge.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Wayne Evans, Pixabay / Pexels\n\n#conciergerie #conciergerieairbnb #locationcourteduree #airbnb #hotes",
     "template": "questions",
     "ton": "sombre"
+  },
+  {
+    "date": "demo-q6",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q6/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q6/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q6/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q6/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q6/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q6/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🛠️ « Votre location, sur quel outil ? »\n\nOn parle souvent de la déco, du prix, des photos. Rarement de l'outil qui fait tourner tout le reste.\n\n✅ Un channel manager réunit Airbnb, Booking, Vrbo et Expedia dans un seul calendrier.\n✅ Une réservation tombe : selon Node, les autres calendriers suivent en moins de 30 secondes.\n✅ Côté propriétaire, un portail permet de suivre ses réservations soi-même.\n\nL'outil synchronise. Vous, vous accueillez.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment un assistant répond à vos voyageurs.\n\nPhotos : AXP Photography, Max Vakhtbovych / Pexels\n\n#conciergerie #locationcourteduree #airbnb #proprietaire #channelmanager",
+    "template": "questions",
+    "ton": "sombre"
+  },
+  {
+    "date": "demo-q7",
+    "image_url": "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q7/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q7/01.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q7/02.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q7/03.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q7/04.jpg",
+      "https://raw.githubusercontent.com/tomhodet/deloria-insta/main/questions/q7/05.jpg"
+    ],
+    "type": "carrousel",
+    "legende": "🔨 « Un voyageur casse quelque chose ? »\n\nÇa arrive, même avec les meilleurs voyageurs. Ce qui compte, c'est ce que vous faites dans les jours qui suivent.\n\n✅ Photographier tout de suite, avant le ménage suivant.\n✅ Sur Airbnb, faire la demande dans les 14 jours qui suivent le départ, par le Centre de résolution.\n✅ Le voyageur a 24 heures pour répondre. S'il refuse, Airbnb peut intervenir.\n\nEt quand c'est le voyageur qui signale la casse par message, l'assistant vous prévient tout de suite.\n\nÉcrivez « DÉMO » en message privé, je vous montre comment il répond sur un logement réel.\n\nPhotos : Max Vakhtbovych / Pexels\n\n#conciergerie #locationcourteduree #airbnb #proprietaire #aircover",
+    "template": "questions",
+    "ton": "sombre"
   }
 ]
